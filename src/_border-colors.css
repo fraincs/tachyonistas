@@ -265,3 +265,13 @@
 .b--inherit {
     border-color: inherit;
 }
+
+/* Allows to reference a primary and secondary color */
+
+.b--primary {
+    border-color: var(--primary);
+}
+
+.b--secondary {
+    border-color: var(--secondary);
+}

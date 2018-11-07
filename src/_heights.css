@@ -65,19 +65,19 @@
 }
 
 .h7 {
-    height: var(--scale-hotel);
+    height: var(--scale-golf);
 }
 
 .h8 {
-    height: var(--scale-india);
+    height: var(--scale-hotel);
 }
 
 .h9 {
-    height: var(--scale-juliett);
+    height: var(--scale-india);
 }
 
 .h10 {
-    height: var(--scale-kilo);
+    height: var(--scale-juliett);
 }
 
 /* Height Percentages - Based off of height of parent */
@@ -154,16 +154,16 @@
         height: var(--scale-foxtrot);
     }
     .h7-ns {
-        height: var(--scale-hotel);
+        height: var(--scale-golf);
     }
     .h8-ns {
-        height: var(--scale-india);
+        height: var(--scale-hotel);
     }
     .h9-ns {
-        height: var(--scale-juliett);
+        height: var(--scale-india);
     }
     .h10-ns {
-        height: var(--scale-kilo);
+        height: var(--scale-juliett);
     }
     .h-25-ns {
         height: 25%;
@@ -223,16 +223,16 @@
         height: var(--scale-foxtrot);
     }
     .h7-m {
-        height: var(--scale-hotel);
+        height: var(--scale-golf);
     }
     .h8-m {
-        height: var(--scale-india);
+        height: var(--scale-hotel);
     }
     .h9-m {
-        height: var(--scale-juliett);
+        height: var(--scale-india);
     }
     .h10-m {
-        height: var(--scale-kilo);
+        height: var(--scale-juliett);
     }
     .h-25-m {
         height: 25%;
@@ -292,16 +292,16 @@
         height: var(--scale-foxtrot);
     }
     .h7-l {
-        height: var(--scale-hotel);
+        height: var(--scale-golf);
     }
     .h8-l {
-        height: var(--scale-india);
+        height: var(--scale-hotel);
     }
     .h9-l {
-        height: var(--scale-juliett);
+        height: var(--scale-india);
     }
     .h10-l {
-        height: var(--scale-kilo);
+        height: var(--scale-juliett);
     }
     .h-25-l {
         height: 25%;

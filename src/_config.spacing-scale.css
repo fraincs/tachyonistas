@@ -1,0 +1,22 @@
+:root {
+    --scale-alpha: .25rem;
+    /* 4px */
+    --scale-bravo: .5rem;
+    /* 8px */
+    --scale-charlie: 1rem;
+    /* 16px */
+    --scale-delta: 1.5rem;
+    /* 24px */
+    --scale-echo: 2rem;
+    /* 32px */
+    --scale-foxtrot: 2.5rem;
+    /* 40px */
+    --scale-golf: 3rem;
+    /* 48px */
+    --scale-hotel: 3.5rem;
+    /* 56px */
+    --scale-india: 4rem;
+    /* 64px */
+    --scale-juliett: 4.5rem;
+    /* 72px */
+}
