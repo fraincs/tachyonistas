@@ -1,6 +1,6 @@
 {
   "name": "tachyons-sharegate",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Functional CSS for humans",
   "author": "francis thibault",
   "style": "css/tachyons.min.css",
@@ -36,10 +36,15 @@
   ],
   "scripts": {
     "start": "npm run build:watch",
+    "start:transpile": "npm run build:transpile:watch",
     "mutations": "immutable-css src/tachyons.css --strict",
     "build": "npm run build:css && npm run build:minify",
     "build:css": "tachyons src/tachyons.css --preserve-variables > css/tachyons.css",
     "build:minify": "tachyons src/tachyons.css --minify --preserve-variables > css/tachyons.min.css",
-    "build:watch": "watch \"npm run build\" ./src/"
+    "build:watch": "watch \"npm run build\" ./src/",
+    "build:transpile": "npm run build:transpile:css && npm run build:transpile:minify",
+    "build:transpile:css": "tachyons src/tachyons.css > css/tachyons.css",
+    "build:transpile:minify": "tachyons src/tachyons.css --minify > css/tachyons.min.css",
+    "build:transpile:watch": "watch \"npm run build:transpile\" ./src/"
   }
 }
