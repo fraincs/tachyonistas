@@ -60,6 +60,6 @@
     --washed-green: #e8fdf5;
     --washed-yellow: #fffceb;
     --washed-red: #ffdfdf;
-    --primary: var(--washed-red);
-    --secondary: var(--washed-blue);
+    --primary: var(--orange);
+    --secondary: var(--gold);
 }
