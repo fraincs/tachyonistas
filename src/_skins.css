@@ -231,8 +231,8 @@
     color: var(--washed-red);
 }
 
-.office {
-    color: var(--office);
+.outlook {
+    color: var(--outlook);
 }
 
 .sharepoint {
@@ -493,8 +493,8 @@
     background-color: var(--secondary);
 }
 
-.bg-office {
-    background-color: var(--office);
+.bg-outlook {
+    background-color: var(--outlook);
 }
 
 .bg-sharepoint {
@@ -663,8 +663,8 @@
     fill: var(--washed-red);
 }
 
-.fill-office {
-    fill: var(--office);
+.fill-outlook {
+    fill: var(--outlook);
 }
 
 .fill-sharepoint {

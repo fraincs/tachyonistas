@@ -127,8 +127,8 @@
     color: inherit;
 }
 
-.hover-office:hover, .hover-office:focus {
-    color: var(--office);
+.hover-outlook:hover, .hover-outlook:focus {
+    color: var(--outlook);
 }
 
 .hover-sharepoint:hover, .hover-sharepoint:focus {
@@ -483,8 +483,8 @@
     background-color: var(--secondary);
 }
 
-.hover-bg-office:hover, .hover-bg-office:focus {
-    background-color: var(--office);
+.hover-bg-outlook:hover, .hover-bg-outlook:focus {
+    background-color: var(--outlook);
 }
 
 .hover-bg-sharepoint:hover, .hover-bg-sharepoint:focus {
@@ -661,8 +661,8 @@
     fill: var(--secondary);
 }
 
-.hover-fill-office:hover, .hover-fill-office:focus {
-    fill: var(--office);
+.hover-fill-outlook:hover, .hover-fill-outlook:focus {
+    fill: var(--outlook);
 }
 
 .hover-fill-sharepoint:hover, .hover-fill-sharepoint:focus {
