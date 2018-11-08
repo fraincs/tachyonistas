@@ -1270,6 +1270,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .fill-primary { fill: var( --primary ); }
 .fill-secondary { fill: var( --secondary ); }
 .fill-inherit { fill: inherit; }
+.fill-current-color { fill: currentColor; }
 /* 
   
    SKINS:PSEUDO
@@ -1446,6 +1447,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-fill-sharepoint:hover, .hover-fill-sharepoint:focus { fill: var( --sharepoint ); }
 .hover-fill-teams:hover, .hover-fill-teams:focus { fill: var( --teams ); }
 .hover-fill-planner:hover, .hover-fill-planner:focus { fill: var( --planner ); }
+.hover-fill-current-color:hover, .hover-fill-current-color:focus { fill: currentColor; }
 .hover-fill-inherit:hover, .hover-fill-inherit:focus { fill: inherit; }
 /* Variables */
 /*

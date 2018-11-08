@@ -677,6 +677,10 @@
     fill: var(--planner);
 }
 
+.hover-fill-current-color:hover, .hover-fill-current-color:focus {
+    fill: currentColor;
+}
+
 .hover-fill-inherit:hover, .hover-fill-inherit:focus {
     fill: inherit;
 }
