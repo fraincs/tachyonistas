@@ -231,6 +231,22 @@
     color: var(--washed-red);
 }
 
+.office {
+    color: var(--office);
+}
+
+.sharepoint {
+    color: var(--sharepoint);
+}
+
+.teams {
+    color: var(--teams);
+}
+
+.planner {
+    color: var(--planner);
+}
+
 .primary {
     color: var(--primary);
 }
@@ -477,6 +493,22 @@
     background-color: var(--secondary);
 }
 
+.bg-office {
+    background-color: var(--office);
+}
+
+.bg-sharepoint {
+    background-color: var(--sharepoint);
+}
+
+.bg-teams {
+    background-color: var(--teams);
+}
+
+.bg-planner {
+    background-color: var(--planner);
+}
+
 .bg-inherit {
     background-color: inherit;
 }
@@ -629,6 +661,22 @@
 
 .fill-washed-red {
     fill: var(--washed-red);
+}
+
+.fill-office {
+    fill: var(--office);
+}
+
+.fill-sharepoint {
+    fill: var(--sharepoint);
+}
+
+.fill-teams {
+    fill: var(--teams);
+}
+
+.fill-planner {
+    fill: var(--planner);
 }
 
 .fill-primary {

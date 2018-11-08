@@ -127,6 +127,22 @@
     color: inherit;
 }
 
+.hover-office:hover, .hover-office:focus {
+    color: var(--office);
+}
+
+.hover-sharepoint:hover, .hover-sharepoint:focus {
+    color: var(--sharepoint);
+}
+
+.hover-teams:hover, .hover-teams:focus {
+    color: var(--teams);
+}
+
+.hover-planner:hover, .hover-planner:focus {
+    color: var(--planner);
+}
+
 .hover-primary:hover, .hover-primary:focus {
     color: var(--primary);
 }
@@ -467,6 +483,22 @@
     background-color: var(--secondary);
 }
 
+.hover-bg-office:hover, .hover-bg-office:focus {
+    background-color: var(--office);
+}
+
+.hover-bg-sharepoint:hover, .hover-bg-sharepoint:focus {
+    background-color: var(--sharepoint);
+}
+
+.hover-bg-teams:hover, .hover-bg-teams:focus {
+    background-color: var(--teams);
+}
+
+.hover-bg-planner:hover, .hover-bg-planner:focus {
+    background-color: var(--planner);
+}
+
 .hover-bg-inherit:hover, .hover-bg-inherit:focus {
     background-color: inherit;
 }
@@ -627,6 +659,22 @@
 
 .hover-fill-secondary:hover, .hover-fill-secondary:focus {
     fill: var(--secondary);
+}
+
+.hover-fill-office:hover, .hover-fill-office:focus {
+    fill: var(--office);
+}
+
+.hover-fill-sharepoint:hover, .hover-fill-sharepoint:focus {
+    fill: var(--sharepoint);
+}
+
+.hover-fill-teams:hover, .hover-fill-teams:focus {
+    fill: var(--teams);
+}
+
+.hover-fill-planner:hover, .hover-fill-planner:focus {
+    fill: var(--planner);
 }
 
 .hover-fill-inherit:hover, .hover-fill-inherit:focus {

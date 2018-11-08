@@ -262,6 +262,22 @@
     border-color: var(--transparent);
 }
 
+.b--office {
+    border-color: var(--office);
+}
+
+.b--sharepoint {
+    border-color: var(--sharepoint);
+}
+
+.b--teams {
+    border-color: var(--teams);
+}
+
+.b--planner {
+    border-color: var(--planner);
+}
+
 .b--inherit {
     border-color: inherit;
 }

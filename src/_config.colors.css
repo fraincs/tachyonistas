@@ -60,6 +60,10 @@
     --washed-green: #e8fdf5;
     --washed-yellow: #fffceb;
     --washed-red: #ffdfdf;
+    --office: #2873ba;
+    --sharepoint: #2873ba;
+    --teams: #575aa7;
+    --planner: #33763a;
     --primary: var(--orange);
     --secondary: var(--gold);
 }
