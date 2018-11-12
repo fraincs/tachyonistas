@@ -255,6 +255,10 @@
     color: var(--jet-darkest);
 }
 
+.moon-gray {
+    color: var(--moon-gray);
+}
+
 .outlook {
     color: var(--outlook);
 }
@@ -529,6 +533,10 @@
     background-color: var(--jet-darkest);
 }
 
+.bg-moon-gray {
+    background-color: var(--moon-gray);
+}
+
 /* Vendors colors */
 
 .bg-outlook {
@@ -727,6 +735,10 @@
 
 .fill-jet-darkest: {
     fill: var(--jet-darkest);
+}
+
+.fill-moon-gray: {
+    fill: var(--moon-gray);
 }
 
 .fill-outlook {

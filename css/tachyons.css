@@ -402,6 +402,7 @@ img { max-width: 100%; }
 .b--jet { border-color: var( --jet ); }
 .b--jet-dark { border-color: var( --jet-dark ); }
 .b--jet-darkest: { border-color: var( --jet-darkest ); }
+.b--moon-gray: { border-color: var( --moon-gray ); }
 .b--outlook { border-color: var( --outlook ); }
 .b--sharepoint { border-color: var( --sharepoint ); }
 .b--teams { border-color: var( --teams ); }
@@ -1167,6 +1168,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .jet { color: var( --jet ); }
 .jet-dark { color: var( --jet-dark ); }
 .jet-darkest: { color: var( --jet-darkest ); }
+.moon-gray { color: var( --moon-gray ); }
 .outlook { color: var( --outlook ); }
 .sharepoint { color: var( --sharepoint ); }
 .teams { color: var( --teams ); }
@@ -1236,6 +1238,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-jet { background-color: var( --jet ); }
 .bg-jet-dark { background-color: var( --jet-dark ); }
 .bg-jet-darkest: { background-color: var( --jet-darkest ); }
+.bg-moon-gray { background-color: var( --moon-gray ); }
 /* Vendors colors */
 .bg-outlook { background-color: var( --outlook ); }
 .bg-sharepoint { background-color: var( --sharepoint ); }
@@ -1287,6 +1290,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .fill-jet { fill: var( --jet ); }
 .fill-jet-dark { fill: var( --jet-dark ); }
 .fill-jet-darkest: { fill: var( --jet-darkest ); }
+.fill-moon-gray: { fill: var( --moon-gray ); }
 .fill-outlook { fill: var( --outlook ); }
 .fill-sharepoint { fill: var( --sharepoint ); }
 .fill-teams { fill: var( --teams ); }
@@ -1363,6 +1367,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-jet:hover, .hover-jet:focus { color: var( --jet ); }
 .hover-jet-dark:hover, .hover-jet-dark:focus { color: var( --jet-dark ); }
 .hover-jet-darkest:hover, .hover-jet-darkest:focus { color: var( --jet-darkest ); }
+.hover-moon-gray:hover, .hover-moon-gray:focus { color: var( --moon-gray ); }
 .hover-inherit:hover, .hover-inherit:focus { color: inherit; }
 .hover-outlook:hover, .hover-outlook:focus { color: var( --outlook ); }
 .hover-sharepoint:hover, .hover-sharepoint:focus { color: var( --sharepoint ); }
@@ -1412,7 +1417,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-bg-jet-light:hover, .hover-bg-jet-light:focus { background-color: var( --jet-light ); }
 .hover-bg-jet:hover, .hover-bg-jet:focus { background-color: var( --jet ); }
 .hover-bg-jet-dark:hover, .hover-bg-jet-dark:focus { background-color: var( --jet-dark ); }
-.hover-bg-jet-darkest:hover, .hover-bg-jet-darkest:focus { background-color: var( --jet-darkest: var ); }
+.hover-bg-jet-darkest:hover, .hover-bg-jet-darkest:focus { background-color: var( --jet-darkest ); }
+.hover-bg-moon-gray:hover, .hover-bg-moon-gray:focus { background-color: var( --moon-gray ); }
 .hover-bg-transparent:hover, .hover-bg-transparent:focus { background-color: var( --transparent ); }
 .hover-bg-black-90:hover, .hover-bg-black-90:focus { background-color: var( --black-90 ); }
 .hover-bg-black-80:hover, .hover-bg-black-80:focus { background-color: var( --black-80 ); }
@@ -1482,6 +1488,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-fill-jet:hover, .hover-fill-jet:focus { fill: var( --jet ); }
 .hover-fill-jet-dark:hover, .hover-fill-jet-dark:focus { fill: var( --jet-dark ); }
 .hover-fill-jet-darkest:hover, .hover-fill-jet-darkest:focus { fill: var( --jet-darkest ); }
+.hover-fill-moon-gray:hover, .hover-fill-moon-gray:focus { fill: var( --moon-gray ); }
 .hover-fill-outlook:hover, .hover-fill-outlook:focus { fill: var( --outlook ); }
 .hover-fill-sharepoint:hover, .hover-fill-sharepoint:focus { fill: var( --sharepoint ); }
 .hover-fill-teams:hover, .hover-fill-teams:focus { fill: var( --teams ); }
@@ -2095,7 +2102,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 */
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
-:root { --black: #000; --white: #fff; --transparent: transparent; --black-90: rgba( 0, 0, 0, .9 ); --black-80: rgba( 0, 0, 0, .8 ); --black-70: rgba( 0, 0, 0, .7 ); --black-60: rgba( 0, 0, 0, .6 ); --black-50: rgba( 0, 0, 0, .5 ); --black-40: rgba( 0, 0, 0, .4 ); --black-30: rgba( 0, 0, 0, .3 ); --black-20: rgba( 0, 0, 0, .2 ); --black-10: rgba( 0, 0, 0, .1 ); --black-05: rgba( 0, 0, 0, .05 ); --black-025: rgba( 0, 0, 0, .025 ); --black-0125: rgba( 0, 0, 0, .0125 ); --white-90: rgba( 255, 255, 255, .9 ); --white-80: rgba( 255, 255, 255, .8 ); --white-70: rgba( 255, 255, 255, .7 ); --white-60: rgba( 255, 255, 255, .6 ); --white-50: rgba( 255, 255, 255, .5 ); --white-40: rgba( 255, 255, 255, .4 ); --white-30: rgba( 255, 255, 255, .3 ); --white-20: rgba( 255, 255, 255, .2 ); --white-10: rgba( 255, 255, 255, .1 ); --white-05: rgba( 255, 255, 255, .05 ); --white-025: rgba( 255, 255, 255, .025 ); --white-0125: rgba( 255, 255, 255, .0125 ); /* Marine Blue */ --marine-lightest: #6e778b; --marine-light: #263350; --marine: #0e1c3d; --marine-dark: #0a142b; --marine-darkest: #040914; /* Desktop */ --desktop-lightest: #fff7f2; --desktop-light: #f8b385; --desktop: #f47422; --desktop-dark: #dc681f; --desktop-darkest: #c35d1b; /* Sunray */ --sunray-lightest: #fef1d7; --sunray-light: #fdcd72; --sunray: #fcb736; --sunray-dark: #e3a531; --sunray-darkest: #ca922b; /* Apricot */ --apricot-lightest: #eafaf8; --apricot-light: #98e8de; --apricot: #30d1bd; --apricot-dark: #2bbcaa; --apricot-darkest: #26a797; /* Eggplant */ --eggplant-lightest: #ddd7dc; --eggplant-light: #9c8897; --eggplant: #5a3951; --eggplant-dark: #513349; --eggplant-darkest: #3f2839; /* Overcast */ --overcast-lightest: #fafcff; --overcast-light: #a6d5ff; --overcast: #2096ff; --overcast-dark: #135999; --overcast-darkest: #0d3c66; /* Moonstone */ --moonstone-lightest: #f1f8f8; --moonstone-light: #c8e2e1; --moonstone: #76b6b5; --moonstone-dark: #5e9291; --moonstone-darkest: #476d6d; /* Jet */ --jet-lightest: #f6f7f8; --jet-light: #5d5d63; --jet: #34343c; --jet-dark: #24242a; --jet-darkest: var( --black ); /* Vendors */ --outlook: #2873ba; --sharepoint: #2873ba; --teams: #575aa7; --planner: #33763a; /* References */ --primary: var( --orange ); --secondary: var( --gold ); --transparent: transparent; }
+:root { --black: #000; --white: #fff; --transparent: transparent; --black-90: rgba( 0, 0, 0, .9 ); --black-80: rgba( 0, 0, 0, .8 ); --black-70: rgba( 0, 0, 0, .7 ); --black-60: rgba( 0, 0, 0, .6 ); --black-50: rgba( 0, 0, 0, .5 ); --black-40: rgba( 0, 0, 0, .4 ); --black-30: rgba( 0, 0, 0, .3 ); --black-20: rgba( 0, 0, 0, .2 ); --black-10: rgba( 0, 0, 0, .1 ); --black-05: rgba( 0, 0, 0, .05 ); --black-025: rgba( 0, 0, 0, .025 ); --black-0125: rgba( 0, 0, 0, .0125 ); --white-90: rgba( 255, 255, 255, .9 ); --white-80: rgba( 255, 255, 255, .8 ); --white-70: rgba( 255, 255, 255, .7 ); --white-60: rgba( 255, 255, 255, .6 ); --white-50: rgba( 255, 255, 255, .5 ); --white-40: rgba( 255, 255, 255, .4 ); --white-30: rgba( 255, 255, 255, .3 ); --white-20: rgba( 255, 255, 255, .2 ); --white-10: rgba( 255, 255, 255, .1 ); --white-05: rgba( 255, 255, 255, .05 ); --white-025: rgba( 255, 255, 255, .025 ); --white-0125: rgba( 255, 255, 255, .0125 ); /* Marine Blue */ --marine-lightest: #6e778b; --marine-light: #263350; --marine: #0e1c3d; --marine-dark: #0a142b; --marine-darkest: #040914; /* Desktop */ --desktop-lightest: #fff7f2; --desktop-light: #f8b385; --desktop: #f47422; --desktop-dark: #dc681f; --desktop-darkest: #c35d1b; /* Sunray */ --sunray-lightest: #fef1d7; --sunray-light: #fdcd72; --sunray: #fcb736; --sunray-dark: #e3a531; --sunray-darkest: #ca922b; /* Apricot */ --apricot-lightest: #eafaf8; --apricot-light: #98e8de; --apricot: #30d1bd; --apricot-dark: #2bbcaa; --apricot-darkest: #26a797; /* Eggplant */ --eggplant-lightest: #ddd7dc; --eggplant-light: #9c8897; --eggplant: #5a3951; --eggplant-dark: #513349; --eggplant-darkest: #3f2839; /* Overcast */ --overcast-lightest: #fafcff; --overcast-light: #a6d5ff; --overcast: #2096ff; --overcast-dark: #135999; --overcast-darkest: #0d3c66; /* Moonstone */ --moonstone-lightest: #f1f8f8; --moonstone-light: #c8e2e1; --moonstone: #76b6b5; --moonstone-dark: #5e9291; --moonstone-darkest: #476d6d; /* Jet */ --jet-lightest: #f6f7f8; --jet-light: #5d5d63; --jet: #34343c; --jet-dark: #24242a; --jet-darkest: var( --black ); /* Moon Gray */ --moongray: #ccc; /* Vendors */ --outlook: #2873ba; --sharepoint: #2873ba; --teams: #575aa7; --planner: #33763a; /* References */ --primary: var( --orange ); --secondary: var( --gold ); --transparent: transparent; }
 /*
 
   CUSTOM MEDIA QUERIES

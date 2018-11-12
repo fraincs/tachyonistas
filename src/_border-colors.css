@@ -284,6 +284,10 @@
     border-color: var(--jet-darkest);
 }
 
+.b--moon-gray: {
+    border-color: var(--moon-gray);
+}
+
 .b--outlook {
     border-color: var(--outlook);
 }

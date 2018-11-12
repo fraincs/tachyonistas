@@ -74,6 +74,8 @@
     --jet: #34343C;
     --jet-dark: #24242A;
     --jet-darkest: var(--black);
+    /* Moon Gray */
+    --moongray: #CCC;
     /* Vendors */
     --outlook: #2873ba;
     --sharepoint: #2873ba;

@@ -247,6 +247,10 @@
     color: var(--jet-darkest);
 }
 
+.hover-moon-gray:hover, .hover-moon-gray:focus {
+    color: var(--moon-gray);
+}
+
 .hover-inherit:hover, .hover-inherit:focus {
     color: inherit;
 }
@@ -444,7 +448,11 @@
 }
 
 .hover-bg-jet-darkest:hover, .hover-bg-jet-darkest:focus {
-    background-color: var(--jet-darkest: var);
+    background-color: var(--jet-darkest);
+}
+
+.hover-bg-moon-gray:hover, .hover-bg-moon-gray:focus {
+    background-color: var(--moon-gray);
 }
 
 .hover-bg-transparent:hover, .hover-bg-transparent:focus {
@@ -719,6 +727,10 @@
 
 .hover-fill-jet-darkest:hover, .hover-fill-jet-darkest:focus {
     fill: var(--jet-darkest);
+}
+
+.hover-fill-moon-gray:hover, .hover-fill-moon-gray:focus {
+    fill: var(--moon-gray);
 }
 
 .hover-fill-outlook:hover, .hover-fill-outlook:focus {
