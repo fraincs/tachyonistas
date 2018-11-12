@@ -31,8 +31,7 @@
     --marine-light: #263350;
     --marine: #0E1C3D;
     --marine-dark: #0A142B;
-    --marine-darkest: #AB5118;
-    /* error here ^ */
+    --marine-darkest: #040914;
     /* Desktop */
     --desktop-lightest: #FFF7F2;
     --desktop-light: #F8B385;
@@ -62,11 +61,9 @@
     --overcast-light: #A6D5FF;
     --overcast: #2096FF;
     --overcast-dark: #135999;
-    --overcast-darkest: #AB5118;
-    /* error here ^ */
+    --overcast-darkest: #0D3C66;
     /* Moonstone */
-    --moonstone-lightest: #0D3C66;
-    /* error here ^ */
+    --moonstone-lightest: #F1F8F8;
     --moonstone-light: #C8E2E1;
     --moonstone: #76B6B5;
     --moonstone-dark: #5E9291;
