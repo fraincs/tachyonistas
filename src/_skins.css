@@ -87,6 +87,10 @@
     color: var(--white-10);
 }
 
+.white-05 {
+    color: var(--white-05);
+}
+
 .black {
     color: var(--black);
 }
@@ -529,7 +533,7 @@
     background-color: var(--jet-dark);
 }
 
-.bg-jet-darkest: {
+.bg-jet-darkest {
     background-color: var(--jet-darkest);
 }
 

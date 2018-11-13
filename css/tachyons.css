@@ -1126,6 +1126,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .white-30 { color: var( --white-30 ); }
 .white-20 { color: var( --white-20 ); }
 .white-10 { color: var( --white-10 ); }
+.white-05 { color: var( --white-05 ); }
 .black { color: var( --black ); }
 .white { color: var( --white ); }
 .marine-lightest { color: var( --marine-lightest ); }
@@ -1237,7 +1238,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-jet-light { background-color: var( --jet-light ); }
 .bg-jet { background-color: var( --jet ); }
 .bg-jet-dark { background-color: var( --jet-dark ); }
-.bg-jet-darkest: { background-color: var( --jet-darkest ); }
+.bg-jet-darkest { background-color: var( --jet-darkest ); }
 .bg-moon-gray { background-color: var( --moon-gray ); }
 /* Vendors colors */
 .bg-outlook { background-color: var( --outlook ); }
