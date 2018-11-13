@@ -82,7 +82,6 @@
     --teams: #575aa7;
     --planner: #33763a;
     /* References */
-    --primary: var(--orange);
-    --secondary: var(--gold);
-    --transparent: transparent;
+    --primary: var(--apricot);
+    --secondary: var(--marine);
 }

@@ -251,7 +251,7 @@
     color: var(--jet-dark);
 }
 
-.jet-darkest: {
+.jet-darkest {
     color: var(--jet-darkest);
 }
 
@@ -733,7 +733,7 @@
     fill: var(--jet-dark);
 }
 
-.fill-jet-darkest: {
+.fill-jet-darkest {
     fill: var(--jet-darkest);
 }
 
