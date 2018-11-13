@@ -18,7 +18,7 @@
     "responsive",
     "performance"
   ],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "devDependencies": {
     "copy-files": "^0.1.0",
     "immutable-css-cli": "^1.1.1",
