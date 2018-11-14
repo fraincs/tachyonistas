@@ -7,17 +7,325 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tachyons SG Doc</title>
     <link rel="stylesheet" href="tachyons.min.css">
-    <style>
-        div {
-            padding: 14px;
-        }
-    </style>
 </head>
 
 <div class="sans-serif">
-    <div class="container mw9 center">
+    <div class="nav pa3 bg-apricot-lightest">
+        <ul class="pa0 ma0 list flex">
+            <li class="mr2"><a href="#color-palette" class="dib mr1 eggplant dim">Color Palette</a></li>
+            <li class="mr2"><a href="#typography" class="dib mr1 eggplant dim">Typography</a></li>
+            <li class="mr2"><a href="#font-colors" class="dib mr1 eggplant dim">Font Colors</a></li>
+            <li class="mr2"><a href="#background-colors" class="dib mr1 eggplant dim">Background Colors</a></li>
+            <li class="mr2"><a href="#borders" class="dib mr1 eggplant dim">Borders</a></li>
+            <li class="mr2"><a href="#spacing" class="dib mr1 eggplant dim">Spacing</a></li>
+            <li class="mr2"><a href="#widths" class="dib mr1 eggplant dim">Widths</a></li>
+            <li class="mr2"><a href="#border-radius" class="dib mr1 eggplant dim">Border Radius</a></li>
+            <li class="mr2"><a href="#box-shadow" class="dib mr1 eggplant dim">Box Shadow</a></li>
+            <li class="mr2"><a href="#max-width" class="dib mr1 eggplant dim">Max Width</a></li>
+        </ul>
+    </div>
+    <div class="container ph4 mw9 center">
+        <h1 id="color-palette">Color Palette</h1>
+        <div class="flex">
+            <ul class="list pa0 ma0">
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-black fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> black </b>
+                        <code class="f6">#000000</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-white fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> white </b>
+                        <code class="f6">#FFFFFF</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-marine-lightest fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> marine-lightest </b>
+                        <code class="f6">#6E778B</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-marine-light fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> marine-light </b>
+                        <code class="f6">#263350</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-marine fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> marine </b>
+                        <code class="f6">#0E1C3D</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-marine-dark fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> marine-dark </b>
+                        <code class="f6">#0A142B</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-marine-darkest fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> marine-darkest </b>
+                        <code class="f6">#040914</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-desktop-lightest fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> desktop-lightest </b>
+                        <code class="f6">#FFF7F2</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-desktop-light fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> desktop-light </b>
+                        <code class="f6">#F8B385</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-desktop fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> desktop </b>
+                        <code class="f6">#F47422</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-desktop-dark fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> desktop-dark </b>
+                        <code class="f6">#DC681F</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-desktop-darkest fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> desktop-darkest </b>
+                        <code class="f6">#C35D1B</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-sunray-lightest fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> sunray-lightest </b>
+                        <code class="f6">#FEF1D7</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-sunray-light fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> sunray-light </b>
+                        <code class="f6">#FDCD72</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-sunray fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> sunray </b>
+                        <code class="f6">#FCB736</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-sunray-dark fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> sunray-dark </b>
+                        <code class="f6">#E3A531</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-sunray-darkest fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> sunray-darkest </b>
+                        <code class="f6">#CA922B</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-apricot-lightest fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> apricot-lightest </b>
+                        <code class="f6">#EAFAF8</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-apricot-light fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> apricot-light </b>
+                        <code class="f6">#98E8DE</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-apricot fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> apricot </b>
+                        <code class="f6">#30D1BD</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-apricot-dark fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> apricot-dark </b>
+                        <code class="f6">#2BBCAA</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-apricot-darkest fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> apricot-darkest </b>
+                        <code class="f6">#26A797</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-eggplant-lightest fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> eggplant-lightest </b>
+                        <code class="f6">#DDD7DC</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-eggplant-light fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> eggplant-light </b>
+                        <code class="f6">#9C8897</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-eggplant fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> eggplant </b>
+                        <code class="f6">#5A3951</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-eggplant-dark fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> eggplant-dark </b>
+                        <code class="f6">#513349</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-eggplant-darkest fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> eggplant-darkest </b>
+                        <code class="f6">#3F2839</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-overcast-lightest fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> overcast-lightest </b>
+                        <code class="f6">#FAFCFF</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-overcast-light fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> overcast-light </b>
+                        <code class="f6">#A6D5FF</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-overcast fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> overcast </b>
+                        <code class="f6">#2096FF</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-overcast-dark fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> overcast-dark </b>
+                        <code class="f6">#135999</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-overcast-darkest fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> overcast-darkest </b>
+                        <code class="f6">#0D3C66</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-moonstone-lightest fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> moonstone-lightest </b>
+                        <code class="f6">#F1F8F8</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-moonstone-light fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> moonstone-light </b>
+                        <code class="f6">#C8E2E1</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-moonstone fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> moonstone </b>
+                        <code class="f6">#76B6B5</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-moonstone-dark fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> moonstone-dark </b>
+                        <code class="f6">#5E9291</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-moonstone-darkest fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> moonstone-darkest </b>
+                        <code class="f6">#476D6D</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-jet-lightest fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> jet-lightest </b>
+                        <code class="f6">#F6F7F8</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-jet-light fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> jet-light </b>
+                        <code class="f6">#5D5D63</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-jet fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> jet </b>
+                        <code class="f6">#34343C</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-jet-dark fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> jet-dark </b>
+                        <code class="f6">#24242A</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-25-l mb1">
+                    <div class="bg-jet-darkest fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> jet-darkest </b>
+                        <code class="f6">#000000</code>
+                    </div>
+                </li>
+            </ul>
+        </div>
         <h1>Typography Scale</h1>
-        <h2>Font sizes</h2>
+        <h2 id="typography">Font sizes</h2>
         <table>
             <tbody>
                 <tr>
@@ -58,219 +366,152 @@
                 </tr>
             </tbody>
         </table>
-        <div class="mw9 center">
-            <h3 class="f5 mb4 mb5-ns mt5 mt6-ns pb2 bb">Examples</h3>
-            <code class="f6 mb3 db">
-                &lt;h1 class="f-headline lh-solid"&gt;Title&lt;/h1&gt;
-                </code>
-                    <p class="f-headline b lh-solid oh measure mt0 mb5 nowrap ws-normal-ns overflow-hidden word-wrap">
-                        A modular scale, like a musical scale, is a prearranged set of harmonious proportions.
-                    </p>
-                
-                    <code class="f6 mb3 db">
-                &lt;h1 class="f-subheadline lh-title"&gt;Title&lt;/h1&gt;
-                </code>
-                    <p class="f-subheadline lh-title b measure oh mt0 mb4 mb5-ns word-wrap">
-                        A modular scale, like a musical scale, is a prearranged set of harmonious proportions.
-                    </p>
-                    <code class="f6 mb3 db">
-                &lt;h1 class="f1 lh-title"&gt;Title&lt;/h1&gt;
-                </code>
-                    <p class="f1 b lh-title mt0 mb4 mb5-ns measure word-wrap">
-                        A modular scale, like a musical scale, is a prearranged set of harmonious proportions.
-                    </p>
-                    <code class="f6 mb3 db">
-                &lt;h1 class="f2 lh-copy"&gt;Title&lt;/h1&gt;
-                </code>
-                    <p class="f2 lh-copy mt0 mb4 mb5-ns measure">
-                        A modular scale, like a musical scale, is a prearranged set of harmonious proportions.
-                    </p>
-                    <code class="f6 mb3 db">
-                &lt;h1 class="f3 lh-copy"&gt;Title&lt;/h1&gt;
-                </code>
-                    <p class="f3 lh-copy mt0 mb4 mb5-ns measure">
-                        A modular scale, like a musical scale, is a prearranged set of harmonious proportions.
-                    </p>
-                    <code class="f6 mb3 db">
-                &lt;h1 class="f4 lh-copy"&gt;Title&lt;/h1&gt;
-                </code>
-                
-                    <p class="f4 lh-copy mt0 mb4 mb5-ns measure">
-                        A modular scale, like a musical scale, is a prearranged set of harmonious proportions.
-                    </p>
-                    <code class="f6 mb3 db">
-                &lt;h1 class="f5 lh-copy"&gt;Title&lt;/h1&gt;
-                </code>
-                    <p class="f5 lh-copy mt0 mb4 mb5-ns measure">
-                        A modular scale, like a musical scale, is a prearranged set of harmonious proportions.
-                    </p>
-                    <code class="f6 mb3 db">
-                &lt;h1 class="f6 lh-copy"&gt;Title&lt;/h1&gt;
-                </code>
-                    <p class="f6 lh-copy mt0 measure word-wrap">
-                        A modular scale, like a musical scale, is a prearranged set of harmonious proportions.
-                    </p>
-                <code class="f6 mb3 db">
-                                &lt;h1 class="f7 lh-copy"&gt;Title&lt;/h1&gt;
-                                </code>
-                <p class="f7 lh-copy mt0 measure word-wrap">
-                    A modular scale, like a musical scale, is a prearranged set of harmonious proportions.
-                </p>
-                <code class="f6 mb3 db">
-                        &lt;h1 class="f8 lh-copy"&gt;Title&lt;/h1&gt;
-                        </code>
-                <p class="f8 lh-copy mt0 measure word-wrap">
-                    A modular scale, like a musical scale, is a prearranged set of harmonious proportions.
-                </p>
-                </div>
-        <h1>Font Colors</h1>
-        <div class="black">black[#000000]</div>
-        <div class="bg-black white">white [#FFFFFF]</div>
-        <div class="black-90">black-90 [rgba(0, 0, 0, 0.9)]</div>
-        <div class="black-80">black-80 [rgba(0, 0, 0, 0.8)]</div>
-        <div class="black-70">black-70 [rgba(0, 0, 0, 0.7)]</div>
-        <div class="black-60">black-60 [rgba(0, 0, 0, 0.6)]</div>
-        <div class="black-50">black-50 [rgba(0, 0, 0, 0.5)]</div>
-        <div class="black-40">black-40 [rgba(0, 0, 0, 0.4)]</div>
-        <div class="black-30">black-30 [rgba(0, 0, 0, 0.3)]</div>
-        <div class="black-20">black-20 [rgba(0, 0, 0, 0.2)]</div>
-        <div class="black-10">black-10 [rgba(0, 0, 0, 0.1)]</div>
-        <div class="black-05">black-05[rgba(0, 0, 0, 0.05)]</div>
-        <div class="bg-black white-90">white-90 [hsla(0,0%,100%,.9)]</div>
-        <div class="bg-black white-80">white-80 [hsla(0,0%,100%, 0.8)]</div>
-        <div class="bg-black white-70">white-70 [hsla(0,0%,100%, 0.7)]</div>
-        <div class="bg-black white-60">white-60 [hsla(0,0%,100%, 0.6)]</div>
-        <div class="bg-black white-50">white-50 [hsla(0,0%,100%, 0.5)]</div>
-        <div class="bg-black white-40">white-40 [hsla(0,0%,100%, 0.4)]</div>
-        <div class="bg-black white-30">white-30 [hsla(0,0%,100%, 0.3)]</div>
-        <div class="bg-eggplant white-20">white-20 [hsla(0,0%,100%, 0.2)]</div>
-        <div class="bg-eggplant white-10">white-10 [hsla(0,0%,100%, 0.1)]</div>
-        <div class="bg-eggplant white-05">white-05 [hsla(0,0%,100%, 0.05)</div>
-        <div class="marine-lightest">marine-lightest [#6E778B]</div>
-        <div class="marine-light">marine-light [#263350]</div>
-        <div class="marine">marine [#0E1C3D]</div>
-        <div class="marine-dark">marine-dark [#0A142B]</div>
-        <div class="marine-darkest">marine-darkest [#040914]</div>
-        <div class="bg-black-30 desktop-lightest">desktop-lightest [#FFF7F2]</div>
-        <div class="desktop-light">desktop-light [#F8B385]</div>
-        <div class="desktop">desktop [#F47422]</div>
-        <div class="desktop-dark">desktop-dark [#DC681F]</div>
-        <div class="desktop-darkest">desktop-darkest [#C35D1B]</div>
-        <div class="bg-black-30 sunray-lightest">sunray-lightest [#FEF1D7]</div>
-        <div class="sunray-light">sunray-light [#FDCD72]</div>
-        <div class="sunray">sunray [#FCB736]</div>
-        <div class="sunray-dark">sunray-dark [#E3A531]</div>
-        <div class="sunray-darkest">sunray-darkest [#CA922B]</div>
-        <div class="bg-black-30 apricot-lightest">apricot-lightest [#EAFAF8]</div>
-        <div class="apricot-light">apricot-light [#98E8DE]</div>
-        <div class="apricot">apricot [#30D1BD]</div>
-        <div class="apricot-dark">apricot-dark [#2BBCAA]</div>
-        <div class="apricot-darkest">apricot-darkest [#26A797]</div>
-        <div class="eggplant-lightest">eggplant-lightest [#DDD7DC]</div>
-        <div class="eggplant-light">eggplant-light [#9C8897]</div>
-        <div class="eggplant">eggplant [#5A3951]</div>
-        <div class="eggplant-dark">eggplant-dark [#513349]</div>
-        <div class="eggplant-darkest">eggplant-darkest [#3F2839]</div>
-        <div class="bg-black-30 overcast-lightest">overcast-lightest [#FAFCFF]</div>
-        <div class="overcast-light">overcast-light [#A6D5FF]</div>
-        <div class="overcast">overcast [#2096FF]</div>
-        <div class="overcast-dark">overcast-dark [#135999]</div>
-        <div class="overcast-darkest">overcast-darkest [#0D3C66]</div>
-        <div class="bg-black-30 moonstone-lightest">moonstone-lightest [#F1F8F8]</div>
-        <div class="moonstone-light">moonstone-light [#C8E2E1]</div>
-        <div class="moonstone">moonstone [#76B6B5]</div>
-        <div class="moonstone-dark">moonstone-dark [#5E9291]</div>
-        <div class="moonstone-darkest">moonstone-darkest [#476D6D]</div>
-        <div class="bg-black-30 jet-lightest">jet-lightest [#F6F7F8]</div>
-        <div class="jet-light">jet-light [#5D5D63]</div>
-        <div class="jet">jet [#34343C]</div>
-        <div class="jet-dark">jet-dark [#24242A]</div>
-        <div class="jet-darkest">jet-darkest [#000000]</div>
-        <div class="moongray">moongray</div>
-        <div class="outlook">outlook [#2873ba]</div>
-        <div class="sharepoint">sharepoint [#2873ba]</div>
-        <div class="teams">teams [#575aa7]</div>
-        <div class="planner">planner [#33763a]</div>
-        <div class="primary">primary [apricot]</div>
-        <div class="secondary">secondary [marine]</div>
-        <h1>Background colors</h1>
-        <div class="white bg-black">bg-black [#000000]</div>
-        <div class="bg-white">bg-white [#FFFFFF]</div>
-        <div class="bg-transparent">bg-transparent</div>
-        <div class="white bg-black-90">bg-black-90 [rgba(0, 0, 0, 0.9)]</div>
-        <div class="white bg-black-80">bg-black-80 [rgba(0, 0, 0, 0.8)]</div>
-        <div class="white bg-black-70">bg-black-70 [rgba(0, 0, 0, 0.7)]</div>
-        <div class="white bg-black-60">bg-black-60 [rgba(0, 0, 0, 0.6)]</div>
-        <div class="white bg-black-50">bg-black-50 [rgba(0, 0, 0, 0.5)]</div>
-        <div class="bg-black-40">bg-black-40 [rgba(0, 0, 0, 0.4)]</div>
-        <div class="bg-black-30">bg-black-30 [rgba(0, 0, 0, 0.3)]</div>
-        <div class="bg-black-20">bg-black-20 [rgba(0, 0, 0, 0.2)]</div>
-        <div class="bg-black-10">bg-black-10 [rgba(0, 0, 0, 0.1)]</div>
-        <div class="bg-black-05">bg-black-05 [rgba(0, 0, 0, 0.05)]</div>
-        <div class="bg-black-025">bg-black-025 [rgba(0, 0, 0, 0.025)]</div>
-        <div class="bg-black-0125">bg-black-0125 [rgba(0, 0, 0, 0.125)]</div>
-        <div class="bg-white-90">bg-white-90 [hsla(0,0%,100%,.9)]</div>
-        <div class="bg-white-80">bg-white-80 [hsla(0,0%,100%, 0.8)]</div>
-        <div class="bg-white-70">bg-white-70 [hsla(0,0%,100%, 0.7)]</div>
-        <div class="bg-white-60">bg-white-60 [hsla(0,0%,100%, 0.6)]</div>
-        <div class="bg-white-50">bg-white-50 [hsla(0,0%,100%, 0.5)]</div>
-        <div class="bg-white-40">bg-white-40 [hsla(0,0%,100%, 0.4)]</div>
-        <div class="bg-white-30">bg-white-30 [hsla(0,0%,100%, 0.3)]</div>
-        <div class="bg-white-20">bg-white-20 [hsla(0,0%,100%, 0.2)]</div>
-        <div class="bg-white-10">bg-white-10 [hsla(0,0%,100%, 0.1)]</div>
-        <div class="bg-white-05">bg-white-05 [hsla(0,0%,100%, 0.05)</div>
-        <div class="bg-white-025">bg-white-025 [hsla(0,0%,100%, 0.025)]</div>
-        <div class="bg-white-0125">bg-white-0125 [hsla(0,0%,100%, 0.125)]</div>
-        <div class="bg-marine-lightest">bg-marine-lightest [#6E778B]</div>
-        <div class="white bg-marine-light">bg-marine-light [#263350]</div>
-        <div class="white bg-marine">bg-marine [#0E1C3D]</div>
-        <div class="white bg-marine-dark">bg-marine-dark [#0A142B]</div>
-        <div class="white bg-marine-darkest">bg-marine-darkest [#040914]</div>
-        <div class="bg-desktop-lightest">bg-desktop-lightest [#FFF7F2]</div>
-        <div class="bg-desktop-light">bg-desktop-light [#F8B385]</div>
-        <div class="bg-desktop">bg-desktop [#F47422]</div>
-        <div class="bg-desktop-dark">bg-desktop-dark [#DC681F]</div>
-        <div class="bg-desktop-darkest">bg-desktop-darkest [#C35D1B]</div>
-        <div class="bg-sunray-lightest">bg-sunray-lightest [#FEF1D7]</div>
-        <div class="bg-sunray-light">bg-sunray-light [#FDCD72]</div>
-        <div class="bg-sunray">bg-sunray [#FCB736]</div>
-        <div class="bg-sunray-dark">bg-sunray-dark [#E3A531]</div>
-        <div class="bg-sunray-darkest">bg-sunray-darkest [#CA922B]</div>
-        <div class="bg-apricot-lightest">bg-apricot-lightest [#EAFAF8]</div>
-        <div class="bg-apricot-light">bg-apricot-light [#98E8DE]</div>
-        <div class="bg-apricot">bg-apricot [#30D1BD]</div>
-        <div class="bg-apricot-dark">bg-apricot-dark [#2BBCAA]</div>
-        <div class="bg-apricot-darkest">bg-apricot-darkest [#26A797]</div>
-        <div class="bg-eggplant-lightest">bg-eggplant-lightest [#DDD7DC]</div>
-        <div class="bg-eggplant-light">bg-eggplant-light [#9C8897]</div>
-        <div class="white bg-eggplant">bg-eggplant [#5A3951]</div>
-        <div class="white bg-eggplant-dark">bg-eggplant-dark [#513349]</div>
-        <div class="white bg-eggplant-darkest">bg-eggplant-darkest [#3F2839]</div>
-        <div class="bg-overcast-lightest">bg-overcast-lightest [#FAFCFF]</div>
-        <div class="bg-overcast-light">bg-overcast-light [#A6D5FF]</div>
-        <div class="bg-overcast">bg-overcast [#2096FF]</div>
-        <div class="bg-overcast-dark">bg-overcast-dark [#135999]</div>
-        <div class="bg-overcast-darkest">bg-overcast-darkest [#0D3C66]</div>
-        <div class="bg-moonstone-lightest">bg-moonstone-lightest [#F1F8F8]</div>
-        <div class="bg-moonstone-light">bg-moonstone-light [#C8E2E1]</div>
-        <div class="bg-moonstone">bg-moonstone [#76B6B5]</div>
-        <div class="bg-moonstone-dark">bg-moonstone-dark [#5E9291]</div>
-        <div class="bg-moonstone-darkest">bg-moonstone-darkest [#476D6D]</div>
-        <div class="bg-jet-lightest">bg-jet-lightest [#F6F7F8]</div>
-        <div class="white bg-jet-light">bg-jet-light [#5D5D63]</div>
-        <div class="white bg-jet">bg-jet [#34343C]</div>
-        <div class="white bg-jet-dark">bg-jet-dark [#24242A]</div>
-        <div class="white bg-jet-darkest">bg-jet-darkest [#000000]</div>
-        <div class="bg-moongray">bg-moongray</div>
-        <div class="bg-outlook">bg-outlook [#2873ba]</div>
-        <div class="bg-sharepoint">bg-sharepoint [#2873ba]</div>
-        <div class="bg-teams">bg-teams [#575aa7]</div>
-        <div class="bg-planner">bg-planner [#33763a]</div>
-        <div class="bg-primary">bg-primary [apricot]</div>
-        <div class="white bg-secondary">bg-secondary [marine]</div>
-        <h1>Borders</h1>
+        <h1 id="font-colors">Font Colors</h1>
+        <div class="pa2 black">black</div>
+        <div class="pa2 bg-black white">white</div>
+        <div class="pa2 black-90">black-90</div>
+        <div class="pa2 black-80">black-80</div>
+        <div class="pa2 black-70">black-70</div>
+        <div class="pa2 black-60">black-60</div>
+        <div class="pa2 black-50">black-50</div>
+        <div class="pa2 black-40">black-40</div>
+        <div class="pa2 black-30">black-30</div>
+        <div class="pa2 black-20">black-20</div>
+        <div class="pa2 black-10">black-10</div>
+        <div class="pa2 black-05">black-05[rgba(0, 0, 0, 0.05)]</div>
+        <div class="pa2 bg-black white-90">white-90</div>
+        <div class="pa2 bg-black white-80">white-80</div>
+        <div class="pa2 bg-black white-70">white-70</div>
+        <div class="pa2 bg-black white-60">white-60</div>
+        <div class="pa2 bg-black white-50">white-50</div>
+        <div class="pa2 bg-black white-40">white-40</div>
+        <div class="pa2 bg-black white-30">white-30</div>
+        <div class="pa2 bg-eggplant white-20">white-20</div>
+        <div class="pa2 bg-eggplant white-10">white-10</div>
+        <div class="pa2 bg-eggplant white-05">white-05</div>
+        <div class="pa2 marine-lightest">marine-lightest</div>
+        <div class="pa2 marine-light">marine-light</div>
+        <div class="pa2 marine">marine</div>
+        <div class="pa2 marine-dark">marine-dark</div>
+        <div class="pa2 marine-darkest">marine-darkest</div>
+        <div class="pa2 bg-black-30 desktop-lightest">desktop-lightest</div>
+        <div class="pa2 desktop-light">desktop-light</div>
+        <div class="pa2 desktop">desktop</div>
+        <div class="pa2 desktop-dark">desktop-dark</div>
+        <div class="pa2 desktop-darkest">desktop-darkest</div>
+        <div class="pa2 bg-black-30 sunray-lightest">sunray-lightest</div>
+        <div class="pa2 sunray-light">sunray-light</div>
+        <div class="pa2 sunray">sunray</div>
+        <div class="pa2 sunray-dark">sunray-dark</div>
+        <div class="pa2 sunray-darkest">sunray-darkest</div>
+        <div class="pa2 bg-black-30 apricot-lightest">apricot-lightest</div>
+        <div class="pa2 apricot-light">apricot-light</div>
+        <div class="pa2 apricot">apricot</div>
+        <div class="pa2 apricot-dark">apricot-dark</div>
+        <div class="pa2 apricot-darkest">apricot-darkest</div>
+        <div class="pa2 eggplant-lightest">eggplant-lightest</div>
+        <div class="pa2 eggplant-light">eggplant-light</div>
+        <div class="pa2 eggplant">eggplant</div>
+        <div class="pa2 eggplant-dark">eggplant-dark</div>
+        <div class="pa2 eggplant-darkest">eggplant-darkest</div>
+        <div class="pa2 bg-black-30 overcast-lightest">overcast-lightest</div>
+        <div class="pa2 overcast-light">overcast-light</div>
+        <div class="pa2 overcast">overcast</div>
+        <div class="pa2 overcast-dark">overcast-dark</div>
+        <div class="pa2 overcast-darkest">overcast-darkest</div>
+        <div class="pa2 bg-black-30 moonstone-lightest">moonstone-lightest</div>
+        <div class="pa2 moonstone-light">moonstone-light</div>
+        <div class="pa2 moonstone">moonstone</div>
+        <div class="pa2 moonstone-dark">moonstone-dark</div>
+        <div class="pa2 moonstone-darkest">moonstone-darkest</div>
+        <div class="pa2 bg-black-30 jet-lightest">jet-lightest</div>
+        <div class="pa2 jet-light">jet-light</div>
+        <div class="pa2 jet">jet</div>
+        <div class="pa2 jet-dark">jet-dark</div>
+        <div class="pa2 jet-darkest">jet-darkest</div>
+        <div class="pa2 outlook">outlook</div>
+        <div class="pa2 sharepoint">sharepoint</div>
+        <div class="pa2 teams">teams</div>
+        <div class="pa2 planner">planner</div>
+        <div class="pa2 primary">primary</div>
+        <div class="pa2 secondary">secondary</div>
+        <h1 id="background-colors">Background colors</h1>
+        <div class="pa2 white bg-black">bg-black</div>
+        <div class="pa2 bg-white">bg-white</div>
+        <div class="pa2 bg-transparent">bg-transparent</div>
+        <div class="pa2 white bg-black-90">bg-black-90</div>
+        <div class="pa2 white bg-black-80">bg-black-80</div>
+        <div class="pa2 white bg-black-70">bg-black-70</div>
+        <div class="pa2 white bg-black-60">bg-black-60</div>
+        <div class="pa2 white bg-black-50">bg-black-50</div>
+        <div class="pa2 bg-black-40">bg-black-40</div>
+        <div class="pa2 bg-black-30">bg-black-30</div>
+        <div class="pa2 bg-black-20">bg-black-20</div>
+        <div class="pa2 bg-black-10">bg-black-10</div>
+        <div class="pa2 bg-black-05">bg-black-05</div>
+        <div class="pa2 bg-black-025">bg-black-025</div>
+        <div class="pa2 bg-black-0125">bg-black-0125</div>
+        <div class="pa2 bg-white-90">bg-white-90</div>
+        <div class="pa2 bg-white-80">bg-white-80</div>
+        <div class="pa2 bg-white-70">bg-white-70</div>
+        <div class="pa2 bg-white-60">bg-white-60</div>
+        <div class="pa2 bg-white-50">bg-white-50</div>
+        <div class="pa2 bg-white-40">bg-white-40</div>
+        <div class="pa2 bg-white-30">bg-white-30</div>
+        <div class="pa2 bg-white-20">bg-white-20</div>
+        <div class="pa2 bg-white-10">bg-white-10</div>
+        <div class="pa2 bg-white-05">bg-white-05</div>
+        <div class="pa2 bg-white-025">bg-white-025</div>
+        <div class="pa2 bg-white-0125">bg-white-0125</div>
+        <div class="pa2 bg-marine-lightest">bg-marine-lightest</div>
+        <div class="pa2 white bg-marine-light">bg-marine-light</div>
+        <div class="pa2 white bg-marine">bg-marine</div>
+        <div class="pa2 white bg-marine-dark">bg-marine-dark</div>
+        <div class="pa2 white bg-marine-darkest">bg-marine-darkest</div>
+        <div class="pa2 bg-desktop-lightest">bg-desktop-lightest</div>
+        <div class="pa2 bg-desktop-light">bg-desktop-light</div>
+        <div class="pa2 bg-desktop">bg-desktop</div>
+        <div class="pa2 bg-desktop-dark">bg-desktop-dark</div>
+        <div class="pa2 bg-desktop-darkest">bg-desktop-darkest</div>
+        <div class="pa2 bg-sunray-lightest">bg-sunray-lightest</div>
+        <div class="pa2 bg-sunray-light">bg-sunray-light</div>
+        <div class="pa2 bg-sunray">bg-sunray</div>
+        <div class="pa2 bg-sunray-dark">bg-sunray-dark</div>
+        <div class="pa2 bg-sunray-darkest">bg-sunray-darkest</div>
+        <div class="pa2 bg-apricot-lightest">bg-apricot-lightest</div>
+        <div class="pa2 bg-apricot-light">bg-apricot-light</div>
+        <div class="pa2 bg-apricot">bg-apricot</div>
+        <div class="pa2 bg-apricot-dark">bg-apricot-dark</div>
+        <div class="pa2 bg-apricot-darkest">bg-apricot-darkest</div>
+        <div class="pa2 bg-eggplant-lightest">bg-eggplant-lightest</div>
+        <div class="pa2 bg-eggplant-light">bg-eggplant-light</div>
+        <div class="pa2 white bg-eggplant">bg-eggplant</div>
+        <div class="pa2 white bg-eggplant-dark">bg-eggplant-dark</div>
+        <div class="pa2 white bg-eggplant-darkest">bg-eggplant-darkest</div>
+        <div class="pa2 bg-overcast-lightest">bg-overcast-lightest</div>
+        <div class="pa2 bg-overcast-light">bg-overcast-light</div>
+        <div class="pa2 bg-overcast">bg-overcast</div>
+        <div class="pa2 bg-overcast-dark">bg-overcast-dark</div>
+        <div class="pa2 bg-overcast-darkest">bg-overcast-darkest</div>
+        <div class="pa2 bg-moonstone-lightest">bg-moonstone-lightest</div>
+        <div class="pa2 bg-moonstone-light">bg-moonstone-light</div>
+        <div class="pa2 bg-moonstone">bg-moonstone</div>
+        <div class="pa2 bg-moonstone-dark">bg-moonstone-dark</div>
+        <div class="pa2 bg-moonstone-darkest">bg-moonstone-darkest</div>
+        <div class="pa2 bg-jet-lightest">bg-jet-lightest</div>
+        <div class="pa2 white bg-jet-light">bg-jet-light</div>
+        <div class="pa2 white bg-jet">bg-jet</div>
+        <div class="pa2 white bg-jet-dark">bg-jet-dark</div>
+        <div class="pa2 white bg-jet-darkest">bg-jet-darkest</div>
+        <div class="pa2 bg-outlook">bg-outlook</div>
+        <div class="pa2 bg-sharepoint">bg-sharepoint</div>
+        <div class="pa2 bg-teams">bg-teams</div>
+        <div class="pa2 bg-planner">bg-planner</div>
+        <div class="pa2 bg-primary">bg-primary</div>
+        <div class="pa2 white bg-secondary">bg-secondary</div>
+        <h1 id="borders">Borders</h1>
         <div class="mb2 b--black ba pa2">b--black</div>
-        <div class="pa2 bg-moonstone-dark mb2">
+        <div class="pa2 bg-black mb2">
             <div class="mb2 b--white ba pa2 white">b--white</div>
             <div class="mb2 b--white-90 ba pa2 white">b--white-90</div>
             <div class="mb2 b--white-80 ba pa2 white">b--white-80</div>
@@ -283,7 +524,6 @@
             <div class="mb2 b--white-10 ba pa2 white">b--white-10</div>
             <div class="mb2 b--white-05 ba pa2 white">b--white-05</div>
             <div class="mb2 b--white-025 ba pa2 white">b--white-025</div>
-            <div class="mb2 b--white-0125 ba pa2 white">b--white-0125</div>
         </div>
         <div class="mb2 b--black-90 ba pa2">b--black-90</div>
         <div class="mb2 b--black-80 ba pa2">b--black-80</div>
@@ -295,18 +535,13 @@
         <div class="mb2 b--black-20 ba pa2">b--black-20</div>
         <div class="mb2 b--black-10 ba pa2">b--black-10</div>
         <div class="mb2 b--black-05 ba pa2">b--black-05</div>
-        <div class="pa2 bg-moonstone-dark mb2">
-            <div class="mb2 b--black-025 ba pa2">b--black-025</div>
-            <div class="mb2 b--black-0125 ba pa2">b--black-0125</div>
-        </div>
+        <div class="mb2 b--black-025 ba pa2">b--black-025</div>
         <div class="mb2 b--marine-lightest ba pa2">b--marine-lightest</div>
         <div class="mb2 b--marine-light ba pa2">b--marine-light</div>
         <div class="mb2 b--marine ba pa2">b--marine</div>
         <div class="mb2 b--marine-dark ba pa2">b--marine-dark</div>
         <div class="mb2 b--marine-darkest ba pa2">b--marine-darkest</div>
-        <div class="pa2 bg-moonstone-dark mb2">
-            <div class="mb2 b--desktop-lightest ba pa2">b--desktop-lightest</div>
-        </div>
+        <div class="mb2 b--desktop-lightest ba pa2">b--desktop-lightest</div>
         <div class="mb2 b--desktop-light ba pa2">b--desktop-light</div>
         <div class="mb2 b--desktop ba pa2">b--desktop</div>
         <div class="mb2 b--desktop-dark ba pa2">b--desktop-dark</div>
@@ -326,28 +561,21 @@
         <div class="mb2 b--eggplant ba pa2">b--eggplant</div>
         <div class="mb2 b--eggplant-dark ba pa2">b--eggplant-dark</div>
         <div class="mb2 b--eggplant-darkest ba pa2">b--eggplant-darkest</div>
-        <div class="pa2 bg-moonstone-dark mb2">
-            <div class="mb2 b--overcast-lightest ba pa2">b--overcast-lightest</div>
-        </div>
+        <div class="mb2 b--overcast-lightest ba pa2">b--overcast-lightest</div>
         <div class="mb2 b--overcast-light ba pa2">b--overcast-light</div>
         <div class="mb2 b--overcast ba pa2">b--overcast</div>
         <div class="mb2 b--overcast-dark ba pa2">b--overcast-dark</div>
         <div class="mb2 b--overcast-darkest ba pa2">b--overcast-darkest</div>
-        <div class="pa2 bg-moonstone-dark mb2">
-            <div class="mb2 b--moonstone-lightest ba pa2">b--moonstone-lightest</div>
-        </div>
+        <div class="mb2 b--moonstone-lightest ba pa2">b--moonstone-lightest</div>
         <div class="mb2 b--moonstone-light ba pa2">b--moonstone-light</div>
         <div class="mb2 b--moonstone ba pa2">b--moonstone</div>
         <div class="mb2 b--moonstone-dark ba pa2">b--moonstone-dark</div>
         <div class="mb2 b--moonstone-darkest ba pa2">b--moonstone-darkest</div>
-        <div class="pa2 bg-moonstone-dark mb2">
-            <div class="mb2 b--jet-lightest ba pa2">b--jet-lightest</div>
-        </div>
+        <div class="mb2 b--jet-lightest ba pa2">b--jet-lightest</div>
         <div class="mb2 b--jet-light ba pa2">b--jet-light</div>
         <div class="mb2 b--jet ba pa2">b--jet</div>
         <div class="mb2 b--jet-dark ba pa2">b--jet-dark</div>
         <div class="mb2 b--jet-darkest: ba pa2">b--jet-darkest:</div>
-        <div class="mb2 b--moon-gray: ba pa2">b--moon-gray:</div>
         <div class="mb2 b--outlook ba pa2">b--outlook</div>
         <div class="mb2 b--sharepoint ba pa2">b--sharepoint</div>
         <div class="mb2 b--teams ba pa2">b--teams</div>
@@ -356,64 +584,77 @@
         <div class="mb2 b--inherit ba pa2">b--inherit</div>
         <div class="mb2 b--primary ba pa2">b--primary</div>
         <div class="mb2 b--secondary ba pa2">b--secondary</div>
-        <h1>Spacing</h1>
+        <h1 id="spacing">Spacing</h1>
+        <h2>Spacing Scale</h2>
+        <code>
+            1 [4px]<br/>
+            2 [8px]<br/>
+            3 [16px]<br/>
+            4 [24px]<br/>
+            5 [32px]<br/>
+            6 [40px]<br/>
+            7 [48px]<br/>
+            8 [56px]<br/>
+            9 [64px]<br/>
+            10 [72px]
+        </code>
         <h2>Padding</h2>
         <div class="bg-eggplant-lightest mb2 pa0">pa0</div>
-        <div class="bg-eggplant-lightest mb2 pa1">pa1 [4px]</div>
-        <div class="bg-eggplant-lightest mb2 pa2">pa2 [8px]</div>
-        <div class="bg-eggplant-lightest mb2 pa3">pa3 [16px]</div>
-        <div class="bg-eggplant-lightest mb2 pa4">pa4 [24px]</div>
-        <div class="bg-eggplant-lightest mb2 pa5">pa5 [32px]</div>
-        <div class="bg-eggplant-lightest mb2 pa6">pa6 [40px]</div>
-        <div class="bg-eggplant-lightest mb2 pa7">pa7 [48px]</div>
-        <div class="bg-eggplant-lightest mb2 pa8">pa8 [56px]</div>
-        <div class="bg-eggplant-lightest mb2 pa9">pa9 [64px]</div>
-        <div class="bg-eggplant-lightest mb2 pa10">pa10 [72px]</div>
+        <div class="bg-eggplant-lightest mb2 pa1">pa1</div>
+        <div class="bg-eggplant-lightest mb2 pa2">pa2</div>
+        <div class="bg-eggplant-lightest mb2 pa3">pa3</div>
+        <div class="bg-eggplant-lightest mb2 pa4">pa4</div>
+        <div class="bg-eggplant-lightest mb2 pa5">pa5</div>
+        <div class="bg-eggplant-lightest mb2 pa6">pa6</div>
+        <div class="bg-eggplant-lightest mb2 pa7">pa7</div>
+        <div class="bg-eggplant-lightest mb2 pa8">pa8</div>
+        <div class="bg-eggplant-lightest mb2 pa9">pa9</div>
+        <div class="bg-eggplant-lightest mb2 pa10">pa10</div>
         <div class="bg-eggplant-lightest mb2 pl0">pl0</div>
-        <div class="bg-eggplant-lightest mb2 pl1">pl1 [4px]</div>
-        <div class="bg-eggplant-lightest mb2 pl2">pl2 [8px]</div>
-        <div class="bg-eggplant-lightest mb2 pl3">pl3 [16px]</div>
-        <div class="bg-eggplant-lightest mb2 pl4">pl4 [24px]</div>
-        <div class="bg-eggplant-lightest mb2 pl5">pl5 [32px]</div>
-        <div class="bg-eggplant-lightest mb2 pl6">pl6 [40px]</div>
-        <div class="bg-eggplant-lightest mb2 pl7">pl7 [48px]</div>
-        <div class="bg-eggplant-lightest mb2 pl8">pl8 [56px]</div>
-        <div class="bg-eggplant-lightest mb2 pl9">pl9 [64px]</div>
-        <div class="bg-eggplant-lightest mb2 pl10">pl10 [72px]</div>
+        <div class="bg-eggplant-lightest mb2 pl1">pl1</div>
+        <div class="bg-eggplant-lightest mb2 pl2">pl2</div>
+        <div class="bg-eggplant-lightest mb2 pl3">pl3</div>
+        <div class="bg-eggplant-lightest mb2 pl4">pl4</div>
+        <div class="bg-eggplant-lightest mb2 pl5">pl5</div>
+        <div class="bg-eggplant-lightest mb2 pl6">pl6</div>
+        <div class="bg-eggplant-lightest mb2 pl7">pl7</div>
+        <div class="bg-eggplant-lightest mb2 pl8">pl8</div>
+        <div class="bg-eggplant-lightest mb2 pl9">pl9</div>
+        <div class="bg-eggplant-lightest mb2 pl10">pl10</div>
         <div class="bg-eggplant-lightest"><span class="mb2 pr0">pr0</span><span class="w2 bg-eggplant">|</span></div>
-        <div class="bg-eggplant-lightest"><span class="mb2 pr1">pr1 [4px]</span><span class="w2 bg-eggplant">|</span></div>
-        <div class="bg-eggplant-lightest"><span class="mb2 pr2">pr2 [8px]</span><span class="w2 bg-eggplant">|</span></div>
-        <div class="bg-eggplant-lightest"><span class="mb2 pr3">pr3 [16px]</span><span class="w2 bg-eggplant">|</span></div>
-        <div class="bg-eggplant-lightest"><span class="mb2 pr4">pr4 [24px]</span><span class="w2 bg-eggplant">|</span></div>
-        <div class="bg-eggplant-lightest"><span class="mb2 pr5">pr5 [32px]</span><span class="w2 bg-eggplant">|</span></div>
-        <div class="bg-eggplant-lightest"><span class="mb2 pr6">pr6 [40px]</span><span class="w2 bg-eggplant">|</span></div>
-        <div class="bg-eggplant-lightest"><span class="mb2 pr7">pr7 [48px]</span><span class="w2 bg-eggplant">|</span></div>
-        <div class="bg-eggplant-lightest"><span class="mb2 pr8">pr8 [56px]</span><span class="w2 bg-eggplant">|</span></div>
-        <div class="bg-eggplant-lightest"><span class="mb2 pr9">pr9 [64px]</span><span class="w2 bg-eggplant">|</span></div>
-        <div class="bg-eggplant-lightest"><span class="mb2 pr10">pr10 [72px]</span><span class="w2 bg-eggplant">|</span></div>
+        <div class="bg-eggplant-lightest"><span class="mb2 pr1">pr1</span><span class="w2 bg-eggplant">|</span></div>
+        <div class="bg-eggplant-lightest"><span class="mb2 pr2">pr2</span><span class="w2 bg-eggplant">|</span></div>
+        <div class="bg-eggplant-lightest"><span class="mb2 pr3">pr3</span><span class="w2 bg-eggplant">|</span></div>
+        <div class="bg-eggplant-lightest"><span class="mb2 pr4">pr4</span><span class="w2 bg-eggplant">|</span></div>
+        <div class="bg-eggplant-lightest"><span class="mb2 pr5">pr5</span><span class="w2 bg-eggplant">|</span></div>
+        <div class="bg-eggplant-lightest"><span class="mb2 pr6">pr6</span><span class="w2 bg-eggplant">|</span></div>
+        <div class="bg-eggplant-lightest"><span class="mb2 pr7">pr7</span><span class="w2 bg-eggplant">|</span></div>
+        <div class="bg-eggplant-lightest"><span class="mb2 pr8">pr8</span><span class="w2 bg-eggplant">|</span></div>
+        <div class="bg-eggplant-lightest"><span class="mb2 pr9">pr9</span><span class="w2 bg-eggplant">|</span></div>
+        <div class="bg-eggplant-lightest"><span class="mb2 pr10">pr10</span><span class="w2 bg-eggplant">|</span></div>
         <div class="bg-eggplant-lightest mt2 mb2 pb0">pb0</div>
-        <div class="bg-eggplant-lightest mb2 pb1">pb1 [4px]</div>
-        <div class="bg-eggplant-lightest mb2 pb2">pb2 [8px]</div>
-        <div class="bg-eggplant-lightest mb2 pb3">pb3 [16px]</div>
-        <div class="bg-eggplant-lightest mb2 pb4">pb4 [24px]</div>
-        <div class="bg-eggplant-lightest mb2 pb5">pb5 [32px]</div>
-        <div class="bg-eggplant-lightest mb2 pb6">pb6 [40px]</div>
-        <div class="bg-eggplant-lightest mb2 pb7">pb7 [48px]</div>
-        <div class="bg-eggplant-lightest mb2 pb8">pb8 [56px]</div>
-        <div class="bg-eggplant-lightest mb2 pb9">pb9 [64px]</div>
-        <div class="bg-eggplant-lightest mb2 pb10">pb10 [72px]</div>
+        <div class="bg-eggplant-lightest mb2 pb1">pb1</div>
+        <div class="bg-eggplant-lightest mb2 pb2">pb2</div>
+        <div class="bg-eggplant-lightest mb2 pb3">pb3</div>
+        <div class="bg-eggplant-lightest mb2 pb4">pb4</div>
+        <div class="bg-eggplant-lightest mb2 pb5">pb5</div>
+        <div class="bg-eggplant-lightest mb2 pb6">pb6</div>
+        <div class="bg-eggplant-lightest mb2 pb7">pb7</div>
+        <div class="bg-eggplant-lightest mb2 pb8">pb8</div>
+        <div class="bg-eggplant-lightest mb2 pb9">pb9</div>
+        <div class="bg-eggplant-lightest mb2 pb10">pb10</div>
         <div class="bg-eggplant-lightest mb2 pt0">pt0</div>
-        <div class="bg-eggplant-lightest mb2 pt1">pt1 [4px]</div>
-        <div class="bg-eggplant-lightest mb2 pt2">pt2 [8px]</div>
-        <div class="bg-eggplant-lightest mb2 pt3">pt3 [16px]</div>
-        <div class="bg-eggplant-lightest mb2 pt4">pt4 [24px]</div>
-        <div class="bg-eggplant-lightest mb2 pt5">pt5 [32px]</div>
-        <div class="bg-eggplant-lightest mb2 pt6">pt6 [40px]</div>
-        <div class="bg-eggplant-lightest mb2 pt7">pt7 [48px]</div>
-        <div class="bg-eggplant-lightest mb2 pt8">pt8 [56px]</div>
-        <div class="bg-eggplant-lightest mb2 pt9">pt9 [64px]</div>
-        <div class="bg-eggplant-lightest mb2 pt10">pt10 [72px]</div>
-    <h1>Width Scale</h1>
+        <div class="bg-eggplant-lightest mb2 pt1">pt1</div>
+        <div class="bg-eggplant-lightest mb2 pt2">pt2</div>
+        <div class="bg-eggplant-lightest mb2 pt3">pt3</div>
+        <div class="bg-eggplant-lightest mb2 pt4">pt4</div>
+        <div class="bg-eggplant-lightest mb2 pt5">pt5</div>
+        <div class="bg-eggplant-lightest mb2 pt6">pt6</div>
+        <div class="bg-eggplant-lightest mb2 pt7">pt7</div>
+        <div class="bg-eggplant-lightest mb2 pt8">pt8</div>
+        <div class="bg-eggplant-lightest mb2 pt9">pt9</div>
+        <div class="bg-eggplant-lightest mb2 pt10">pt10</div>
+    <h1 id="widths">Width Scale</h1>
     <table border="0" cellspacing="5" cellpadding="5">
         <tbody>
             <tr>
@@ -498,7 +739,7 @@
             </tr>
         </tbody>
     </table>
-    <h1>Border Radius</h1>
+    <h1 id="border-radius">Border Radius</h1>
     <div class="pt4 pb5">
         <div class="mb3 ph2 pv4 ba b--black-10 bg-eggplant-light br0 w8 h8 dib">
             <code class="f6">.br0</code>
@@ -515,7 +756,7 @@
         <div class="mb3 ph2 pv4 ba b--black-10 br4 w8 h8 dib">
             <code class="f6">.br4</code>
         </div>
-        <div class="mb3 pv2 ph3 ba bw2 black br-pill dib">
+        <div class="mb3 pv2 ph3 ba black br-pill dib">
             <code class="f6">.br-pill</code>
         </div>
         <h3 class="fw4">Combine .br-100 with a fixed height and width to make a circle</h3>
@@ -525,7 +766,7 @@
             </div>
         </div>
     </div>
-    <h1>Box Shadow</h1>
+    <h1 id="box-shadow">Box Shadow</h1>
     <div class="pt4 pb5">
         <code class="f6 db mv3"></code>
         <div class="shadow-1 ph3 pv4 tc mw6 mb4"><code>.shadow-1</code></div>
@@ -534,5 +775,15 @@
         <div class="shadow-4 ph3 pv4 tc mw6 mb4"><code>.shadow-4</code></div>
         <div class="shadow-5 ph3 pv4 tc mw6 mb4"><code>.shadow-5</code></div>
     </div>
+    <h1 id="max-width">Max Width</h1>
+    <div class="mw1 mb2 bg-apricot-light pa1">16px</div>
+    <div class="mw2 mb2 bg-apricot-light pa1">32px</div>
+    <div class="mw3 mb2 bg-apricot-light pa1">64px</div>
+    <div class="mw4 mb2 bg-apricot-light pa1">128px</div>
+    <div class="mw5 mb2 bg-apricot-light pa1">256px</div>
+    <div class="mw6 mb2 bg-apricot-light pa1">512px</div>
+    <div class="mw7 mb2 bg-apricot-light pa1">768px</div>
+    <div class="mw8 mb2 bg-apricot-light pa1">1024px</div>
+    <div class="mw9 mb2 bg-apricot-light pa1">1536px</div>
     </body>
 </html>
