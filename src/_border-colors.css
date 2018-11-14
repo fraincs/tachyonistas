@@ -280,11 +280,27 @@
     border-color: var(--jet-dark);
 }
 
-.b--jet-darkest: {
+.b--jet-darkest {
     border-color: var(--jet-darkest);
 }
 
-.b--moon-gray: {
+.b--cloud-lightest {
+    border-color: var(--moon-gray);
+}
+
+.b--cloud-light {
+    border-color: var(--moon-gray);
+}
+
+.b--cloud {
+    border-color: var(--moon-gray);
+}
+
+.b--cloud-dark {
+    border-color: var(--moon-gray);
+}
+
+.b--cloud-darkest {
     border-color: var(--moon-gray);
 }
 

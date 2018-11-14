@@ -6,14 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tachyons SG Doc</title>
     <link rel="stylesheet" href="tachyons.min.css">
+    <style>
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: auto;
+        grid-gap: 20px 12px;
+    }
+    </style>
 </head>
 
-<a href="#top" class="fixed bottom-2 left-2 w8 h8 br-100 shadow-5 bg-eggplant-dark hover-bg-eggplant-darkest bg-animate no-underline flex items-center">
+<a href="#top" class="fixed bottom-2 right-2 w8 h8 br-100 shadow-5 bg-eggplant-dark hover-bg-eggplant-darkest bg-animate no-underline flex items-center">
     <span class="ttu f5 fw6 center sans-serif eggplant-light">Top</span>
 </a>
 
 <div class="sans-serif" id="top">
-    <div class="nav pa3 bg-apricot-lightest">
+    <div class="nav pa3 bg-white-90 top-0 w-100 shadow-1 fixed">
         <ul class="pa0 ma0 list flex mw9 center ph4">
             <li class="mr2"><a href="#color-palette" class="dib mr1 eggplant dim">Color Palette</a></li>
             <li class="mr2"><a href="#typography" class="dib mr1 eggplant dim">Typography</a></li>
@@ -27,358 +35,402 @@
             <li class="mr2"><a href="#max-width" class="dib mr1 eggplant dim">Max Width</a></li>
         </ul>
     </div>
-    <div class="container ph4 mw9 center">
+    <div class="container mt8 ph4 mw9 center">
         <h1 id="color-palette">Color Palette</h1>
-        <div class="flex">
-            <ul class="list pa0 ma0">
-                <li class="fl w-100 w-50-m w-20-l mb1">
+        <div class="grid">
+        <div class="w-100">
+            <ul class="list pa0 ma0 w-100 flex flex-column">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-black fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> black </b>
                         <code class="f6">#000000</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-white fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> white </b>
                         <code class="f6">#FFFFFF</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
-                    <div class="bg-white fl w-40 pv6"></div>
-                </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
-                    <div class="bg-white fl w-40 pv6"></div>
-                </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
-                    <div class="bg-white fl w-40 pv6"></div>
-                </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+            </ul>
+        </div>
+        <div class="w-100">
+            <ul class="list pa0 ma0 flex flex-column">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-marine-lightest fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> marine-lightest </b>
                         <code class="f6">#6E778B</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-marine-light fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> marine-light </b>
                         <code class="f6">#263350</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-marine fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> marine </b>
                         <code class="f6">#0E1C3D</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-marine-dark fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> marine-dark </b>
                         <code class="f6">#0A142B</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-marine-darkest fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> marine-darkest </b>
                         <code class="f6">#040914</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+            </ul>
+        </div>
+        <div class="w-100">
+            <ul class="list pa0 ma0 flex flex-column">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-desktop-lightest fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> desktop-lightest </b>
                         <code class="f6">#FFF7F2</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-desktop-light fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> desktop-light </b>
                         <code class="f6">#F8B385</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-desktop fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> desktop </b>
                         <code class="f6">#F47422</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-desktop-dark fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> desktop-dark </b>
                         <code class="f6">#DC681F</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-desktop-darkest fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> desktop-darkest </b>
                         <code class="f6">#C35D1B</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+            </ul>
+            </div>
+            <div class="w-100">
+                <ul class="list pa0 ma0 flex flex-column">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-sunray-lightest fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> sunray-lightest </b>
                         <code class="f6">#FEF1D7</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-sunray-light fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> sunray-light </b>
                         <code class="f6">#FDCD72</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-sunray fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> sunray </b>
                         <code class="f6">#FCB736</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-sunray-dark fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> sunray-dark </b>
                         <code class="f6">#E3A531</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-sunray-darkest fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> sunray-darkest </b>
                         <code class="f6">#CA922B</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+            </ul>
+        </div>
+        <div class="w-100">
+            <ul class="list pa0 ma0 flex flex-column">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-apricot-lightest fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> apricot-lightest </b>
                         <code class="f6">#EAFAF8</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-apricot-light fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> apricot-light </b>
                         <code class="f6">#98E8DE</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-apricot fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> apricot </b>
                         <code class="f6">#30D1BD</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-apricot-dark fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> apricot-dark </b>
                         <code class="f6">#2BBCAA</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-apricot-darkest fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> apricot-darkest </b>
                         <code class="f6">#26A797</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                </ul>
+                </div>
+                <div class="w-100">
+                    <ul class="list pa0 ma0 flex flex-column">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-eggplant-lightest fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> eggplant-lightest </b>
                         <code class="f6">#DDD7DC</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-eggplant-light fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> eggplant-light </b>
                         <code class="f6">#9C8897</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-eggplant fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> eggplant </b>
                         <code class="f6">#5A3951</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-eggplant-dark fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> eggplant-dark </b>
                         <code class="f6">#513349</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-eggplant-darkest fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> eggplant-darkest </b>
                         <code class="f6">#3F2839</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                </ul>
+                </div>
+                <div class="w-100">
+                    <ul class="list pa0 ma0 flex flex-column">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-overcast-lightest fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> overcast-lightest </b>
                         <code class="f6">#FAFCFF</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-overcast-light fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> overcast-light </b>
                         <code class="f6">#A6D5FF</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-overcast fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> overcast </b>
                         <code class="f6">#2096FF</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-overcast-dark fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> overcast-dark </b>
                         <code class="f6">#135999</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-overcast-darkest fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> overcast-darkest </b>
                         <code class="f6">#0D3C66</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                </ul>
+                </div>
+                <div class="w-100">
+                    <ul class="list pa0 ma0 flex flex-column">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-moonstone-lightest fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> moonstone-lightest </b>
                         <code class="f6">#F1F8F8</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-moonstone-light fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> moonstone-light </b>
                         <code class="f6">#C8E2E1</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-moonstone fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> moonstone </b>
                         <code class="f6">#76B6B5</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-moonstone-dark fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> moonstone-dark </b>
                         <code class="f6">#5E9291</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-moonstone-darkest fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> moonstone-darkest </b>
                         <code class="f6">#476D6D</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                </ul>
+                </div>
+                <div class="w-100">
+                    <ul class="list pa0 ma0 flex flex-column">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-jet-lightest fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> jet-lightest </b>
                         <code class="f6">#F6F7F8</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-jet-light fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> jet-light </b>
                         <code class="f6">#5D5D63</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-jet fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> jet </b>
                         <code class="f6">#34343C</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-jet-dark fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> jet-dark </b>
                         <code class="f6">#24242A</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-jet-darkest fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> jet-darkest </b>
                         <code class="f6">#000000</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
-                    <div class="bg-primary fl w-40 pv6"></div>
+                </ul>
+                </div>
+                <div class="w-100">
+                    <ul class="list pa0 ma0 flex flex-column">
+                <li class="fl w-100 w-50-m w-100-l mb1">
+                    <div class="bg-cloud-lightest fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
-                        <b class="db"> primary </b>
-                        <code class="f6">#30D1BD</code>
+                        <b class="db"> cloud-lightest </b>
+                        <code class="f6">#F5F7F8</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
-                    <div class="bg- fl w-40 pv6"></div>
+                <li class="fl w-100 w-50-m w-100-l mb1">
+                    <div class="bg-cloud-light fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
-                        <b class="db"> secondary </b>
-                        <code class="f6">#??????</code>
+                        <b class="db"> cloud-light </b>
+                        <code class="f6">#EDF0F2</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
-                    <div class="bg-white fl w-40 pv6"></div>
+                <li class="fl w-100 w-50-m w-100-l mb1">
+                    <div class="bg-cloud fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> cloud </b>
+                        <code class="f6">#D4D6DB</code>
+                    </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
-                    <div class="bg-white fl w-40 pv6"></div>
+                <li class="fl w-100 w-50-m w-100-l mb1">
+                    <div class="bg-cloud-dark fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> cloud-dark </b>
+                        <code class="f6">#A8AFBD</code>
+                    </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
-                    <div class="bg-white fl w-40 pv6"></div>
+                <li class="fl w-100 w-50-m w-100-l mb1">
+                    <div class="bg-cloud-darkest fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> cloud-darkest </b>
+                        <code class="f6">#828A9E</code>
+                    </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                </ul>
+                </div>
+                <div class="w-100">
+                    <ul class="list pa0 ma0 flex flex-column">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-outlook fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> Outlook </b>
                         <code class="f6">#2873BA</code>
                     </div>
                 </li>
-                 <li class="fl w-100 w-50-m w-20-l mb1">
+                 <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-sharepoint fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> Sharepoint </b>
                         <code class="f6">#2873BA</code>
                     </div>
                 </li>
-                 <li class="fl w-100 w-50-m w-20-l mb1">
+                 <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-teams fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> Teams </b>
                         <code class="f6">#575AA7</code>
                     </div>
                 </li>
-                <li class="fl w-100 w-50-m w-20-l mb1">
+                <li class="fl w-100 w-50-m w-100-l mb1">
                     <div class="bg-planner fl w-40 pv6"></div>
                     <div class="fl w-60 lh-copy pl2 pt2">
                         <b class="db"> Planner </b>
@@ -386,6 +438,25 @@
                     </div>
                 </li>
             </ul>
+        </div>
+        <div class="w-100">
+            <ul class="list pa0 ma0 flex flex-column">
+                <li class="fl w-100 w-50-m w-100-l mb1">
+                    <div class="bg-primary fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> primary </b>
+                        <code class="f6">#30D1BD</code>
+                    </div>
+                </li>
+                <li class="fl w-100 w-50-m w-100-l mb1">
+                    <div class="bg- fl w-40 pv6"></div>
+                    <div class="fl w-60 lh-copy pl2 pt2">
+                        <b class="db"> secondary </b>
+                        <code class="f6">#??????</code>
+                    </div>
+                </li>
+            </ul>
+        </div>
         </div>
         <h1 id="typography">Typography</h1>
         <h2>Font sizes</h2>
@@ -401,7 +472,8 @@
                     <td class="tc f5 b br b--black-10 v-base">A</td>
                     <td class="tc f6 b br b--black-10 v-base">A</td>
                     <td class="tc f7 b br b--black-10 v-base">A</td>
-                    <td class="tc f8 b b--black-10 v-base">A</td>
+                    <td class="tc f8 b br b--black-10 v-base">A</td>
+                    <td class="tc f9 b b--black-10 v-base">A</td>
                 </tr>
                 <tr>
                     <td class="tc gray f6 fw2 pr2 bt br b--black-10 pt1">6rem (96px)</td>
@@ -411,6 +483,7 @@
                     <td class="tc gray f6 fw2 ph2 bt br b--black-10 pt1">2rem (32px)</td>
                     <td class="tc gray f6 fw2 ph2 bt br b--black-10 pt1">1.5rem (24px)</td>
                     <td class="tc gray f6 fw2 ph2 bt br b--black-10 pt1">1.25rem (20px)</td>
+                    <td class="tc gray f6 fw2 ph2 bt br b--black-10 pt1">1.125rem (18px)</td>
                     <td class="tc gray f6 fw2 ph2 bt br b--black-10 pt1">1rem (16px)</td>
                     <td class="tc gray f6 fw2 pl2 bt br b--black-10 pt1">.875rem (14px)</td>
                     <td class="tc gray f6 fw2 pl2 bt b--black-10 pt1">.75rem (12px)</td>
@@ -424,34 +497,15 @@
                     <td class="tc gray f6 fw2 ph2 bt br b--black-10 pt1">f4</td>
                     <td class="tc gray f6 fw2 ph2 bt br b--black-10 pt1">f5</td>
                     <td class="tc gray f6 fw2 ph2 bt br b--black-10 pt1">f6</td>
-                    <td class="tc gray f6 fw2 pl2 bt br b--black-10 pt1">f7</td>
-                    <td class="tc gray f6 fw2 pl2 bt b--black-10 pt1">f8</td>
+                    <td class="tc gray f6 fw2 ph2 bt br b--black-10 pt1">f7</td>
+                    <td class="tc gray f6 fw2 pl2 bt br b--black-10 pt1">f8</td>
+                    <td class="tc gray f6 fw2 pl2 bt b--black-10 pt1">f9</td>
                 </tr>
             </tbody>
         </table>
         <h1 id="font-colors">Font Colors</h1>
         <div class="pa2 black">black</div>
         <div class="pa2 bg-black white">white</div>
-        <div class="pa2 black-90">black-90</div>
-        <div class="pa2 black-80">black-80</div>
-        <div class="pa2 black-70">black-70</div>
-        <div class="pa2 black-60">black-60</div>
-        <div class="pa2 black-50">black-50</div>
-        <div class="pa2 black-40">black-40</div>
-        <div class="pa2 black-30">black-30</div>
-        <div class="pa2 black-20">black-20</div>
-        <div class="pa2 black-10">black-10</div>
-        <div class="pa2 black-05">black-05[rgba(0, 0, 0, 0.05)]</div>
-        <div class="pa2 bg-black white-90">white-90</div>
-        <div class="pa2 bg-black white-80">white-80</div>
-        <div class="pa2 bg-black white-70">white-70</div>
-        <div class="pa2 bg-black white-60">white-60</div>
-        <div class="pa2 bg-black white-50">white-50</div>
-        <div class="pa2 bg-black white-40">white-40</div>
-        <div class="pa2 bg-black white-30">white-30</div>
-        <div class="pa2 bg-black white-20">white-20</div>
-        <div class="pa2 bg-black white-10">white-10</div>
-        <div class="pa2 bg-black white-05">white-05</div>
         <div class="pa2 marine-lightest">marine-lightest</div>
         <div class="pa2 marine-light">marine-light</div>
         <div class="pa2 marine">marine</div>
@@ -492,40 +546,40 @@
         <div class="pa2 jet">jet</div>
         <div class="pa2 jet-dark">jet-dark</div>
         <div class="pa2 jet-darkest">jet-darkest</div>
+        <div class="pa2 bg-black-30 cloud-lightest">cloud-lightest</div>
+        <div class="pa2 cloud-light">cloud-light</div>
+        <div class="pa2 cloud">cloud</div>
+        <div class="pa2 cloud-dark">cloud-dark</div>
+        <div class="pa2 cloud-darkest">cloud-darkest</div>
         <div class="pa2 outlook">outlook</div>
         <div class="pa2 sharepoint">sharepoint</div>
         <div class="pa2 teams">teams</div>
         <div class="pa2 planner">planner</div>
         <div class="pa2 primary">primary</div>
         <div class="pa2 secondary">secondary</div>
+        <div class="pa2 black-90">black-90</div>
+        <div class="pa2 black-80">black-80</div>
+        <div class="pa2 black-70">black-70</div>
+        <div class="pa2 black-60">black-60</div>
+        <div class="pa2 black-50">black-50</div>
+        <div class="pa2 black-40">black-40</div>
+        <div class="pa2 black-30">black-30</div>
+        <div class="pa2 black-20">black-20</div>
+        <div class="pa2 black-10">black-10</div>
+        <div class="pa2 black-05">black-05[rgba(0, 0, 0, 0.05)]</div>
+        <div class="pa2 bg-black white-90">white-90</div>
+        <div class="pa2 bg-black white-80">white-80</div>
+        <div class="pa2 bg-black white-70">white-70</div>
+        <div class="pa2 bg-black white-60">white-60</div>
+        <div class="pa2 bg-black white-50">white-50</div>
+        <div class="pa2 bg-black white-40">white-40</div>
+        <div class="pa2 bg-black white-30">white-30</div>
+        <div class="pa2 bg-black white-20">white-20</div>
+        <div class="pa2 bg-black white-10">white-10</div>
+        <div class="pa2 bg-black white-05">white-05</div>
         <h1 id="background-colors">Background colors</h1>
         <div class="pa3 white bg-black">bg-black</div>
         <div class="pa3 bg-white">bg-white</div>
-        <div class="pa3 bg-transparent">bg-transparent</div>
-        <div class="pa3 white bg-black-90">bg-black-90</div>
-        <div class="pa3 white bg-black-80">bg-black-80</div>
-        <div class="pa3 white bg-black-70">bg-black-70</div>
-        <div class="pa3 white bg-black-60">bg-black-60</div>
-        <div class="pa3 white bg-black-50">bg-black-50</div>
-        <div class="pa3 bg-black-40">bg-black-40</div>
-        <div class="pa3 bg-black-30">bg-black-30</div>
-        <div class="pa3 bg-black-20">bg-black-20</div>
-        <div class="pa3 bg-black-10">bg-black-10</div>
-        <div class="pa3 bg-black-05">bg-black-05</div>
-        <div class="pa3 bg-black-025">bg-black-025</div>
-        <div class="pa3 bg-black-0125">bg-black-0125</div>
-        <div class="pa3 bg-white-90">bg-white-90</div>
-        <div class="pa3 bg-white-80">bg-white-80</div>
-        <div class="pa3 bg-white-70">bg-white-70</div>
-        <div class="pa3 bg-white-60">bg-white-60</div>
-        <div class="pa3 bg-white-50">bg-white-50</div>
-        <div class="pa3 bg-white-40">bg-white-40</div>
-        <div class="pa3 bg-white-30">bg-white-30</div>
-        <div class="pa3 bg-white-20">bg-white-20</div>
-        <div class="pa3 bg-white-10">bg-white-10</div>
-        <div class="pa3 bg-white-05">bg-white-05</div>
-        <div class="pa3 bg-white-025">bg-white-025</div>
-        <div class="pa3 bg-white-0125">bg-white-0125</div>
         <div class="pa3 bg-marine-lightest">bg-marine-lightest</div>
         <div class="pa3 white bg-marine-light">bg-marine-light</div>
         <div class="pa3 white bg-marine">bg-marine</div>
@@ -566,39 +620,47 @@
         <div class="pa3 white bg-jet">bg-jet</div>
         <div class="pa3 white bg-jet-dark">bg-jet-dark</div>
         <div class="pa3 white bg-jet-darkest">bg-jet-darkest</div>
+        <div class="pa3 bg-cloud-lightest">bg-cloud-lightest</div>
+        <div class="pa3 bg-cloud-light">bg-cloud-light</div>
+        <div class="pa3 white bg-cloud">bg-cloud</div>
+        <div class="pa3 white bg-cloud-dark">bg-cloud-dark</div>
+        <div class="pa3 white bg-cloud-darkest">bg-cloud-darkest</div>
         <div class="pa3 bg-outlook">bg-outlook</div>
         <div class="pa3 bg-sharepoint">bg-sharepoint</div>
         <div class="pa3 bg-teams">bg-teams</div>
         <div class="pa3 bg-planner">bg-planner</div>
         <div class="pa3 bg-primary">bg-primary</div>
         <div class="pa3 white bg-secondary">bg-secondary</div>
+        <div class="pa3 bg-transparent">bg-transparent</div>
+        <div class="pa3 white bg-black-90">bg-black-90</div>
+        <div class="pa3 white bg-black-80">bg-black-80</div>
+        <div class="pa3 white bg-black-70">bg-black-70</div>
+        <div class="pa3 white bg-black-60">bg-black-60</div>
+        <div class="pa3 white bg-black-50">bg-black-50</div>
+        <div class="pa3 bg-black-40">bg-black-40</div>
+        <div class="pa3 bg-black-30">bg-black-30</div>
+        <div class="pa3 bg-black-20">bg-black-20</div>
+        <div class="pa3 bg-black-10">bg-black-10</div>
+        <div class="pa3 bg-black-05">bg-black-05</div>
+        <div class="pa3 bg-black-025">bg-black-025</div>
+        <div class="pa3 bg-black-0125">bg-black-0125</div>
+        <div class="pa3 bg-white-90">bg-white-90</div>
+        <div class="pa3 bg-white-80">bg-white-80</div>
+        <div class="pa3 bg-white-70">bg-white-70</div>
+        <div class="pa3 bg-white-60">bg-white-60</div>
+        <div class="pa3 bg-white-50">bg-white-50</div>
+        <div class="pa3 bg-white-40">bg-white-40</div>
+        <div class="pa3 bg-white-30">bg-white-30</div>
+        <div class="pa3 bg-white-20">bg-white-20</div>
+        <div class="pa3 bg-white-10">bg-white-10</div>
+        <div class="pa3 bg-white-05">bg-white-05</div>
+        <div class="pa3 bg-white-025">bg-white-025</div>
+        <div class="pa3 bg-white-0125">bg-white-0125</div>
         <h1 id="borders">Borders</h1>
         <div class="mb2 b--black ba pa2">b--black</div>
         <div class="pa2 bg-black mb2">
             <div class="mb2 b--white ba pa2 white">b--white</div>
-            <div class="mb2 b--white-90 ba pa2 white">b--white-90</div>
-            <div class="mb2 b--white-80 ba pa2 white">b--white-80</div>
-            <div class="mb2 b--white-70 ba pa2 white">b--white-70</div>
-            <div class="mb2 b--white-60 ba pa2 white">b--white-60</div>
-            <div class="mb2 b--white-50 ba pa2 white">b--white-50</div>
-            <div class="mb2 b--white-40 ba pa2 white">b--white-40</div>
-            <div class="mb2 b--white-30 ba pa2 white">b--white-30</div>
-            <div class="mb2 b--white-20 ba pa2 white">b--white-20</div>
-            <div class="mb2 b--white-10 ba pa2 white">b--white-10</div>
-            <div class="mb2 b--white-05 ba pa2 white">b--white-05</div>
-            <div class="mb2 b--white-025 ba pa2 white">b--white-025</div>
         </div>
-        <div class="mb2 b--black-90 ba pa2">b--black-90</div>
-        <div class="mb2 b--black-80 ba pa2">b--black-80</div>
-        <div class="mb2 b--black-70 ba pa2">b--black-70</div>
-        <div class="mb2 b--black-60 ba pa2">b--black-60</div>
-        <div class="mb2 b--black-50 ba pa2">b--black-50</div>
-        <div class="mb2 b--black-40 ba pa2">b--black-40</div>
-        <div class="mb2 b--black-30 ba pa2">b--black-30</div>
-        <div class="mb2 b--black-20 ba pa2">b--black-20</div>
-        <div class="mb2 b--black-10 ba pa2">b--black-10</div>
-        <div class="mb2 b--black-05 ba pa2">b--black-05</div>
-        <div class="mb2 b--black-025 ba pa2">b--black-025</div>
         <div class="mb2 b--marine-lightest ba pa2">b--marine-lightest</div>
         <div class="mb2 b--marine-light ba pa2">b--marine-light</div>
         <div class="mb2 b--marine ba pa2">b--marine</div>
@@ -638,7 +700,12 @@
         <div class="mb2 b--jet-light ba pa2">b--jet-light</div>
         <div class="mb2 b--jet ba pa2">b--jet</div>
         <div class="mb2 b--jet-dark ba pa2">b--jet-dark</div>
-        <div class="mb2 b--jet-darkest: ba pa2">b--jet-darkest:</div>
+        <div class="mb2 b--jet-darkest ba pa2">b--jet-darkest:</div>
+        <div class="mb2 b--cloud-lightest ba pa2">b--cloud-lightest</div>
+        <div class="mb2 b--cloud-light ba pa2">b--cloud-light</div>
+        <div class="mb2 b--cloud ba pa2">b--cloud</div>
+        <div class="mb2 b--cloud-dark ba pa2">b--cloud-dark</div>
+        <div class="mb2 b--cloud-darkest ba pa2">b--cloud-darkest:</div>
         <div class="mb2 b--outlook ba pa2">b--outlook</div>
         <div class="mb2 b--sharepoint ba pa2">b--sharepoint</div>
         <div class="mb2 b--teams ba pa2">b--teams</div>
@@ -647,6 +714,30 @@
         <div class="mb2 b--inherit ba pa2">b--inherit</div>
         <div class="mb2 b--primary ba pa2">b--primary</div>
         <div class="mb2 b--secondary ba pa2">b--secondary</div>
+        <div class="pa2 bg-black mb2">
+            <div class="mb2 b--white-90 ba pa2 white">b--white-90</div>
+            <div class="mb2 b--white-80 ba pa2 white">b--white-80</div>
+            <div class="mb2 b--white-70 ba pa2 white">b--white-70</div>
+            <div class="mb2 b--white-60 ba pa2 white">b--white-60</div>
+            <div class="mb2 b--white-50 ba pa2 white">b--white-50</div>
+            <div class="mb2 b--white-40 ba pa2 white">b--white-40</div>
+            <div class="mb2 b--white-30 ba pa2 white">b--white-30</div>
+            <div class="mb2 b--white-20 ba pa2 white">b--white-20</div>
+            <div class="mb2 b--white-10 ba pa2 white">b--white-10</div>
+            <div class="mb2 b--white-05 ba pa2 white">b--white-05</div>
+            <div class="mb2 b--white-025 ba pa2 white">b--white-025</div>
+        </div>
+        <div class="mb2 b--black-90 ba pa2">b--black-90</div>
+        <div class="mb2 b--black-80 ba pa2">b--black-80</div>
+        <div class="mb2 b--black-70 ba pa2">b--black-70</div>
+        <div class="mb2 b--black-60 ba pa2">b--black-60</div>
+        <div class="mb2 b--black-50 ba pa2">b--black-50</div>
+        <div class="mb2 b--black-40 ba pa2">b--black-40</div>
+        <div class="mb2 b--black-30 ba pa2">b--black-30</div>
+        <div class="mb2 b--black-20 ba pa2">b--black-20</div>
+        <div class="mb2 b--black-10 ba pa2">b--black-10</div>
+        <div class="mb2 b--black-05 ba pa2">b--black-05</div>
+        <div class="mb2 b--black-025 ba pa2">b--black-025</div>
         <h1 id="spacing">Spacing</h1>
         <h2>Spacing Scale</h2>
         <code>

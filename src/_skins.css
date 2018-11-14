@@ -259,8 +259,24 @@
     color: var(--jet-darkest);
 }
 
-.moon-gray {
-    color: var(--moon-gray);
+.cloud-lightest {
+    color: var(--cloud-lightest);
+}
+
+.cloud-light {
+    color: var(--cloud-light);
+}
+
+.cloud {
+    color: var(--cloud);
+}
+
+.cloud-dark {
+    color: var(--cloud-dark);
+}
+
+.cloud-darkest {
+    color: var(--cloud-darkest);
 }
 
 .outlook {
@@ -537,8 +553,24 @@
     background-color: var(--jet-darkest);
 }
 
-.bg-moon-gray {
-    background-color: var(--moon-gray);
+.bg-cloud-lightest {
+    background-color: var(--cloud-lightest);
+}
+
+.bg-cloud-light {
+    background-color: var(--cloud-light);
+}
+
+.bg-cloud {
+    background-color: var(--cloud);
+}
+
+.bg-cloud-dark {
+    background-color: var(--cloud-dark);
+}
+
+.bg-cloud-darkest {
+    background-color: var(--cloud-darkest);
 }
 
 /* Vendors colors */
@@ -741,8 +773,24 @@
     fill: var(--jet-darkest);
 }
 
-.fill-moon-gray: {
-    fill: var(--moon-gray);
+.fill-cloud-lightest {
+    fill: var(--cloud-lightest);
+}
+
+.fill-cloud-light {
+    fill: var(--cloud-light);
+}
+
+.fill-cloud {
+    fill: var(--cloud);
+}
+
+.fill-cloud-dark {
+    fill: var(--cloud-dark);
+}
+
+.fill-cloud-darkest {
+    fill: var(--cloud-darkest);
 }
 
 .fill-outlook {

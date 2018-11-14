@@ -247,8 +247,24 @@
     color: var(--jet-darkest);
 }
 
-.hover-moon-gray:hover, .hover-moon-gray:focus {
-    color: var(--moon-gray);
+.hover-cloud-lightest:hover, .hover-cloud-lightest:focus {
+    color: var(--cloud-lightest);
+}
+
+.hover-cloud-light:hover, .hover-cloud-light:focus {
+    color: var(--cloud-light);
+}
+
+.hover-cloud:hover, .hover-cloud:focus {
+    color: var(--cloud);
+}
+
+.hover-cloud-dark:hover, .hover-cloud-dark:focus {
+    color: var(--cloud-dark);
+}
+
+.hover-cloud-darkest:hover, .hover-cloud-darkest:focus {
+    color: var(--cloud-darkest);
 }
 
 .hover-inherit:hover, .hover-inherit:focus {
@@ -451,8 +467,24 @@
     background-color: var(--jet-darkest);
 }
 
-.hover-bg-moon-gray:hover, .hover-bg-moon-gray:focus {
-    background-color: var(--moon-gray);
+.hover-bg-cloud-lightest:hover, .hover-bg-cloud-lightest:focus {
+    background-color: var(--cloud-lightest);
+}
+
+.hover-bg-cloud-light:hover, .hover-bg-cloud-light:focus {
+    background-color: var(--cloud-light);
+}
+
+.hover-bg-cloud:hover, .hover-bg-cloud:focus {
+    background-color: var(--cloud);
+}
+
+.hover-bg-cloud-dark:hover, .hover-bg-cloud-dark:focus {
+    background-color: var(--cloud-dark);
+}
+
+.hover-bg-cloud-darkest:hover, .hover-bg-cloud-darkest:focus {
+    background-color: var(--cloud-darkest);
 }
 
 .hover-bg-transparent:hover, .hover-bg-transparent:focus {
@@ -729,8 +761,24 @@
     fill: var(--jet-darkest);
 }
 
-.hover-fill-moon-gray:hover, .hover-fill-moon-gray:focus {
-    fill: var(--moon-gray);
+.hover-fill-cloud-lightest:hover, .hover-fill-cloud-lightest:focus {
+    fill: var(--cloud-lightest);
+}
+
+.hover-fill-cloud-light:hover, .hover-fill-cloud-light:focus {
+    fill: var(--cloud-light);
+}
+
+.hover-fill-cloud:hover, .hover-fill-cloud:focus {
+    fill: var(--cloud);
+}
+
+.hover-fill-cloud-dark:hover, .hover-fill-cloud-dark:focus {
+    fill: var(--cloud-dark);
+}
+
+.hover-fill-cloud-darkest:hover, .hover-fill-cloud-darkest:focus {
+    fill: var(--cloud-darkest);
 }
 
 .hover-fill-outlook:hover, .hover-fill-outlook:focus {

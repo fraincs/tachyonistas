@@ -73,6 +73,10 @@
     font-size: var(--type-scale-8);
 }
 
+.f9 {
+    font-size: var(--type-scale-9);
+}
+
 @media (--breakpoint-not-small) {
     .f-6-ns, .f-headline-ns {
         font-size: var(--type-scale-subheadline);
@@ -103,6 +107,9 @@
     }
     .f8-ns {
         font-size: var(--type-scale-8);
+    }
+    .f9-ns {
+        font-size: var(--type-scale-9);
     }
 }
 
@@ -137,6 +144,9 @@
     .f8-m {
         font-size: var(--type-scale-8);
     }
+    .f9-m {
+        font-size: var(--type-scale-9);
+    }
 }
 
 @media (--breakpoint-large) {
@@ -169,5 +179,8 @@
     }
     .f8-l {
         font-size: var(--type-scale-8);
+    }
+    .f9-l {
+        font-size: var(--type-scale-9);
     }
 }
