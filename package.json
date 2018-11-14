@@ -1,6 +1,6 @@
 {
   "name": "@sharegate/tachyons-sg",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Functional CSS for humans",
   "style": "css/tachyons.min.css",
   "main": "css/tachyons.css",
