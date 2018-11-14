@@ -285,23 +285,23 @@
 }
 
 .b--cloud-lightest {
-    border-color: var(--moon-gray);
+    border-color: var(--cloud-lightest);
 }
 
 .b--cloud-light {
-    border-color: var(--moon-gray);
+    border-color: var(--cloud-light);
 }
 
 .b--cloud {
-    border-color: var(--moon-gray);
+    border-color: var(--cloud);
 }
 
 .b--cloud-dark {
-    border-color: var(--moon-gray);
+    border-color: var(--cloud-dark);
 }
 
 .b--cloud-darkest {
-    border-color: var(--moon-gray);
+    border-color: var(--cloud-darkest);
 }
 
 .b--outlook {
