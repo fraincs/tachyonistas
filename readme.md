@@ -2,6 +2,8 @@
 
 Sharegate's take on Tachyons Css - the main differentiators being that you can easily override the default values of Tachyons by importing Css "config" files and a spacing scale based on 10. CSS Variables are not compiled by default, in order to do so please check the package.json file.
 
+Visual Cheat Sheet available [here](https://sharegate.github.io/tachyons-sg/)
+
 ## Getting started
 
 Docs can be found at [Tachyons](http://tachyons.io/docs)
