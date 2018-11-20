@@ -303,6 +303,10 @@
     color: var(--secondary);
 }
 
+.color-transparent {
+    color: transparent;
+}
+
 .color-inherit {
     color: inherit;
 }
@@ -599,6 +603,10 @@
     background-color: var(--secondary);
 }
 
+.bg-transparent {
+    background-color: var(--transparent);
+}
+
 .bg-inherit {
     background-color: inherit;
 }
@@ -815,6 +823,10 @@
 
 .fill-secondary {
     fill: var(--secondary);
+}
+
+.fill-transparent:hover, .fill:focus {
+    fill: var(--transparent);
 }
 
 .fill-inherit {

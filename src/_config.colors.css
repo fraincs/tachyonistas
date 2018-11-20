@@ -35,7 +35,7 @@
     /* Desktop */
     --desktop-lightest: #FFF7F2;
     --desktop-light: #F8B385;
-    --desktop: #F47422;
+    --desktop: #F47321;
     --desktop-dark: #DC681F;
     --desktop-darkest: #C35D1B;
     /* Sunray */
@@ -88,4 +88,5 @@
     /* References */
     --primary: var(--apricot);
     --secondary: var(--marine);
+    --transparent: transparent;
 }
