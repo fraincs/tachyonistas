@@ -8,6 +8,9 @@
     "css",
     "src"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": "sharegate/tachyons-sg",
   "keywords": [
     "css",
@@ -46,6 +49,8 @@
     "build:transpile": "npm run build:transpile:css && npm run build:transpile:minify",
     "build:transpile:css": "tachyons src/tachyons.css > css/tachyons.css",
     "build:transpile:minify": "tachyons src/tachyons.css --minify > css/tachyons.min.css",
-    "build:transpile:watch": "watch \"npm run build:transpile\" ./src/"
+    "build:transpile:watch": "watch \"npm run build:transpile\" ./src/",
+    "version": "npm run build && git add -A && git commit -m \"Bump package version\"",
+    "postversion": "git push && git push --tags && npm publish"
   }
 }
