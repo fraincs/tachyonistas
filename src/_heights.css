@@ -80,6 +80,18 @@
     height: var(--scale-juliett);
 }
 
+.h11 {
+    height: var(--scale-kilo);
+}
+
+.h12 {
+    height: var(--scale-lima);
+}
+
+.h13 {
+    height: var(--scale-mike);
+}
+
 /* Height Percentages - Based off of height of parent */
 
 .h-25 {
@@ -165,6 +177,15 @@
     .h10-ns {
         height: var(--scale-juliett);
     }
+    .h11-ns {
+        height: var(--scale-kilo);
+    }
+    .h12-ns {
+        height: var(--scale-lima);
+    }
+    .h13-ns {
+        height: var(--scale-mike);
+    }
     .h-25-ns {
         height: 25%;
     }
@@ -234,6 +255,15 @@
     .h10-m {
         height: var(--scale-juliett);
     }
+    .h11-m {
+        height: var(--scale-kilo);
+    }
+    .h12-m {
+        height: var(--scale-lima);
+    }
+    .h13-m {
+        height: var(--scale-mike);
+    }
     .h-25-m {
         height: 25%;
     }
@@ -302,6 +332,15 @@
     }
     .h10-l {
         height: var(--scale-juliett);
+    }
+    .h11-l {
+        height: var(--scale-kilo);
+    }
+    .h12-l {
+        height: var(--scale-lima);
+    }
+    .h13-l {
+        height: var(--scale-mike);
     }
     .h-25-l {
         height: 25%;
