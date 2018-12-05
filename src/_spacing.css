@@ -254,15 +254,15 @@
 }
 
 .pb11 {
-    padding-right: var(--scale-kilo);
+    padding-bottom: var(--scale-kilo);
 }
 
 .pb12 {
-    padding-right: var(--scale-lima);
+    padding-bottom: var(--scale-lima);
 }
 
 .pb13 {
-    padding-right: var(--scale-mike);
+    padding-bottom: var(--scale-mike);
 }
 
 .pt0 {

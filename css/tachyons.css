@@ -1629,9 +1629,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .pb8 { padding-bottom: var( --scale-hotel ); }
 .pb9 { padding-bottom: var( --scale-india ); }
 .pb10 { padding-bottom: var( --scale-juliett ); }
-.pb11 { padding-right: var( --scale-kilo ); }
-.pb12 { padding-right: var( --scale-lima ); }
-.pb13 { padding-right: var( --scale-mike ); }
+.pb11 { padding-bottom: var( --scale-kilo ); }
+.pb12 { padding-bottom: var( --scale-lima ); }
+.pb13 { padding-bottom: var( --scale-mike ); }
 .pt0 { padding-top: 0; }
 .pt1 { padding-top: var( --scale-alpha ); }
 .pt2 { padding-top: var( --scale-bravo ); }
