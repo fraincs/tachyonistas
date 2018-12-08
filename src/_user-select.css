@@ -1,0 +1,32 @@
+/*
+
+   USER SELECT
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+
+.user-select {
+    user-select: none;
+}
+
+@media (--breakpoint-not-small) {
+    .user-select-ns {
+        user-select: none;
+    }
+}
+
+@media (--breakpoint-medium) {
+    .user-select-m {
+        user-select: none;
+    }
+}
+
+@media (--breakpoint-large) {
+    .user-select-l {
+        user-select: none;
+    }
+}

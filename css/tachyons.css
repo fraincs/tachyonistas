@@ -2008,6 +2008,17 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .truncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 /*
 
+   USER SELECT
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+.user-select { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+/*
+
    UTILITIES
 
    Media Query Extensions:
@@ -2811,6 +2822,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .indent-ns { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
  .small-caps-ns { font-variant: small-caps; }
  .truncate-ns { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+ .user-select-ns { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
  .center-ns { margin-right: auto; margin-left: auto; }
  .mr-auto-ns { margin-right: auto; }
  .ml-auto-ns { margin-left: auto; }
@@ -3366,6 +3378,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .indent-m { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
  .small-caps-m { font-variant: small-caps; }
  .truncate-m { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+ .user-select-m { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
  .center-m { margin-right: auto; margin-left: auto; }
  .mr-auto-m { margin-right: auto; }
  .ml-auto-m { margin-left: auto; }
@@ -3921,6 +3934,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .indent-l { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
  .small-caps-l { font-variant: small-caps; }
  .truncate-l { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+ .user-select-l { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
  .center-l { margin-right: auto; margin-left: auto; }
  .mr-auto-l { margin-right: auto; }
  .ml-auto-l { margin-left: auto; }

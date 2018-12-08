@@ -1,56 +1,56 @@
 {
-  "name": "@sharegate/tachyons-sg",
-  "version": "1.3.6",
-  "description": "Functional CSS for humans",
-  "style": "css/tachyons.min.css",
-  "main": "css/tachyons.css",
-  "files": [
-    "css",
-    "src"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": "sharegate/tachyons-sg",
-  "keywords": [
-    "css",
-    "oocss",
-    "postcss",
-    "functional css",
-    "design",
-    "responsive",
-    "performance"
-  ],
-  "license": "Apache-2.0",
-  "devDependencies": {
-    "copy-files": "^0.1.0",
-    "cpx": "^1.5.0",
-    "immutable-css-cli": "^1.1.1",
-    "normalize.css": "^8.0.0",
-    "tachyons-cli": "^1.3.2",
-    "tachyons-modules": "^1.1.10",
-    "watch": "^1.0.2"
-  },
-  "contributors": [
-    {
-      "name": "Francis Thibault",
-      "email": "francisthibault@gmail.com"
+    "name": "@sharegate/tachyons-sg",
+    "version": "1.3.7",
+    "description": "Functional CSS for humans",
+    "style": "css/tachyons.min.css",
+    "main": "css/tachyons.css",
+    "files": [
+        "css",
+        "src"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": "sharegate/tachyons-sg",
+    "keywords": [
+        "css",
+        "oocss",
+        "postcss",
+        "functional css",
+        "design",
+        "responsive",
+        "performance"
+    ],
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "copy-files": "^0.1.0",
+        "cpx": "^1.5.0",
+        "immutable-css-cli": "^1.1.1",
+        "normalize.css": "^8.0.0",
+        "tachyons-cli": "^1.3.2",
+        "tachyons-modules": "^1.1.10",
+        "watch": "^1.0.2"
+    },
+    "contributors": [
+        {
+            "name": "Francis Thibault",
+            "email": "francisthibault@gmail.com"
+        }
+    ],
+    "scripts": {
+        "start": "npm run build:watch",
+        "start:transpile": "npm run build:transpile:watch",
+        "mutations": "immutable-css src/tachyons.css --strict",
+        "move:doc": "cpx css/tachyons.min.css docs",
+        "build": "npm run build:css && npm run build:minify && npm run move:doc",
+        "build:css": "tachyons src/tachyons.css --preserve-variables > css/tachyons.css",
+        "build:minify": "tachyons src/tachyons.css --minify --preserve-variables > css/tachyons.min.css",
+        "build:watch": "watch \"npm run build\" ./src/",
+        "build:transpile": "npm run build:transpile:css && npm run build:transpile:minify",
+        "build:transpile:css": "tachyons src/tachyons.css > css/tachyons.css",
+        "build:transpile:minify": "tachyons src/tachyons.css --minify > css/tachyons.min.css",
+        "build:transpile:watch": "watch \"npm run build:transpile\" ./src/",
+        "version": "npm run build && git add -A && git commit -m \"Bump package version\"",
+        "postversion": "git push && git push --tags && npm publish"
     }
-  ],
-  "scripts": {
-    "start": "npm run build:watch",
-    "start:transpile": "npm run build:transpile:watch",
-    "mutations": "immutable-css src/tachyons.css --strict",
-    "move:doc": "cpx css/tachyons.min.css docs",
-    "build": "npm run build:css && npm run build:minify && npm run move:doc",
-    "build:css": "tachyons src/tachyons.css --preserve-variables > css/tachyons.css",
-    "build:minify": "tachyons src/tachyons.css --minify --preserve-variables > css/tachyons.min.css",
-    "build:watch": "watch \"npm run build\" ./src/",
-    "build:transpile": "npm run build:transpile:css && npm run build:transpile:minify",
-    "build:transpile:css": "tachyons src/tachyons.css > css/tachyons.css",
-    "build:transpile:minify": "tachyons src/tachyons.css --minify > css/tachyons.min.css",
-    "build:transpile:watch": "watch \"npm run build:transpile\" ./src/",
-    "version": "npm run build && git add -A && git commit -m \"Bump package version\"",
-    "postversion": "git push && git push --tags && npm publish"
-  }
 }
