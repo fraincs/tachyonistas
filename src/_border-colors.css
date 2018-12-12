@@ -334,6 +334,22 @@
     border-color: var(--primary);
 }
 
+.b--primary-dark {
+    border-color: var(--primary-dark);
+}
+
+.b--primary-darkest {
+    border-color: var(--primary-darkest);
+}
+
+.b--primary-light {
+    border-color: var(--primary-light);
+}
+
+.b--primary-lightest {
+    border-color: var(--primary-lightest);
+}
+
 .b--secondary {
     border-color: var(--secondary);
 }

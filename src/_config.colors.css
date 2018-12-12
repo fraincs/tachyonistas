@@ -87,6 +87,10 @@
     --planner: #33763a;
     /* References */
     --primary: var(--apricot);
+    --primary-dark: var(--apricot-dark);
+    --primary-darkest: var(--apricot-darkest);
+    --primary-light: var(--apricot-light);
+    --primary-lightest: var(--apricot-lightest);
     --secondary: var(--marine);
     --transparent: transparent;
 }
