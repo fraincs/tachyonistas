@@ -295,16 +295,16 @@
     color: var(--planner);
 }
 
-.primary {
-    color: var(--primary);
+.primary-darkest {
+    color: var(--primary-darkest);
 }
 
 .primary-dark {
     color: var(--primary-dark);
 }
 
-.primary-darkest {
-    color: var(--primary-darkest);
+.primary {
+    color: var(--primary);
 }
 
 .primary-light {
