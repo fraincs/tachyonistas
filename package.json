@@ -52,7 +52,7 @@
         "build:transpile:css": "tachyons src/tachyons.css > css/tachyons.css",
         "build:transpile:minify": "tachyons src/tachyons.css --minify > css/tachyons.min.css",
         "build:transpile:watch": "watch \"npm run build:transpile\" ./src/",
-        "version": "npm run build && node tasks/post-build.js && git add -A && git commit -m \"Bump package version\"",
-        "postversion": "git push && git push --tags && cd publish && npm publish"
+        "version": "npm run build && node tasks/post-build.js && git add -A && git commit -m 'Bump package version'",
+        "postversion": "git push origin master && git push origin master --tags && cd publish && npm publish"
     }
 }

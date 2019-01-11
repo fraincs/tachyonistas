@@ -287,6 +287,10 @@
     color: var(--planner);
 }
 
+.hover-one-drive:hover, .hover-one-drive:focus {
+    color: var(--one-drive);
+}
+
 .hover-primary-darkest:hover, .hover-primary-darkest:focus {
     color: var(--primary-darkest);
 }
@@ -619,6 +623,10 @@
     background-color: var(--planner);
 }
 
+.hover-bg-one-drive:hover, .hover-bg-one-drive:focus {
+    background-color: var(--one-drive);
+}
+
 .hover-bg-inherit:hover, .hover-bg-inherit:focus {
     background-color: inherit;
 }
@@ -827,6 +835,10 @@
 
 .hover-fill-planner:hover, .hover-fill-planner:focus {
     fill: var(--planner);
+}
+
+.hover-fill-one-drive:hover, .hover-fill-one-drive:focus {
+    fill: var(--one-drive);
 }
 
 .hover-fill-primary-darkest:hover, .hover-fill-primary-darkest:focus {

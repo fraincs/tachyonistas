@@ -295,6 +295,10 @@
     color: var(--planner);
 }
 
+.one-drive {
+    color: var(--one-drive);
+}
+
 .primary-darkest {
     color: var(--primary-darkest);
 }
@@ -611,6 +615,10 @@
     background-color: var(--planner);
 }
 
+.bg-one-drive {
+    background-color: var(--one-drive);
+}
+
 .bg-primary {
     background-color: var(--primary);
 }
@@ -847,6 +855,10 @@
 
 .fill-planner {
     fill: var(--planner);
+}
+
+.fill-one-drive {
+    fill: var(--one-drive);
 }
 
 .fill-primary {

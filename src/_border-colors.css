@@ -320,6 +320,10 @@
     border-color: var(--planner);
 }
 
+.b--one-drive {
+    border-color: var(--one-drive);
+}
+
 .b--transparent {
     border-color: var(--transparent);
 }

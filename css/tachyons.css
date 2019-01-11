@@ -411,6 +411,7 @@ img { max-width: 100%; }
 .b--sharepoint { border-color: var( --sharepoint ); }
 .b--teams { border-color: var( --teams ); }
 .b--planner { border-color: var( --planner ); }
+.b--one-drive { border-color: var( --one-drive ); }
 .b--transparent { border-color: var( --transparent ); }
 .b--inherit { border-color: inherit; }
 /* Allows to reference a primary and secondary color */
@@ -1192,6 +1193,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .sharepoint { color: var( --sharepoint ); }
 .teams { color: var( --teams ); }
 .planner { color: var( --planner ); }
+.one-drive { color: var( --one-drive ); }
 .primary-darkest { color: var( --primary-darkest ); }
 .primary-dark { color: var( --primary-dark ); }
 .primary { color: var( --primary ); }
@@ -1272,6 +1274,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-sharepoint { background-color: var( --sharepoint ); }
 .bg-teams { background-color: var( --teams ); }
 .bg-planner { background-color: var( --planner ); }
+.bg-one-drive { background-color: var( --one-drive ); }
 .bg-primary { background-color: var( --primary ); }
 .bg-primary-dark { background-color: var( --primary-dark ); }
 .bg-primary-darkest { background-color: var( --primary-darkest ); }
@@ -1332,6 +1335,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .fill-sharepoint { fill: var( --sharepoint ); }
 .fill-teams { fill: var( --teams ); }
 .fill-planner { fill: var( --planner ); }
+.fill-one-drive { fill: var( --one-drive ); }
 .fill-primary { fill: var( --primary ); }
 .fill-primary-dark { fill: var( --primary-dark ); }
 .fill-primary-darkest { fill: var( --primary-darkest ); }
@@ -1419,6 +1423,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-sharepoint:hover, .hover-sharepoint:focus { color: var( --sharepoint ); }
 .hover-teams:hover, .hover-teams:focus { color: var( --teams ); }
 .hover-planner:hover, .hover-planner:focus { color: var( --planner ); }
+.hover-one-drive:hover, .hover-one-drive:focus { color: var( --one-drive ); }
 .hover-primary-darkest:hover, .hover-primary-darkest:focus { color: var( --primary-darkest ); }
 .hover-primary-dark:hover, .hover-primary-dark:focus { color: var( --primary-dark ); }
 .hover-primary:hover, .hover-primary:focus { color: var( --primary ); }
@@ -1502,6 +1507,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-bg-sharepoint:hover, .hover-bg-sharepoint:focus { background-color: var( --sharepoint ); }
 .hover-bg-teams:hover, .hover-bg-teams:focus { background-color: var( --teams ); }
 .hover-bg-planner:hover, .hover-bg-planner:focus { background-color: var( --planner ); }
+.hover-bg-one-drive:hover, .hover-bg-one-drive:focus { background-color: var( --one-drive ); }
 .hover-bg-inherit:hover, .hover-bg-inherit:focus { background-color: inherit; }
 /* Hover fill */
 .hover-fill-black:hover, .hover-fill-black:focus { fill: var( --black ); }
@@ -1555,6 +1561,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-fill-sharepoint:hover, .hover-fill-sharepoint:focus { fill: var( --sharepoint ); }
 .hover-fill-teams:hover, .hover-fill-teams:focus { fill: var( --teams ); }
 .hover-fill-planner:hover, .hover-fill-planner:focus { fill: var( --planner ); }
+.hover-fill-one-drive:hover, .hover-fill-one-drive:focus { fill: var( --one-drive ); }
 .hover-fill-primary-darkest:hover, .hover-fill-primary-darkest:focus { fill: var( --primary-darkest ); }
 .hover-fill-primary-dark:hover, .hover-fill-primary-dark:focus { fill: var( --primary-dark ); }
 .hover-fill-primary:hover, .hover-fill-primary:focus { fill: var( --primary ); }
@@ -2243,7 +2250,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 */
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
-:root { --black: #000; --white: #fff; --transparent: transparent; --black-90: rgba( 0, 0, 0, .9 ); --black-80: rgba( 0, 0, 0, .8 ); --black-70: rgba( 0, 0, 0, .7 ); --black-60: rgba( 0, 0, 0, .6 ); --black-50: rgba( 0, 0, 0, .5 ); --black-40: rgba( 0, 0, 0, .4 ); --black-30: rgba( 0, 0, 0, .3 ); --black-20: rgba( 0, 0, 0, .2 ); --black-10: rgba( 0, 0, 0, .1 ); --black-05: rgba( 0, 0, 0, .05 ); --black-025: rgba( 0, 0, 0, .025 ); --black-0125: rgba( 0, 0, 0, .0125 ); --white-90: rgba( 255, 255, 255, .9 ); --white-80: rgba( 255, 255, 255, .8 ); --white-70: rgba( 255, 255, 255, .7 ); --white-60: rgba( 255, 255, 255, .6 ); --white-50: rgba( 255, 255, 255, .5 ); --white-40: rgba( 255, 255, 255, .4 ); --white-30: rgba( 255, 255, 255, .3 ); --white-20: rgba( 255, 255, 255, .2 ); --white-10: rgba( 255, 255, 255, .1 ); --white-05: rgba( 255, 255, 255, .05 ); --white-025: rgba( 255, 255, 255, .025 ); --white-0125: rgba( 255, 255, 255, .0125 ); /* Marine Blue */ --marine-lightest: #6e778b; --marine-light: #263350; --marine: #0e1c3d; --marine-dark: #0a142b; --marine-darkest: #040914; /* Desktop */ --desktop-lightest: #fff7f2; --desktop-light: #f8b385; --desktop: #f47321; --desktop-dark: #dc681f; --desktop-darkest: #c35d1b; /* Sunray */ --sunray-lightest: #fef1d7; --sunray-light: #fdcd72; --sunray: #fcb736; --sunray-dark: #e3a531; --sunray-darkest: #ca922b; /* Apricot */ --apricot-lightest: #eafaf8; --apricot-light: #98e8de; --apricot: #30d1bd; --apricot-dark: #2bbcaa; --apricot-darkest: #26a797; /* Eggplant */ --eggplant-lightest: #ddd7dc; --eggplant-light: #9c8897; --eggplant: #5a3951; --eggplant-dark: #513349; --eggplant-darkest: #3f2839; /* Overcast */ --overcast-lightest: #fafcff; --overcast-light: #a6d5ff; --overcast: #2096ff; --overcast-dark: #135999; --overcast-darkest: #0d3c66; /* Moonstone */ --moonstone-lightest: #f1f8f8; --moonstone-light: #c8e2e1; --moonstone: #76b6b5; --moonstone-dark: #5e9291; --moonstone-darkest: #476d6d; /* Jet */ --jet-lightest: #f6f7f8; --jet-light: #85858a; --jet: #34343c; --jet-dark: #24242a; --jet-darkest: var( --black ); /* Cloud */ --cloud-lightest: #f5f7f8; --cloud-light: #edf0f2; --cloud: #d4d6db; --cloud-dark: #a8afbd; --cloud-darkest: #828a9e; /* Vendors */ --outlook: #2873ba; --sharepoint: #2873ba; --teams: #575aa7; --planner: #33763a; /* References */ --primary: var( --apricot ); --primary-dark: var( --apricot-dark ); --primary-darkest: var( --apricot-darkest ); --primary-light: var( --apricot-light ); --primary-lightest: var( --apricot-lightest ); --secondary: var( --marine ); --transparent: transparent; }
+:root { --black: #000; --white: #fff; --transparent: transparent; --black-90: rgba( 0, 0, 0, .9 ); --black-80: rgba( 0, 0, 0, .8 ); --black-70: rgba( 0, 0, 0, .7 ); --black-60: rgba( 0, 0, 0, .6 ); --black-50: rgba( 0, 0, 0, .5 ); --black-40: rgba( 0, 0, 0, .4 ); --black-30: rgba( 0, 0, 0, .3 ); --black-20: rgba( 0, 0, 0, .2 ); --black-10: rgba( 0, 0, 0, .1 ); --black-05: rgba( 0, 0, 0, .05 ); --black-025: rgba( 0, 0, 0, .025 ); --black-0125: rgba( 0, 0, 0, .0125 ); --white-90: rgba( 255, 255, 255, .9 ); --white-80: rgba( 255, 255, 255, .8 ); --white-70: rgba( 255, 255, 255, .7 ); --white-60: rgba( 255, 255, 255, .6 ); --white-50: rgba( 255, 255, 255, .5 ); --white-40: rgba( 255, 255, 255, .4 ); --white-30: rgba( 255, 255, 255, .3 ); --white-20: rgba( 255, 255, 255, .2 ); --white-10: rgba( 255, 255, 255, .1 ); --white-05: rgba( 255, 255, 255, .05 ); --white-025: rgba( 255, 255, 255, .025 ); --white-0125: rgba( 255, 255, 255, .0125 ); /* Marine Blue */ --marine-lightest: #6e778b; --marine-light: #263350; --marine: #0e1c3d; --marine-dark: #0a142b; --marine-darkest: #040914; /* Desktop */ --desktop-lightest: #fff7f2; --desktop-light: #f8b385; --desktop: #f47321; --desktop-dark: #dc681f; --desktop-darkest: #c35d1b; /* Sunray */ --sunray-lightest: #fef1d7; --sunray-light: #fdcd72; --sunray: #fcb736; --sunray-dark: #e3a531; --sunray-darkest: #ca922b; /* Apricot */ --apricot-lightest: #eafaf8; --apricot-light: #98e8de; --apricot: #30d1bd; --apricot-dark: #2bbcaa; --apricot-darkest: #26a797; /* Eggplant */ --eggplant-lightest: #ddd7dc; --eggplant-light: #9c8897; --eggplant: #5a3951; --eggplant-dark: #513349; --eggplant-darkest: #3f2839; /* Overcast */ --overcast-lightest: #fafcff; --overcast-light: #a6d5ff; --overcast: #2096ff; --overcast-dark: #135999; --overcast-darkest: #0d3c66; /* Moonstone */ --moonstone-lightest: #f1f8f8; --moonstone-light: #c8e2e1; --moonstone: #76b6b5; --moonstone-dark: #5e9291; --moonstone-darkest: #476d6d; /* Jet */ --jet-lightest: #f6f7f8; --jet-light: #85858a; --jet: #34343c; --jet-dark: #24242a; --jet-darkest: var( --black ); /* Cloud */ --cloud-lightest: #f5f7f8; --cloud-light: #edf0f2; --cloud: #d4d6db; --cloud-dark: #a8afbd; --cloud-darkest: #828a9e; /* Vendors */ --outlook: #2873ba; --sharepoint: #2873ba; --teams: #575aa7; --planner: #33763a; --one-drive: #0045f5; /* References */ --primary: var( --apricot ); --primary-dark: var( --apricot-dark ); --primary-darkest: var( --apricot-darkest ); --primary-light: var( --apricot-light ); --primary-lightest: var( --apricot-lightest ); --secondary: var( --marine ); --transparent: transparent; }
 /*
 
   CUSTOM MEDIA QUERIES
