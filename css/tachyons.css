@@ -407,6 +407,31 @@ img { max-width: 100%; }
 .b--cloud { border-color: var( --cloud ); }
 .b--cloud-dark { border-color: var( --cloud-dark ); }
 .b--cloud-darkest { border-color: var( --cloud-darkest ); }
+.b--prune-lightest { border-color: var( --prune-lightest ); }
+.b--prune-light { border-color: var( --prune-light ); }
+.b--prune { border-color: var( --prune ); }
+.b--prune-dark { border-color: var( --prune-dark ); }
+.b--prune-darkest { border-color: var( --prune-darkest ); }
+.b--blueberry-lightest { border-color: var( --blueberry-lightest ); }
+.b--blueberry-light { border-color: var( --blueberry-light ); }
+.b--blueberry { border-color: var( --blueberry ); }
+.b--blueberry-dark { border-color: var( --blueberry-dark ); }
+.b--blueberry-darkest { border-color: var( --blueberry-darkest ); }
+.b--cherry-lightest { border-color: var( --cherry-lightest ); }
+.b--cherry-light { border-color: var( --cherry-light ); }
+.b--cherry { border-color: var( --cherry ); }
+.b--cherry-dark { border-color: var( --cherry-dark ); }
+.b--cherry-darkest { border-color: var( --cherry-darkest ); }
+.b--warning-lightest { border-color: var( --warning-lightest ); }
+.b--warning-light { border-color: var( --warning-light ); }
+.b--warning { border-color: var( --warning ); }
+.b--warning-dark { border-color: var( --warning-dark ); }
+.b--warning-darkest { border-color: var( --warning-darkest ); }
+.b--success-lightest { border-color: var( --success-lightest ); }
+.b--success-light { border-color: var( --success-light ); }
+.b--success { border-color: var( --success ); }
+.b--success-dark { border-color: var( --success-dark ); }
+.b--success-darkest { border-color: var( --success-darkest ); }
 .b--outlook { border-color: var( --outlook ); }
 .b--sharepoint { border-color: var( --sharepoint ); }
 .b--teams { border-color: var( --teams ); }
@@ -1189,6 +1214,31 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .cloud { color: var( --cloud ); }
 .cloud-dark { color: var( --cloud-dark ); }
 .cloud-darkest { color: var( --cloud-darkest ); }
+.prune-lightest { color: var( --prune-lightest ); }
+.prune-light { color: var( --prune-light ); }
+.prune { color: var( --prune ); }
+.prune-dark { color: var( --prune-dark ); }
+.prune-darkest { color: var( --prune-darkest ); }
+.blueberry-lightest { color: var( --blueberry-lightest ); }
+.blueberry-light { color: var( --blueberry-light ); }
+.blueberry { color: var( --blueberry ); }
+.blueberry-dark { color: var( --blueberry-dark ); }
+.blueberry-darkest { color: var( --blueberry-darkest ); }
+.cherry-lightest { color: var( --cherry-lightest ); }
+.cherry-light { color: var( --cherry-light ); }
+.cherry { color: var( --cherry ); }
+.cherry-dark { color: var( --cherry-dark ); }
+.cherry-darkest { color: var( --cherry-darkest ); }
+.warning-lightest { color: var( --warning-lightest ); }
+.warning-light { color: var( --warning-light ); }
+.warning { color: var( --warning ); }
+.warning-dark { color: var( --warning-dark ); }
+.warning-darkest { color: var( --warning-darkest ); }
+.success-lightest { color: var( --success-lightest ); }
+.success-light { color: var( --success-light ); }
+.success { color: var( --success ); }
+.success-dark { color: var( --success-dark ); }
+.success-darkest { color: var( --success-darkest ); }
 .outlook { color: var( --outlook ); }
 .sharepoint { color: var( --sharepoint ); }
 .teams { color: var( --teams ); }
@@ -1269,6 +1319,31 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-cloud { background-color: var( --cloud ); }
 .bg-cloud-dark { background-color: var( --cloud-dark ); }
 .bg-cloud-darkest { background-color: var( --cloud-darkest ); }
+.bg-prune-lightest { background-color: var( --prune-lightest ); }
+.bg-prune-light { background-color: var( --prune-light ); }
+.bg-prune { background-color: var( --prune ); }
+.bg-prune-dark { background-color: var( --prune-dark ); }
+.bg-prune-darkest { background-color: var( --prune-darkest ); }
+.bg-blueberry-lightest { background-color: var( --blueberry-lightest ); }
+.bg-blueberry-light { background-color: var( --blueberry-light ); }
+.bg-blueberry { background-color: var( --blueberry ); }
+.bg-blueberry-dark { background-color: var( --blueberry-dark ); }
+.bg-blueberry-darkest { background-color: var( --blueberry-darkest ); }
+.bg-cherry-lightest { background-color: var( --cherry-lightest ); }
+.bg-cherry-light { background-color: var( --cherry-light ); }
+.bg-cherry { background-color: var( --cherry ); }
+.bg-cherry-dark { background-color: var( --cherry-dark ); }
+.bg-cherry-darkest { background-color: var( --cherry-darkest ); }
+.bg-warning-lightest { background-color: var( --warning-lightest ); }
+.bg-warning-light { background-color: var( --warning-light ); }
+.bg-warning { background-color: var( --warning ); }
+.bg-warning-dark { background-color: var( --warning-dark ); }
+.bg-warning-darkest { background-color: var( --warning-darkest ); }
+.bg-success-lightest { background-color: var( --success-lightest ); }
+.bg-success-light { background-color: var( --success-light ); }
+.bg-success { background-color: var( --success ); }
+.bg-success-dark { background-color: var( --success-dark ); }
+.bg-success-darkest { background-color: var( --success-darkest ); }
 /* Vendors colors */
 .bg-outlook { background-color: var( --outlook ); }
 .bg-sharepoint { background-color: var( --sharepoint ); }
@@ -1331,6 +1406,31 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .fill-cloud { fill: var( --cloud ); }
 .fill-cloud-dark { fill: var( --cloud-dark ); }
 .fill-cloud-darkest { fill: var( --cloud-darkest ); }
+.fill-prune-lightest { fill: var( --prune-lightest ); }
+.fill-prune-light { fill: var( --prune-light ); }
+.fill-prune { fill: var( --prune ); }
+.fill-prune-dark { fill: var( --prune-dark ); }
+.fill-prune-darkest { fill: var( --prune-darkest ); }
+.fill-blueberry-lightest { fill: var( --blueberry-lightest ); }
+.fill-blueberry-light { fill: var( --blueberry-light ); }
+.fill-blueberry { fill: var( --blueberry ); }
+.fill-blueberry-dark { fill: var( --blueberry-dark ); }
+.fill-blueberry-darkest { fill: var( --blueberry-darkest ); }
+.fill-cherry-lightest { fill: var( --cherry-lightest ); }
+.fill-cherry-light { fill: var( --cherry-light ); }
+.fill-cherry { fill: var( --cherry ); }
+.fill-cherry-dark { fill: var( --cherry-dark ); }
+.fill-cherry-darkest { fill: var( --cherry-darkest ); }
+.fill-warning-lightest { fill: var( --warning-lightest ); }
+.fill-warning-light { fill: var( --warning-light ); }
+.fill-warning { fill: var( --warning ); }
+.fill-warning-dark { fill: var( --warning-dark ); }
+.fill-warning-darkest { fill: var( --warning-darkest ); }
+.fill-success-lightest { fill: var( --success-lightest ); }
+.fill-success-light { fill: var( --success-light ); }
+.fill-success { fill: var( --success ); }
+.fill-success-dark { fill: var( --success-dark ); }
+.fill-success-darkest { fill: var( --success-darkest ); }
 .fill-outlook { fill: var( --outlook ); }
 .fill-sharepoint { fill: var( --sharepoint ); }
 .fill-teams { fill: var( --teams ); }
@@ -1418,6 +1518,31 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-cloud:hover, .hover-cloud:focus { color: var( --cloud ); }
 .hover-cloud-dark:hover, .hover-cloud-dark:focus { color: var( --cloud-dark ); }
 .hover-cloud-darkest:hover, .hover-cloud-darkest:focus { color: var( --cloud-darkest ); }
+.hover-prune-lightest:hover, .hover-prune-lightest:focus { color: var( --prune-lightest ); }
+.hover-prune-light:hover, .hover-prune-light:focus { color: var( --prune-light ); }
+.hover-prune:hover, .hover-prune:focus { color: var( --prune ); }
+.hover-prune-dark:hover, .hover-prune-dark:focus { color: var( --prune-dark ); }
+.hover-prune-darkest:hover, .hover-prune-darkest:focus { color: var( --prune-darkest ); }
+.hover-blueberry-lightest:hover, .hover-blueberry-lightest:focus { color: var( --blueberry-lightest ); }
+.hover-blueberry-light:hover, .hover-blueberry-light:focus { color: var( --blueberry-light ); }
+.hover-blueberry:hover, .hover-blueberry:focus { color: var( --blueberry ); }
+.hover-blueberry-dark:hover, .hover-blueberry-dark:focus { color: var( --blueberry-dark ); }
+.hover-blueberry-darkest:hover, .hover-blueberry-darkest:focus { color: var( --blueberry-darkest ); }
+.hover-cherry-lightest:hover, .hover-cherry-lightest:focus { color: var( --cherry-lightest ); }
+.hover-cherry-light:hover, .hover-cherry-light:focus { color: var( --cherry-light ); }
+.hover-cherry:hover, .hover-cherry:focus { color: var( --cherry ); }
+.hover-cherry-dark:hover, .hover-cherry-dark:focus { color: var( --cherry-dark ); }
+.hover-cherry-darkest:hover, .hover-cherry-darkest:focus { color: var( --cherry-darkest ); }
+.hover-warning-lightest:hover, .hover-warning-lightest:focus { color: var( --warning-lightest ); }
+.hover-warning-light:hover, .hover-warning-light:focus { color: var( --warning-light ); }
+.hover-warning:hover, .hover-warning:focus { color: var( --warning ); }
+.hover-warning-dark:hover, .hover-warning-dark:focus { color: var( --warning-dark ); }
+.hover-warning-darkest:hover, .hover-warning-darkest:focus { color: var( --warning-darkest ); }
+.hover-success-lightest:hover, .hover-success-lightest:focus { color: var( --success-lightest ); }
+.hover-success-light:hover, .hover-success-light:focus { color: var( --success-light ); }
+.hover-success:hover, .hover-success:focus { color: var( --success ); }
+.hover-success-dark:hover, .hover-success-dark:focus { color: var( --success-dark ); }
+.hover-success-darkest:hover, .hover-success-darkest:focus { color: var( --success-darkest ); }
 .hover-inherit:hover, .hover-inherit:focus { color: inherit; }
 .hover-outlook:hover, .hover-outlook:focus { color: var( --outlook ); }
 .hover-sharepoint:hover, .hover-sharepoint:focus { color: var( --sharepoint ); }
@@ -1478,6 +1603,31 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-bg-cloud:hover, .hover-bg-cloud:focus { background-color: var( --cloud ); }
 .hover-bg-cloud-dark:hover, .hover-bg-cloud-dark:focus { background-color: var( --cloud-dark ); }
 .hover-bg-cloud-darkest:hover, .hover-bg-cloud-darkest:focus { background-color: var( --cloud-darkest ); }
+.hover-bg-prune-lightest:hover, .hover-bg-prune-lightest:focus { background-color: var( --prune-lightest ); }
+.hover-bg-prune-light:hover, .hover-bg-prune-light:focus { background-color: var( --prune-light ); }
+.hover-bg-prune:hover, .hover-bg-prune:focus { background-color: var( --prune ); }
+.hover-bg-prune-dark:hover, .hover-bg-prune-dark:focus { background-color: var( --prune-dark ); }
+.hover-bg-prune-darkest:hover, .hover-bg-prune-darkest:focus { background-color: var( --prune-darkest ); }
+.hover-bg-blueberry-lightest:hover, .hover-bg-blueberry-lightest:focus { background-color: var( --blueberry-lightest ); }
+.hover-bg-blueberry-light:hover, .hover-bg-blueberry-light:focus { background-color: var( --blueberry-light ); }
+.hover-bg-blueberry:hover, .hover-bg-blueberry:focus { background-color: var( --blueberry ); }
+.hover-bg-blueberry-dark:hover, .hover-bg-blueberry-dark:focus { background-color: var( --blueberry-dark ); }
+.hover-bg-blueberry-darkest:hover, .hover-bg-blueberry-darkest:focus { background-color: var( --blueberry-darkest ); }
+.hover-bg-cherry-lightest:hover, .hover-bg-cherry-lightest:focus { background-color: var( --cherry-lightest ); }
+.hover-bg-cherry-light:hover, .hover-bg-cherry-light:focus { background-color: var( --cherry-light ); }
+.hover-bg-cherry:hover, .hover-bg-cherry:focus { background-color: var( --cherry ); }
+.hover-bg-cherry-dark:hover, .hover-bg-cherry-dark:focus { background-color: var( --cherry-dark ); }
+.hover-bg-cherry-darkest:hover, .hover-bg-cherry-darkest:focus { background-color: var( --cherry-darkest ); }
+.hover-bg-warning-lightest:hover, .hover-bg-warning-lightest:focus { background-color: var( --warning-lightest ); }
+.hover-bg-warning-light:hover, .hover-bg-warning-light:focus { background-color: var( --warning-light ); }
+.hover-bg-warning:hover, .hover-bg-warning:focus { background-color: var( --warning ); }
+.hover-bg-warning-dark:hover, .hover-bg-warning-dark:focus { background-color: var( --warning-dark ); }
+.hover-bg-warning-darkest:hover, .hover-bg-warning-darkest:focus { background-color: var( --warning-darkest ); }
+.hover-bg-success-lightest:hover, .hover-bg-success-lightest:focus { background-color: var( --success-lightest ); }
+.hover-bg-success-light:hover, .hover-bg-success-light:focus { background-color: var( --success-light ); }
+.hover-bg-success:hover, .hover-bg-success:focus { background-color: var( --success ); }
+.hover-bg-success-dark:hover, .hover-bg-success-dark:focus { background-color: var( --success-dark ); }
+.hover-bg-success-darkest:hover, .hover-bg-success-darkest:focus { background-color: var( --success-darkest ); }
 .hover-bg-transparent:hover, .hover-bg-transparent:focus { background-color: var( --transparent ); }
 .hover-bg-black-90:hover, .hover-bg-black-90:focus { background-color: var( --black-90 ); }
 .hover-bg-black-80:hover, .hover-bg-black-80:focus { background-color: var( --black-80 ); }
@@ -1557,6 +1707,31 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-fill-cloud:hover, .hover-fill-cloud:focus { fill: var( --cloud ); }
 .hover-fill-cloud-dark:hover, .hover-fill-cloud-dark:focus { fill: var( --cloud-dark ); }
 .hover-fill-cloud-darkest:hover, .hover-fill-cloud-darkest:focus { fill: var( --cloud-darkest ); }
+.hover-fill-prune-lightest:hover, .hover-fill-prune-lightest:focus { fill: var( --prune-lightest ); }
+.hover-fill-prune-light:hover, .hover-fill-prune-light:focus { fill: var( --prune-light ); }
+.hover-fill-prune:hover, .hover-fill-prune:focus { fill: var( --prune ); }
+.hover-fill-prune-dark:hover, .hover-fill-prune-dark:focus { fill: var( --prune-dark ); }
+.hover-fill-prune-darkest:hover, .hover-fill-prune-darkest:focus { fill: var( --prune-darkest ); }
+.hover-fill-blueberry-lightest:hover, .hover-fill-blueberry-lightest:focus { fill: var( --blueberry-lightest ); }
+.hover-fill-blueberry-light:hover, .hover-fill-blueberry-light:focus { fill: var( --blueberry-light ); }
+.hover-fill-blueberry:hover, .hover-fill-blueberry:focus { fill: var( --blueberry ); }
+.hover-fill-blueberry-dark:hover, .hover-fill-blueberry-dark:focus { fill: var( --blueberry-dark ); }
+.hover-fill-blueberry-darkest:hover, .hover-fill-blueberry-darkest:focus { fill: var( --blueberry-darkest ); }
+.hover-fill-cherry-lightest:hover, .hover-fill-cherry-lightest:focus { fill: var( --cherry-lightest ); }
+.hover-fill-cherry-light:hover, .hover-fill-cherry-light:focus { fill: var( --cherry-light ); }
+.hover-fill-cherry:hover, .hover-fill-cherry:focus { fill: var( --cherry ); }
+.hover-fill-cherry-dark:hover, .hover-fill-cherry-dark:focus { fill: var( --cherry-dark ); }
+.hover-fill-cherry-darkest:hover, .hover-fill-cherry-darkest:focus { fill: var( --cherry-darkest ); }
+.hover-fill-warning-lightest:hover, .hover-fill-warning-lightest:focus { fill: var( --warning-lightest ); }
+.hover-fill-warning-light:hover, .hover-fill-warning-light:focus { fill: var( --warning-light ); }
+.hover-fill-warning:hover, .hover-fill-warning:focus { fill: var( --warning ); }
+.hover-fill-warning-dark:hover, .hover-fill-warning-dark:focus { fill: var( --warning-dark ); }
+.hover-fill-warning-darkest:hover, .hover-fill-warning-darkest:focus { fill: var( --warning-darkest ); }
+.hover-fill-success-lightest:hover, .hover-fill-success-lightest:focus { fill: var( --success-lightest ); }
+.hover-fill-success-light:hover, .hover-fill-success-light:focus { fill: var( --success-light ); }
+.hover-fill-success:hover, .hover-fill-success:focus { fill: var( --success ); }
+.hover-fill-success-dark:hover, .hover-fill-success-dark:focus { fill: var( --success-dark ); }
+.hover-fill-success-darkest:hover, .hover-fill-success-darkest:focus { fill: var( --success-darkest ); }
 .hover-fill-outlook:hover, .hover-fill-outlook:focus { fill: var( --outlook ); }
 .hover-fill-sharepoint:hover, .hover-fill-sharepoint:focus { fill: var( --sharepoint ); }
 .hover-fill-teams:hover, .hover-fill-teams:focus { fill: var( --teams ); }
@@ -2250,7 +2425,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 */
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
-:root { --black: #000; --white: #fff; --transparent: transparent; --black-90: rgba( 0, 0, 0, .9 ); --black-80: rgba( 0, 0, 0, .8 ); --black-70: rgba( 0, 0, 0, .7 ); --black-60: rgba( 0, 0, 0, .6 ); --black-50: rgba( 0, 0, 0, .5 ); --black-40: rgba( 0, 0, 0, .4 ); --black-30: rgba( 0, 0, 0, .3 ); --black-20: rgba( 0, 0, 0, .2 ); --black-10: rgba( 0, 0, 0, .1 ); --black-05: rgba( 0, 0, 0, .05 ); --black-025: rgba( 0, 0, 0, .025 ); --black-0125: rgba( 0, 0, 0, .0125 ); --white-90: rgba( 255, 255, 255, .9 ); --white-80: rgba( 255, 255, 255, .8 ); --white-70: rgba( 255, 255, 255, .7 ); --white-60: rgba( 255, 255, 255, .6 ); --white-50: rgba( 255, 255, 255, .5 ); --white-40: rgba( 255, 255, 255, .4 ); --white-30: rgba( 255, 255, 255, .3 ); --white-20: rgba( 255, 255, 255, .2 ); --white-10: rgba( 255, 255, 255, .1 ); --white-05: rgba( 255, 255, 255, .05 ); --white-025: rgba( 255, 255, 255, .025 ); --white-0125: rgba( 255, 255, 255, .0125 ); /* Marine Blue */ --marine-lightest: #6e778b; --marine-light: #263350; --marine: #0e1c3d; --marine-dark: #0a142b; --marine-darkest: #040914; /* Desktop */ --desktop-lightest: #fff7f2; --desktop-light: #f8b385; --desktop: #f47321; --desktop-dark: #dc681f; --desktop-darkest: #c35d1b; /* Sunray */ --sunray-lightest: #fef1d7; --sunray-light: #fdcd72; --sunray: #fcb736; --sunray-dark: #e3a531; --sunray-darkest: #ca922b; /* Apricot */ --apricot-lightest: #eafaf8; --apricot-light: #98e8de; --apricot: #30d1bd; --apricot-dark: #2bbcaa; --apricot-darkest: #26a797; /* Eggplant */ --eggplant-lightest: #ddd7dc; --eggplant-light: #9c8897; --eggplant: #5a3951; --eggplant-dark: #513349; --eggplant-darkest: #3f2839; /* Overcast */ --overcast-lightest: #fafcff; --overcast-light: #a6d5ff; --overcast: #2096ff; --overcast-dark: #135999; --overcast-darkest: #0d3c66; /* Moonstone */ --moonstone-lightest: #f1f8f8; --moonstone-light: #c8e2e1; --moonstone: #76b6b5; --moonstone-dark: #5e9291; --moonstone-darkest: #476d6d; /* Jet */ --jet-lightest: #f6f7f8; --jet-light: #85858a; --jet: #34343c; --jet-dark: #24242a; --jet-darkest: var( --black ); /* Cloud */ --cloud-lightest: #f5f7f8; --cloud-light: #edf0f2; --cloud: #d4d6db; --cloud-dark: #a8afbd; --cloud-darkest: #828a9e; /* Vendors */ --outlook: #2873ba; --sharepoint: #2873ba; --teams: #575aa7; --planner: #33763a; --one-drive: #0045f5; /* References */ --primary: var( --apricot ); --primary-dark: var( --apricot-dark ); --primary-darkest: var( --apricot-darkest ); --primary-light: var( --apricot-light ); --primary-lightest: var( --apricot-lightest ); --secondary: var( --marine ); --transparent: transparent; }
+:root { --black: #000; --white: #fff; --transparent: transparent; --black-90: rgba( 0, 0, 0, .9 ); --black-80: rgba( 0, 0, 0, .8 ); --black-70: rgba( 0, 0, 0, .7 ); --black-60: rgba( 0, 0, 0, .6 ); --black-50: rgba( 0, 0, 0, .5 ); --black-40: rgba( 0, 0, 0, .4 ); --black-30: rgba( 0, 0, 0, .3 ); --black-20: rgba( 0, 0, 0, .2 ); --black-10: rgba( 0, 0, 0, .1 ); --black-05: rgba( 0, 0, 0, .05 ); --black-025: rgba( 0, 0, 0, .025 ); --black-0125: rgba( 0, 0, 0, .0125 ); --white-90: rgba( 255, 255, 255, .9 ); --white-80: rgba( 255, 255, 255, .8 ); --white-70: rgba( 255, 255, 255, .7 ); --white-60: rgba( 255, 255, 255, .6 ); --white-50: rgba( 255, 255, 255, .5 ); --white-40: rgba( 255, 255, 255, .4 ); --white-30: rgba( 255, 255, 255, .3 ); --white-20: rgba( 255, 255, 255, .2 ); --white-10: rgba( 255, 255, 255, .1 ); --white-05: rgba( 255, 255, 255, .05 ); --white-025: rgba( 255, 255, 255, .025 ); --white-0125: rgba( 255, 255, 255, .0125 ); /* Marine Blue */ --marine-lightest: #6e778b; --marine-light: #263350; --marine: #0e1c3d; --marine-dark: #0a142b; --marine-darkest: #040914; /* Desktop */ --desktop-lightest: #fff7f2; --desktop-light: #f8b385; --desktop: #f47321; --desktop-dark: #dc681f; --desktop-darkest: #c35d1b; /* Sunray */ --sunray-lightest: #fef1d7; --sunray-light: #fdcd72; --sunray: #fcb736; --sunray-dark: #e3a531; --sunray-darkest: #ca922b; /* Apricot */ --apricot-lightest: #eafaf8; --apricot-light: #98e8de; --apricot: #30d1bd; --apricot-dark: #2bbcaa; --apricot-darkest: #26a797; /* Eggplant */ --eggplant-lightest: #ddd7dc; --eggplant-light: #9c8897; --eggplant: #5a3951; --eggplant-dark: #513349; --eggplant-darkest: #3f2839; /* Overcast */ --overcast-lightest: #fafcff; --overcast-light: #a6d5ff; --overcast: #2096ff; --overcast-dark: #135999; --overcast-darkest: #0d3c66; /* Moonstone */ --moonstone-lightest: #f1f8f8; --moonstone-light: #c8e2e1; --moonstone: #76b6b5; --moonstone-dark: #5e9291; --moonstone-darkest: #476d6d; /* Jet */ --jet-lightest: #f6f7f8; --jet-light: #85858a; --jet: #34343c; --jet-dark: #24242a; --jet-darkest: var( --black ); /* Cloud */ --cloud-lightest: #f5f7f8; --cloud-light: #edf0f2; --cloud: #d4d6db; --cloud-dark: #a8afbd; --cloud-darkest: #828a9e; /* Prune */ --prune-lightest: #e8d4e3; --prune-light: #cfa6c4; --prune: #ad669a; --prune-dark: #a3538d; --prune-darkest: #95387b; /* Blueberry */ --blueberry-lightest: #bedbea; --blueberry-light: #60acd0; --blueberry: #0b80b7; --blueberry-dark: #006ba8; --blueberry-darkest: #005391; /* Cherry */ --cherry-lightest: #e9cece; --cherry-light: #c17474; --cherry: #a12d2d; --cherry-dark: #941212; --cherry-darkest: #720000; /* Warning */ --warning-lightest: #ffd3d9; --warning-light: #ff6675; --warning: #fc1242; --warning-dark: #db012d; --warning-darkest: #ae001e; /* Success */ --success-lightest: #c9ffe0; --success-light: #4def93; --success: #1dce6a; --success-dark: #00a447; --success-darkest: #00853a; /* Vendors */ --outlook: #2873ba; --sharepoint: #2873ba; --teams: #575aa7; --planner: #33763a; --one-drive: #0045f5; /* References */ --primary: var( --apricot ); --primary-dark: var( --apricot-dark ); --primary-darkest: var( --apricot-darkest ); --primary-light: var( --apricot-light ); --primary-lightest: var( --apricot-lightest ); --secondary: var( --marine ); --transparent: transparent; }
 /*
 
   CUSTOM MEDIA QUERIES

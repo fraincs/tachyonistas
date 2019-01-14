@@ -279,6 +279,106 @@
     color: var(--cloud-darkest);
 }
 
+.prune-lightest {
+    color: var(--prune-lightest);
+}
+
+.prune-light {
+    color: var(--prune-light);
+}
+
+.prune {
+    color: var(--prune);
+}
+
+.prune-dark {
+    color: var(--prune-dark);
+}
+
+.prune-darkest {
+    color: var(--prune-darkest);
+}
+
+.blueberry-lightest {
+    color: var(--blueberry-lightest);
+}
+
+.blueberry-light {
+    color: var(--blueberry-light);
+}
+
+.blueberry {
+    color: var(--blueberry);
+}
+
+.blueberry-dark {
+    color: var(--blueberry-dark);
+}
+
+.blueberry-darkest {
+    color: var(--blueberry-darkest);
+}
+
+.cherry-lightest {
+    color: var(--cherry-lightest);
+}
+
+.cherry-light {
+    color: var(--cherry-light);
+}
+
+.cherry {
+    color: var(--cherry);
+}
+
+.cherry-dark {
+    color: var(--cherry-dark);
+}
+
+.cherry-darkest {
+    color: var(--cherry-darkest);
+}
+
+.warning-lightest {
+    color: var(--warning-lightest);
+}
+
+.warning-light {
+    color: var(--warning-light);
+}
+
+.warning {
+    color: var(--warning);
+}
+
+.warning-dark {
+    color: var(--warning-dark);
+}
+
+.warning-darkest {
+    color: var(--warning-darkest);
+}
+
+.success-lightest {
+    color: var(--success-lightest);
+}
+
+.success-light {
+    color: var(--success-light);
+}
+
+.success {
+    color: var(--success);
+}
+
+.success-dark {
+    color: var(--success-dark);
+}
+
+.success-darkest {
+    color: var(--success-darkest);
+}
+
 .outlook {
     color: var(--outlook);
 }
@@ -597,6 +697,106 @@
     background-color: var(--cloud-darkest);
 }
 
+.bg-prune-lightest {
+    background-color: var(--prune-lightest);
+}
+
+.bg-prune-light {
+    background-color: var(--prune-light);
+}
+
+.bg-prune {
+    background-color: var(--prune);
+}
+
+.bg-prune-dark {
+    background-color: var(--prune-dark);
+}
+
+.bg-prune-darkest {
+    background-color: var(--prune-darkest);
+}
+
+.bg-blueberry-lightest {
+    background-color: var(--blueberry-lightest);
+}
+
+.bg-blueberry-light {
+    background-color: var(--blueberry-light);
+}
+
+.bg-blueberry {
+    background-color: var(--blueberry);
+}
+
+.bg-blueberry-dark {
+    background-color: var(--blueberry-dark);
+}
+
+.bg-blueberry-darkest {
+    background-color: var(--blueberry-darkest);
+}
+
+.bg-cherry-lightest {
+    background-color: var(--cherry-lightest);
+}
+
+.bg-cherry-light {
+    background-color: var(--cherry-light);
+}
+
+.bg-cherry {
+    background-color: var(--cherry);
+}
+
+.bg-cherry-dark {
+    background-color: var(--cherry-dark);
+}
+
+.bg-cherry-darkest {
+    background-color: var(--cherry-darkest);
+}
+
+.bg-warning-lightest {
+    background-color: var(--warning-lightest);
+}
+
+.bg-warning-light {
+    background-color: var(--warning-light);
+}
+
+.bg-warning {
+    background-color: var(--warning);
+}
+
+.bg-warning-dark {
+    background-color: var(--warning-dark);
+}
+
+.bg-warning-darkest {
+    background-color: var(--warning-darkest);
+}
+
+.bg-success-lightest {
+    background-color: var(--success-lightest);
+}
+
+.bg-success-light {
+    background-color: var(--success-light);
+}
+
+.bg-success {
+    background-color: var(--success);
+}
+
+.bg-success-dark {
+    background-color: var(--success-dark);
+}
+
+.bg-success-darkest {
+    background-color: var(--success-darkest);
+}
+
 /* Vendors colors */
 
 .bg-outlook {
@@ -839,6 +1039,106 @@
 
 .fill-cloud-darkest {
     fill: var(--cloud-darkest);
+}
+
+.fill-prune-lightest {
+    fill: var(--prune-lightest);
+}
+
+.fill-prune-light {
+    fill: var(--prune-light);
+}
+
+.fill-prune {
+    fill: var(--prune);
+}
+
+.fill-prune-dark {
+    fill: var(--prune-dark);
+}
+
+.fill-prune-darkest {
+    fill: var(--prune-darkest);
+}
+
+.fill-blueberry-lightest {
+    fill: var(--blueberry-lightest);
+}
+
+.fill-blueberry-light {
+    fill: var(--blueberry-light);
+}
+
+.fill-blueberry {
+    fill: var(--blueberry);
+}
+
+.fill-blueberry-dark {
+    fill: var(--blueberry-dark);
+}
+
+.fill-blueberry-darkest {
+    fill: var(--blueberry-darkest);
+}
+
+.fill-cherry-lightest {
+    fill: var(--cherry-lightest);
+}
+
+.fill-cherry-light {
+    fill: var(--cherry-light);
+}
+
+.fill-cherry {
+    fill: var(--cherry);
+}
+
+.fill-cherry-dark {
+    fill: var(--cherry-dark);
+}
+
+.fill-cherry-darkest {
+    fill: var(--cherry-darkest);
+}
+
+.fill-warning-lightest {
+    fill: var(--warning-lightest);
+}
+
+.fill-warning-light {
+    fill: var(--warning-light);
+}
+
+.fill-warning {
+    fill: var(--warning);
+}
+
+.fill-warning-dark {
+    fill: var(--warning-dark);
+}
+
+.fill-warning-darkest {
+    fill: var(--warning-darkest);
+}
+
+.fill-success-lightest {
+    fill: var(--success-lightest);
+}
+
+.fill-success-light {
+    fill: var(--success-light);
+}
+
+.fill-success {
+    fill: var(--success);
+}
+
+.fill-success-dark {
+    fill: var(--success-dark);
+}
+
+.fill-success-darkest {
+    fill: var(--success-darkest);
 }
 
 .fill-outlook {

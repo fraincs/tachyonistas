@@ -80,6 +80,36 @@
     --cloud: #D4D6DB;
     --cloud-dark: #A8AFBD;
     --cloud-darkest: #828A9E;
+    /* Prune */
+    --prune-lightest: #E8D4E3;
+    --prune-light: #CFA6C4;
+    --prune: #AD669A;
+    --prune-dark: #A3538D;
+    --prune-darkest: #95387B;
+    /* Blueberry */
+    --blueberry-lightest: #BEDBEA;
+    --blueberry-light: #60ACD0;
+    --blueberry: #0B80B7;
+    --blueberry-dark: #006BA8;
+    --blueberry-darkest: #005391;
+    /* Cherry */
+    --cherry-lightest: #E9CECE;
+    --cherry-light: #C17474;
+    --cherry: #A12D2D;
+    --cherry-dark: #941212;
+    --cherry-darkest: #720000;
+    /* Warning */
+    --warning-lightest: #FFD3D9;
+    --warning-light: #FF6675;
+    --warning: #FC1242;
+    --warning-dark: #DB012D;
+    --warning-darkest: #AE001E;
+    /* Success */
+    --success-lightest: #C9FFE0;
+    --success-light: #4DEF93;
+    --success: #1DCE6A;
+    --success-dark: #00A447;
+    --success-darkest: #00853A;
     /* Vendors */
     --outlook: #2873ba;
     --sharepoint: #2873ba;
