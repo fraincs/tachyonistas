@@ -327,24 +327,24 @@
     color: var(--cherry-darkest);
 }
 
-.hover-warning-lightest:hover, .hover-warning-lightest:focus {
-    color: var(--warning-lightest);
+.hover-alert-lightest:hover, .hover-alert-lightest:focus {
+    color: var(--alert-lightest);
 }
 
-.hover-warning-light:hover, .hover-warning-light:focus {
-    color: var(--warning-light);
+.hover-alert-light:hover, .hover-alert-light:focus {
+    color: var(--alert-light);
 }
 
-.hover-warning:hover, .hover-warning:focus {
-    color: var(--warning);
+.hover-alert:hover, .hover-alert:focus {
+    color: var(--alert);
 }
 
-.hover-warning-dark:hover, .hover-warning-dark:focus {
-    color: var(--warning-dark);
+.hover-alert-dark:hover, .hover-alert-dark:focus {
+    color: var(--alert-dark);
 }
 
-.hover-warning-darkest:hover, .hover-warning-darkest:focus {
-    color: var(--warning-darkest);
+.hover-alert-darkest:hover, .hover-alert-darkest:focus {
+    color: var(--alert-darkest);
 }
 
 .hover-success-lightest:hover, .hover-success-lightest:focus {
@@ -667,24 +667,24 @@
     background-color: var(--cherry-darkest);
 }
 
-.hover-bg-warning-lightest:hover, .hover-bg-warning-lightest:focus {
-    background-color: var(--warning-lightest);
+.hover-bg-alert-lightest:hover, .hover-bg-alert-lightest:focus {
+    background-color: var(--alert-lightest);
 }
 
-.hover-bg-warning-light:hover, .hover-bg-warning-light:focus {
-    background-color: var(--warning-light);
+.hover-bg-alert-light:hover, .hover-bg-alert-light:focus {
+    background-color: var(--alert-light);
 }
 
-.hover-bg-warning:hover, .hover-bg-warning:focus {
-    background-color: var(--warning);
+.hover-bg-alert:hover, .hover-bg-alert:focus {
+    background-color: var(--alert);
 }
 
-.hover-bg-warning-dark:hover, .hover-bg-warning-dark:focus {
-    background-color: var(--warning-dark);
+.hover-bg-alert-dark:hover, .hover-bg-alert-dark:focus {
+    background-color: var(--alert-dark);
 }
 
-.hover-bg-warning-darkest:hover, .hover-bg-warning-darkest:focus {
-    background-color: var(--warning-darkest);
+.hover-bg-alert-darkest:hover, .hover-bg-alert-darkest:focus {
+    background-color: var(--alert-darkest);
 }
 
 .hover-bg-success-lightest:hover, .hover-bg-success-lightest:focus {
@@ -1081,24 +1081,24 @@
     fill: var(--cherry-darkest);
 }
 
-.hover-fill-warning-lightest:hover, .hover-fill-warning-lightest:focus {
-    fill: var(--warning-lightest);
+.hover-fill-alert-lightest:hover, .hover-fill-alert-lightest:focus {
+    fill: var(--alert-lightest);
 }
 
-.hover-fill-warning-light:hover, .hover-fill-warning-light:focus {
-    fill: var(--warning-light);
+.hover-fill-alert-light:hover, .hover-fill-alert-light:focus {
+    fill: var(--alert-light);
 }
 
-.hover-fill-warning:hover, .hover-fill-warning:focus {
-    fill: var(--warning);
+.hover-fill-alert:hover, .hover-fill-alert:focus {
+    fill: var(--alert);
 }
 
-.hover-fill-warning-dark:hover, .hover-fill-warning-dark:focus {
-    fill: var(--warning-dark);
+.hover-fill-alert-dark:hover, .hover-fill-alert-dark:focus {
+    fill: var(--alert-dark);
 }
 
-.hover-fill-warning-darkest:hover, .hover-fill-warning-darkest:focus {
-    fill: var(--warning-darkest);
+.hover-fill-alert-darkest:hover, .hover-fill-alert-darkest:focus {
+    fill: var(--alert-darkest);
 }
 
 .hover-fill-success-lightest:hover, .hover-fill-success-lightest:focus {

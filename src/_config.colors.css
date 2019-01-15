@@ -98,12 +98,12 @@
     --cherry: #A12D2D;
     --cherry-dark: #941212;
     --cherry-darkest: #720000;
-    /* Warning */
-    --warning-lightest: #FFD3D9;
-    --warning-light: #FF6675;
-    --warning: #FC1242;
-    --warning-dark: #DB012D;
-    --warning-darkest: #AE001E;
+    /* Alest */
+    --alert-lightest: #FFD3D9;
+    --alert-light: #FF6675;
+    --alert: #FC1242;
+    --alert-dark: #DB012D;
+    --alert-darkest: #AE001E;
     /* Success */
     --success-lightest: #C9FFE0;
     --success-light: #4DEF93;

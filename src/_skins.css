@@ -339,24 +339,24 @@
     color: var(--cherry-darkest);
 }
 
-.warning-lightest {
-    color: var(--warning-lightest);
+.alert-lightest {
+    color: var(--alert-lightest);
 }
 
-.warning-light {
-    color: var(--warning-light);
+.alert-light {
+    color: var(--alert-light);
 }
 
-.warning {
-    color: var(--warning);
+.alert {
+    color: var(--alert);
 }
 
-.warning-dark {
-    color: var(--warning-dark);
+.alert-dark {
+    color: var(--alert-dark);
 }
 
-.warning-darkest {
-    color: var(--warning-darkest);
+.alert-darkest {
+    color: var(--alert-darkest);
 }
 
 .success-lightest {
@@ -757,24 +757,24 @@
     background-color: var(--cherry-darkest);
 }
 
-.bg-warning-lightest {
-    background-color: var(--warning-lightest);
+.bg-alert-lightest {
+    background-color: var(--alert-lightest);
 }
 
-.bg-warning-light {
-    background-color: var(--warning-light);
+.bg-alert-light {
+    background-color: var(--alert-light);
 }
 
-.bg-warning {
-    background-color: var(--warning);
+.bg-alert {
+    background-color: var(--alert);
 }
 
-.bg-warning-dark {
-    background-color: var(--warning-dark);
+.bg-alert-dark {
+    background-color: var(--alert-dark);
 }
 
-.bg-warning-darkest {
-    background-color: var(--warning-darkest);
+.bg-alert-darkest {
+    background-color: var(--alert-darkest);
 }
 
 .bg-success-lightest {
@@ -1101,24 +1101,24 @@
     fill: var(--cherry-darkest);
 }
 
-.fill-warning-lightest {
-    fill: var(--warning-lightest);
+.fill-alert-lightest {
+    fill: var(--alert-lightest);
 }
 
-.fill-warning-light {
-    fill: var(--warning-light);
+.fill-alert-light {
+    fill: var(--alert-light);
 }
 
-.fill-warning {
-    fill: var(--warning);
+.fill-alert {
+    fill: var(--alert);
 }
 
-.fill-warning-dark {
-    fill: var(--warning-dark);
+.fill-alert-dark {
+    fill: var(--alert-dark);
 }
 
-.fill-warning-darkest {
-    fill: var(--warning-darkest);
+.fill-alert-darkest {
+    fill: var(--alert-darkest);
 }
 
 .fill-success-lightest {
