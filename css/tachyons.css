@@ -986,7 +986,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .mw5 { max-width: 16rem; }
 .mw6 { max-width: 32rem; }
 .mw7 { max-width: 48rem; }
-.mw8 { max-width: 64rem; }
+.mw8 { max-width: 78rem; }
 .mw9 { max-width: 96rem; }
 /* Max Width String Properties */
 .mw-none { max-width: none; }
@@ -2217,16 +2217,17 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /* Combine this class with a width to truncate text (or just leave as is to truncate at width of containing element. */
 .truncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 /*
-
    USER SELECT
+   Base
+    us = user-select
 
    Media Query Extensions:
      -ns = not-small
      -m  = medium
      -l  = large
-
 */
-.user-select { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+.usn { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+.usa { -webkit-user-select: all; -moz-user-select: all; -ms-user-select: all; user-select: all; }
 /*
 
    UTILITIES
@@ -2684,7 +2685,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .mw5-ns { max-width: 16rem; }
  .mw6-ns { max-width: 32rem; }
  .mw7-ns { max-width: 48rem; }
- .mw8-ns { max-width: 64rem; }
+ .mw8-ns { max-width: 78rem; }
  .mw9-ns { max-width: 96rem; }
  .mw-none-ns { max-width: none; }
  .w1-ns { width: var( --scale-alpha ); }
@@ -3029,7 +3030,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .indent-ns { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
  .small-caps-ns { font-variant: small-caps; }
  .truncate-ns { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
- .user-select-ns { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+ .usn-ns { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+ .usa-ns { -webkit-user-select: all; -moz-user-select: all; -ms-user-select: all; user-select: all; }
  .center-ns { margin-right: auto; margin-left: auto; }
  .mr-auto-ns { margin-right: auto; }
  .ml-auto-ns { margin-left: auto; }
@@ -3240,7 +3242,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .mw5-m { max-width: 16rem; }
  .mw6-m { max-width: 32rem; }
  .mw7-m { max-width: 48rem; }
- .mw8-m { max-width: 64rem; }
+ .mw8-m { max-width: 78rem; }
  .mw9-m { max-width: 96rem; }
  .mw-none-m { max-width: none; }
  .w1-m { width: var( --scale-alpha ); }
@@ -3585,7 +3587,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .indent-m { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
  .small-caps-m { font-variant: small-caps; }
  .truncate-m { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
- .user-select-m { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+ .usn-m { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+ .usa-m { -webkit-user-select: all; -moz-user-select: all; -ms-user-select: all; user-select: all; }
  .center-m { margin-right: auto; margin-left: auto; }
  .mr-auto-m { margin-right: auto; }
  .ml-auto-m { margin-left: auto; }
@@ -3796,7 +3799,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .mw5-l { max-width: 16rem; }
  .mw6-l { max-width: 32rem; }
  .mw7-l { max-width: 48rem; }
- .mw8-l { max-width: 64rem; }
+ .mw8-l { max-width: 78rem; }
  .mw9-l { max-width: 96rem; }
  .mw-none-l { max-width: none; }
  .w1-l { width: var( --scale-alpha ); }
@@ -4141,7 +4144,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .indent-l { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
  .small-caps-l { font-variant: small-caps; }
  .truncate-l { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
- .user-select-l { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+ .usn-l { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+ .usa-l { -webkit-user-select: all; -moz-user-select: all; -ms-user-select: all; user-select: all; }
  .center-l { margin-right: auto; margin-left: auto; }
  .mr-auto-l { margin-right: auto; }
  .ml-auto-l { margin-left: auto; }
