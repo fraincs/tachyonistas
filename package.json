@@ -1,6 +1,6 @@
 {
     "name": "@sharegate/tachyons-sg",
-    "version": "2.0.0",
+    "version": "3.0.0",
     "description": "Functional CSS for humans",
     "style": "css/tachyons.min.css",
     "main": "css/tachyons.css",
@@ -52,7 +52,7 @@
         "build:transpile:css": "tachyons src/tachyons.css > css/tachyons.css",
         "build:transpile:minify": "tachyons src/tachyons.css --minify > css/tachyons.min.css",
         "build:transpile:watch": "watch \"npm run build:transpile\" ./src/",
-        "version": "npm run build && node tasks/post-build.js && git commit -am 'Bump package version'",
+        "version": "npm run build && node tasks/post-build.js && git add -A && git commit -m 'Bump package version'",
         "postversion": "git push origin master && git push origin master --tags && cd publish && npm publish"
     }
 }
