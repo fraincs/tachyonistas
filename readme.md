@@ -40,6 +40,16 @@ If you want to check that a class hasn't been redefined or 'mutated' there is a 
 
 ```npm run mutations```
 
+## Configuration
+
+If you want to override the default variables specified in `tachyons-sg` (for instance, changing the color of the `--primary` variable), simply redeclare the variables in a `:root` css class.
+
+``` css
+:root {
+    --primary: #c63a0c;
+}
+```
+
 ## Docs
 
 The tachyons docs located at [Tachyons](http://tachyons.io) are all open source and located [here](https://github.com/tachyons-css/tachyons-css.github.io).
