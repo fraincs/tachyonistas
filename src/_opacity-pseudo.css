@@ -5,54 +5,54 @@
 
 */
 
-.o-100:hover {
+.hover-o-100:hover {
     opacity: 1;
 }
 
-.o-90:hover {
+.hover-o-90:hover {
     opacity: .9;
 }
 
-.o-80:hover {
+.hover-o-80:hover {
     opacity: .8;
 }
 
-.o-70:hover {
+.hover-o-70:hover {
     opacity: .7;
 }
 
-.o-60:hover {
+.hover-o-60:hover {
     opacity: .6;
 }
 
-.o-50:hover {
+.hover-o-50:hover {
     opacity: .5;
 }
 
-.o-40:hover {
+.hover-o-40:hover {
     opacity: .4;
 }
 
-.o-30:hover {
+.hover-o-30:hover {
     opacity: .3;
 }
 
-.o-20:hover {
+.hover-o-20:hover {
     opacity: .2;
 }
 
-.o-10:hover {
+.hover-o-10:hover {
     opacity: .1;
 }
 
-.o-05:hover {
+.hover-o-05:hover {
     opacity: .05;
 }
 
-.o-025:hover {
+.hover-o-025:hover {
     opacity: .025;
 }
 
-.o-0:hover {
+.hover-o-0:hover {
     opacity: 0;
 }
