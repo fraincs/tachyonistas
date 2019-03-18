@@ -682,11 +682,11 @@ img { max-width: 100%; }
    -l  = large
 
  */
-.shadow-1 { box-shadow: 0 0 4px 2px rgba( 0, 0, 0, .2 ); }
-.shadow-2 { box-shadow: 0 0 8px 2px rgba( 0, 0, 0, .2 ); }
-.shadow-3 { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, .2 ); }
-.shadow-4 { box-shadow: 0 4px 12px 0 rgba( 130, 138, 158, .32 ); }
-.shadow-5 { box-shadow: 0 8px 24px 0 rgba( 130, 138, 158, .32 ); }
+.shadow-1 { box-shadow: var( --shadow-1 ); }
+.shadow-2 { box-shadow: var( --shadow-2 ); }
+.shadow-3 { box-shadow: var( --shadow-3 ); }
+.shadow-4 { box-shadow: var( --shadow-4 ); }
+.shadow-5 { box-shadow: var( --shadow-5 ); }
 /*
 
    CODE
@@ -2606,6 +2606,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 */
 /* Media Queries */
+:root { --shadow-1: 0 0 4px 2px rgba( 0, 0, 0, .2 ); --shadow-2: 0 0 8px 2px rgba( 0, 0, 0, .2 ); --shadow-3: 2px 2px 4px 2px rgba( 0, 0, 0, .2 ); --shadow-4: 0 4px 12px 0 rgba( 130, 138, 158, .32 ); --shadow-5: 0 8px 24px 0 rgba( 130, 138, 158, .32 ); }
 :root { --scale-alpha: .25rem; /* 4px */ --scale-bravo: .5rem; /* 8px */ --scale-charlie: .75rem; /* 12px */ --scale-delta: 1rem; /* 16px */ --scale-echo: 1.25rem; /* 20px */ --scale-foxtrot: 1.5rem; /* 24px */ --scale-golf: 2rem; /* 32px */ --scale-hotel: 2.5rem; /* 40px */ --scale-india: 3rem; /* 48px */ --scale-juliett: 3.5rem; /* 56px */ --scale-kilo: 4rem; /* 64px */ --scale-lima: 4.5rem; /* 72px */ --scale-mike: 5rem; /* 80px */ }
 :root { --type-scale-headline: 6rem; /* 96px */ --type-scale-subheadline: 5rem; /* 80px */ --type-scale-1: 3rem; /* 48px */ --type-scale-2: 2.5rem; /* 40px */ --type-scale-3: 2rem; /* 32px */ --type-scale-4: 1.5rem; /* 24px */ --type-scale-5: 1.25rem; /* 20px */ --type-scale-6: 1.125rem; /* 18px */ --type-scale-7: 1rem; /* 16px */ --type-scale-8: .875rem; /* 14px */ --type-scale-9: .75rem; /* 12px */ }
 /* Debugging */
@@ -2692,11 +2693,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .br-0-ns { border-right-width: 0; }
  .bb-0-ns { border-bottom-width: 0; }
  .bl-0-ns { border-left-width: 0; }
- .shadow-1-ns { box-shadow: 0 0 4px 2px rgba( 0, 0, 0, .2 ); }
- .shadow-2-ns { box-shadow: 0 0 8px 2px rgba( 0, 0, 0, .2 ); }
- .shadow-3-ns { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, .2 ); }
- .shadow-4-ns { box-shadow: 0 4px 12px 0 rgba( 130, 138, 158, .32 ); }
- .shadow-5-ns { box-shadow: 0 8px 24px 0 rgba( 130, 138, 158, .32 ); }
+ .shadow-1-ns { box-shadow: var( --shadow-1 ); }
+ .shadow-2-ns { box-shadow: var( --shadow-2 ); }
+ .shadow-3-ns { box-shadow: var( --shadow-3 ); }
+ .shadow-4-ns { box-shadow: var( --shadow-4 ); }
+ .shadow-5-ns { box-shadow: var( --shadow-5 ); }
  .top-0-ns { top: 0; }
  .left-0-ns { left: 0; }
  .right-0-ns { right: 0; }
@@ -3249,11 +3250,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .br-0-m { border-right-width: 0; }
  .bb-0-m { border-bottom-width: 0; }
  .bl-0-m { border-left-width: 0; }
- .shadow-1-m { box-shadow: 0 0 4px 2px rgba( 0, 0, 0, .2 ); }
- .shadow-2-m { box-shadow: 0 0 8px 2px rgba( 0, 0, 0, .2 ); }
- .shadow-3-m { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, .2 ); }
- .shadow-4-m { box-shadow: 0 4px 12px 0 rgba( 130, 138, 158, .32 ); }
- .shadow-5-m { box-shadow: 0 8px 24px 0 rgba( 130, 138, 158, .32 ); }
+ .shadow-1-m { box-shadow: var( --shadow-1 ); }
+ .shadow-2-m { box-shadow: var( --shadow-2 ); }
+ .shadow-3-m { box-shadow: var( --shadow-3 ); }
+ .shadow-4-m { box-shadow: var( --shadow-4 ); }
+ .shadow-5-m { box-shadow: var( --shadow-5 ); }
  .top-0-m { top: 0; }
  .left-0-m { left: 0; }
  .right-0-m { right: 0; }
@@ -3806,11 +3807,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .br-0-l { border-right-width: 0; }
  .bb-0-l { border-bottom-width: 0; }
  .bl-0-l { border-left-width: 0; }
- .shadow-1-l { box-shadow: 0 0 4px 2px rgba( 0, 0, 0, .2 ); }
- .shadow-2-l { box-shadow: 0 0 8px 2px rgba( 0, 0, 0, .2 ); }
- .shadow-3-l { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, .2 ); }
- .shadow-4-l { box-shadow: 0 4px 12px 0 rgba( 130, 138, 158, .32 ); }
- .shadow-5-l { box-shadow: 0 8px 24px 0 rgba( 130, 138, 158, .32 ); }
+ .shadow-1-l { box-shadow: var( --shadow-1 ); }
+ .shadow-2-l { box-shadow: var( --shadow-2 ); }
+ .shadow-3-l { box-shadow: var( --shadow-3 ); }
+ .shadow-4-l { box-shadow: var( --shadow-4 ); }
+ .shadow-5-l { box-shadow: var( --shadow-5 ); }
  .top-0-l { top: 0; }
  .left-0-l { left: 0; }
  .right-0-l { right: 0; }

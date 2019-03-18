@@ -88,6 +88,7 @@
 
 @import './_config.colors';
 @import './_config.media-queries';
+@import './_config.shadows';
 @import './_config.spacing-scale';
 @import './_config.type-scale';
 /* Debugging */
