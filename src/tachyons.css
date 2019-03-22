@@ -90,7 +90,6 @@
 @import '../node_modules/@sharegate/sg-brand-foundations/_config.shadows';
 @import '../node_modules/@sharegate/sg-brand-foundations/_config.spacing-scale';
 @import '../node_modules/@sharegate/sg-brand-foundations/_config.type-scale';
-@import '../node_modules/@sharegate/sg-brand-foundations/_config.colors.css'; 
 
 /* Debugging */
 /* @import './_debug-children';
