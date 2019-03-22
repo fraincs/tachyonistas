@@ -23,6 +23,7 @@
     ],
     "license": "Apache-2.0",
     "devDependencies": {
+        "@sharegate/sg-brand-foundations": "^1.0.0",
         "copy-files": "^0.1.0",
         "copyfiles": "2.1.0",
         "cpx": "^1.5.0",
@@ -54,5 +55,6 @@
         "build:transpile:watch": "watch \"npm run build:transpile\" ./src/",
         "version": "npm run build && node tasks/post-build.js && git add -A && git commit -am 'Bump package version'",
         "postversion": "git push origin master && cd publish && npm publish"
-    }
+    },
+    "dependencies": {}
 }
