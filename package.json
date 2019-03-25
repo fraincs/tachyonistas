@@ -1,6 +1,6 @@
 {
-    "name": "@sharegate/tachyons-sg",
-    "version": "2.4.0",
+    "name": "tachyonsistas",
+    "version": "1.0.0",
     "description": "Functional CSS for humans",
     "style": "css/tachyons.min.css",
     "main": "css/tachyons.css",
@@ -11,7 +11,7 @@
     "publishConfig": {
         "access": "public"
     },
-    "repository": "sharegate/tachyons-sg",
+    "repository": "tachyonsistas",
     "keywords": [
         "css",
         "oocss",
