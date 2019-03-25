@@ -23,7 +23,7 @@
     ],
     "license": "Apache-2.0",
     "devDependencies": {
-        "@sharegate/sg-brand-foundations": "^1.0.0",
+        "@sharegate/sg-brand-foundations": "^1.0.1",
         "copy-files": "^0.1.0",
         "copyfiles": "2.1.0",
         "cpx": "^1.5.0",
