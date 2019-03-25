@@ -85,7 +85,7 @@
 
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
-@import '../node_modules/@sharegate/sg-brand-foundations/_config.colors.css';
+@import '../node_modules/@sharegate/sg-brand-foundations/_config.colors.hue.css';
 @import '../node_modules/@sharegate/sg-brand-foundations/_config.media-queries';
 @import '../node_modules/@sharegate/sg-brand-foundations/_config.shadows';
 @import '../node_modules/@sharegate/sg-brand-foundations/_config.spacing-scale';
