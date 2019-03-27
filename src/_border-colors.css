@@ -170,6 +170,18 @@
     border-color: inherit;
 }
 
+.b--decathlon {
+    border-color: var(--decathlon);
+}
+
+.b--decathlon-light {
+    border-color: var(--decathlon-light);
+}
+
+.b--yellowgram {
+    border-color: var(--yellowgram);
+}
+
 /* Allows to reference a primary and secondary color */
 
 .b--primary {

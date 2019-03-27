@@ -131,6 +131,18 @@
     color: inherit;
 }
 
+.hover-decathlon:hover, .hover-decathlon:focus {
+    color: var(--decathlon);
+}
+
+.hover-decathlon-light:hover, .hover-decathlon-light:focus {
+    color: var(--decathlon-light);
+}
+
+.hover-yellowgram:hover, .hover-yellowgram:focus {
+    color: var(--yellowgram);
+}
+
 .hover-primary-darkest:hover, .hover-primary-darkest:focus {
     color: var(--primary-darkest);
 }
@@ -283,6 +295,18 @@
     background-color: var(--white-10);
 }
 
+.hover-bg-decathlon:hover, .hover-bg-decathlon:focus {
+    background-color: var(--decathlon);
+}
+
+.hover-bg-decathlon-light:hover, .hover-bg-decathlon-light:focus {
+    background-color: var(--decathlon-light);
+}
+
+.hover-bg-yellowgram:hover, .hover-bg-yellowgram:focus {
+    background-color: var(--yellowgram);
+}
+
 .hover-bg-primary-darkest:hover, .hover-bg-primary-darkest:focus {
     background-color: var(--primary-darkest);
 }
@@ -379,6 +403,18 @@
 
 .hover-fill-one-drive:hover, .hover-fill-one-drive:focus {
     fill: var(--one-drive);
+}
+
+.hover-fill-decathlon:hover, .hover-fill-decathlon:focus {
+    fill: var(--decathlon);
+}
+
+.hover-fill-decathlon-light:hover, .hover-fill-decathlon-light:focus {
+    fill: var(--decathlon-light);
+}
+
+.hover-fill-yellowgram:hover, .hover-fill-yellowgram:focus {
+    fill: var(--yellowgram);
 }
 
 .hover-fill-primary-darkest:hover, .hover-fill-primary-darkest:focus {

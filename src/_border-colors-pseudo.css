@@ -170,6 +170,18 @@
     border-color: inherit;
 }
 
+.hover-b--decathlon:hover, .hover-b--decathlon:focus {
+    border-color: var(--decathlon);
+}
+
+.hover-b--decathlon-light:hover, .hover-b--decathlon-light:focus {
+    border-color: var(--decathlon-light);
+}
+
+.hover-b--yellowgram:hover, .hover-b--yellowgram:focus {
+    border-color: var(--yellowgram);
+}
+
 /* Allows to reference a primary and secondary color */
 
 .hover-b--primary:hover, .hover-b--primary:focus {

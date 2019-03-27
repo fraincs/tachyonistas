@@ -139,6 +139,18 @@
     color: var(--success-darkest);
 }
 
+.decathlon {
+    color: var(--decathlon);
+}
+
+.decathlon-light {
+    color: var(--decathlon-light);
+}
+
+.yellowgram {
+    color: var(--yellowgram);
+}
+
 .primary-darkest {
     color: var(--primary-darkest);
 }
@@ -297,6 +309,18 @@
     background-color: var(--success-darkest);
 }
 
+.bg-decathlon {
+    background-color: var(--decathlon);
+}
+
+.bg-decathlon-light {
+    background-color: var(--decathlon-light);
+}
+
+.bg-yellowgram {
+    background-color: var(--yellowgram);
+}
+
 .bg-primary {
     background-color: var(--primary);
 }
@@ -377,6 +401,18 @@
 
 .fill-success-darkest {
     fill: var(--success-darkest);
+}
+
+.fill-decathlon {
+    fill: var(--decathlon);
+}
+
+.fill-decathlon-light {
+    fill: var(--decathlon-light);
+}
+
+.fill-yellowgram {
+    fill: var(--yellowgram);
 }
 
 .fill-primary {

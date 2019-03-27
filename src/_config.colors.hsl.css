@@ -1,0 +1,148 @@
+:root {
+    --hue-basic-colors: 0;
+    --black: hsla(var(--hue-basic-colors), 0%, 0%, 100%);
+    --white: hsla(var(--hue-basic-colors), 0%, 100%, 100%);
+    --black-90: hsla(var(--hue-basic-colors), 0%, 0%, 90%);
+    --black-80: hsla(var(--hue-basic-colors), 0%, 0%, 80%);
+    --black-70: hsla(var(--hue-basic-colors), 0%, 0%, 70%);
+    --black-60: hsla(var(--hue-basic-colors), 0%, 0%, 60%);
+    --black-50: hsla(var(--hue-basic-colors), 0%, 0%, 50%);
+    --black-40: hsla(var(--hue-basic-colors), 0%, 0%, 40%);
+    --black-30: hsla(var(--hue-basic-colors), 0%, 0%, 30%);
+    --black-20: hsla(var(--hue-basic-colors), 0%, 0%, 20%);
+    --black-10: hsla(var(--hue-basic-colors), 0%, 0%, 10%);
+    --black-05: hsla(var(--hue-basic-colors), 0%, 0%, 5%);
+    --black-025: hsla(var(--hue-basic-colors), 0%, 0%, 2.5%);
+    --black-0125: hsla(var(--hue-basic-colors), 0%, 0%, 1.25%);
+    --white-90: hsla(var(--hue-basic-colors), 0%, 100%, 90%);
+    --white-80: hsla(var(--hue-basic-colors), 0%, 100%, 80%);
+    --white-70: hsla(var(--hue-basic-colors), 0%, 100%, 70%);
+    --white-60: hsla(var(--hue-basic-colors), 0%, 100%, 60%);
+    --white-50: hsla(var(--hue-basic-colors), 0%, 100%, 50%);
+    --white-40: hsla(var(--hue-basic-colors), 0%, 100%, 40%);
+    --white-30: hsla(var(--hue-basic-colors), 0%, 100%, 30%);
+    --white-20: hsla(var(--hue-basic-colors), 0%, 100%, 20%);
+    --white-10: hsla(var(--hue-basic-colors), 0%, 100%, 10%);
+    --white-05: hsla(var(--hue-basic-colors), 0%, 100%, 5%);
+    --white-025: hsla(var(--hue-basic-colors), 0%, 100%, 2.5%);
+    --white-0125: hsla(var(--hue-basic-colors), 0%, 100%, 1.25%);
+    --transparent: transparent;
+    /* Marine Blue */
+    --marine-hue: 221;
+    --marine-lightest: hsla(var(--marine-hue), 12%, 49%, 100%);
+    --marine-light: hsla(var(--marine-hue), 36%, 23%, 100%);
+    --marine: hsla(var(--marine-hue), 63%, 15%, 100%);
+    --marine-dark: hsla(var(--marine-hue), 62%, 10%, 100%);
+    --marine-darkest: hsla(var(--marine-hue), 67%, 5%, 100%);
+    /* Desktop */
+    --desktop-hue: 23;
+    --desktop-lightest: hsla(var(--desktop-hue), 100%, 97%, 100%);
+    --desktop-light: hsla(var(--desktop-hue), 89%, 75%, 100%);
+    --desktop: hsla(var(--desktop-hue), 91%, 54%, 100%);
+    --desktop-dark: hsla(var(--desktop-hue), 75%, 49%, 100%);
+    --desktop-darkest: hsla(var(--desktop-hue), 76%, 44%, 100%);
+    /* Sunray */
+    --sunray-hue: 39;
+    --sunray-lightest:  hsla(var(--sunray-hue), 95%, 92%, 100%);
+    --sunray-light: hsla(var(--sunray-hue), 97%, 72%, 100%);
+    --sunray: hsla(var(--sunray-hue), 97%, 60%, 100%);
+    --sunray-dark: hsla(var(--sunray-hue), 76%, 54%, 100%);
+    --sunray-darkest: hsla(var(--sunray-hue), 65%, 48%, 100%);
+    /* Apricot */
+    --apricot-hue: 173;
+    --apricot-lightest: hsla(var(--apricot-hue), 30%, 92%, 100%);
+    --apricot-light: hsla(var(--apricot-hue), 63%, 75%, 100%);
+    --apricot: hsla(var(--apricot-hue), 63%, 45%, 100%);
+    --apricot-dark: hsla(var(--apricot-hue), 63%, 40%, 100%);
+    --apricot-darkest: hsla(var(--apricot-hue), 68%, 35%, 100%);
+    /* Eggplant */
+    --eggplant-hue: 316;
+    --eggplant-lightest: hsla(var(--eggplant-hue), 8%, 85%, 100%);
+    --eggplant-light: hsla(var(--eggplant-hue), 9%, 57%, 100%);
+    --eggplant: hsla(var(--eggplant-hue), 22%, 29%, 100%);
+    --eggplant-dark: hsla(var(--eggplant-hue), 23%, 26%, 100%);
+    --eggplant-darkest: hsla(var(--eggplant-hue), 22%, 20%, 100%);
+    /* Overcast */
+    --overcast-hue: 208;
+    --overcast-lightest: hsla(var(--overcast-hue), 100%, 99%, 100%);
+    --overcast-light: hsla(var(--overcast-hue), 100%, 83%, 100%);
+    --overcast: hsla(var(--overcast-hue), 100%, 56%, 100%);
+    --overcast-dark: hsla(var(--overcast-hue), 78%, 34%, 100%);
+    --overcast-darkest: hsla(var(--overcast-hue), 77%, 23%, 100%);
+    /* Moonstone */
+    --moonstone-hue: 180;
+    --moonstone-lightest: hsla(var(--moonstone-hue), 33%, 96%, 100%);
+    --moonstone-light: hsla(var(--moonstone-hue), 31%, 84%, 100%);
+    --moonstone: hsla(var(--moonstone-hue), 30%, 59%, 100%);
+    --moonstone-dark: hsla(var(--moonstone-hue), 22%, 47%, 100%);
+    --moonstone-darkest: hsla(var(--moonstone-hue), 21%, 35%, 100%);
+    /* Jet */
+    --jet-hue: 240;
+    --jet-lightest: hsla(var(--jet-hue), 12%, 97%, 100%);
+    --jet-light: hsla(var(--jet-hue), 2%, 53%, 100%);
+    --jet: hsla(var(--jet-hue), 7%, 22%, 100%);
+    --jet-dark: hsla(var(--jet-hue), 8%, 15%, 100%);
+    --jet-darkest: var(--black);
+    /* Cloud */
+    --cloud-hue: 220;
+    --cloud-lightest: hsla(var(--cloud-hue), 18%, 97%, 100%);
+    --cloud-light: hsla(var(--cloud-hue), 16%, 94%, 100%);
+    --cloud: hsla(var(--cloud-hue), 9%, 85%, 100%);
+    --cloud-dark: hsla(var(--cloud-hue), 14%, 70%, 100%);
+    --cloud-darkest: hsla(var(--cloud-hue), 13%, 56%, 100%);
+    /* Prune */
+    --prune-hue: 316;
+    --prune-lightest: hsla(var(--prune-hue), 30%, 87%, 100%);
+    --prune-light: hsla(var(--prune-hue), 30%, 73%, 100%);
+    --prune: hsla(var(--prune-hue), 30%, 54%, 100%);
+    --prune-dark: hsla(var(--prune-hue), 33%, 48%, 100%);
+    --prune-darkest: hsla(var(--prune-hue), 45%, 40%, 100%);
+    /* Blueberry */
+    --blueberry-hue: 200;
+    --blueberry-lightest: hsla(var(--blueberry-hue), 51%, 83%, 100%);
+    --blueberry-light: hsla(var(--blueberry-hue), 54%, 60%, 100%);
+    --blueberry: hsla(var(--blueberry-hue), 89%, 38%, 100%);
+    --blueberry-dark: hsla(var(--blueberry-hue), 100%, 33%, 100%);
+    --blueberry-darkest: hsla(var(--blueberry-hue), 100%, 28%, 100%);
+    /* Cherry */
+    --cherry-hue: 360;
+    --cherry-lightest: hsla(var(--cherry-hue), 38%, 86%, 100%);
+    --cherry-light: hsla(var(--cherry-hue), 38%, 61%, 100%);
+    --cherry: hsla(var(--cherry-hue), 56%, 40%, 100%);
+    --cherry-dark: hsla(var(--cherry-hue), 78%, 33%, 100%);
+    --cherry-darkest: hsla(var(--cherry-hue), 100%, 22%, 100%);
+    /* Alert */
+    --alert-hue: 348;
+    --alert-lightest: hsla(var(--alert-hue), 100%, 91%, 100%);
+    --alert-light: hsla(var(--alert-hue), 100%, 70%, 100%);
+    --alert: hsla(var(--alert-hue), 98%, 53%, 100%);
+    --alert-dark: hsla(var(--alert-hue), 99%, 43%, 100%);
+    --alert-darkest: hsla(var(--alert-hue), 100%, 34%, 100%);
+    /* Success */
+    --success-hue: 146;
+    --success-lightest: hsla(var(--success-hue), 100%, 89%, 100%);
+    --success-light: hsla(var(--success-hue), 84%, 62%, 100%);
+    --success: hsla(var(--success-hue), 75%, 46%, 100%);
+    --success-dark: hsla(var(--success-hue), 100%, 32%, 100%);
+    --success-darkest: hsla(var(--success-hue), 100%, 26%, 100%);
+    /* Vendors */
+    /* hues */
+    --hue-outlook: 209;
+    --hue-sharepoint: 209;
+    --hue-teams: 238;
+    --hue-planner: 126;
+    --hue-one-drive: 223;
+    --outlook: hsl(var(--hue-outlook), 65%, 44%);
+    --sharepoint: hsl(var(--hue-sharepoint), 65%, 44%);
+    --teams: hsl(--hue-teams, 31%, 50%);
+    --planner: hsl(var(--hue-planner), 40%, 33%);
+    --one-drive: hsl(var(--hue-one-drive), 100%, 48%);
+    /* References */
+    --primary: var(--apricot);
+    --primary-dark: var(--apricot-dark);
+    --primary-darkest: var(--apricot-darkest);
+    --primary-light: var(--apricot-light);
+    --primary-lightest: var(--apricot-lightest);
+    --secondary: var(--marine);
+    --transparent: transparent;
+}
