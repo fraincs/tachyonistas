@@ -1,6 +1,6 @@
 {
     "name": "tachyonsistas",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Functional CSS for humans",
     "style": "css/tachyons.min.css",
     "main": "css/tachyons.css",
