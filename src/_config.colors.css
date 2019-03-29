@@ -29,7 +29,15 @@
     /* Decathlon colours */
     --yellowgram: #cbfb00;
     --yellowgram-light: #aabdb9;
+    --decathlon-lightest: #70A6D2;
+    --decathlon-light: #117ab5;
     --decathlon: #0082c3;
+    --decathlon-dark: #0A6FA6;
+    --decathlon-darkest: #056093;
+    /* Jet */
+    --jet: #302F2F;
+    --jet-dark: #232323;
+    /* Marine */
     /* Alert */
     --alert-lightest: #FFD3D9;
     --alert-light: #FF6675;
@@ -43,11 +51,11 @@
     --success-dark: #00A447;
     --success-darkest: #00853A;
     /* References */
-    --primary: var(--apricot);
-    --primary-dark: var(--apricot-dark);
-    --primary-darkest: var(--apricot-darkest);
-    --primary-light: var(--apricot-light);
-    --primary-lightest: var(--apricot-lightest);
+    --primary: var(--decathlon);
+    --primary-dark: var(--decathlon-dark);
+    --primary-darkest: var(--decathlon-darkest);
+    --primary-light: var(--decathlon-light);
+    --primary-lightest: var(--decathlon-lightest);
     --secondary: var(--marine);
     --transparent: transparent;
 }
