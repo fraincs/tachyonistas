@@ -375,7 +375,11 @@ img { max-width: 100%; }
 .b--inherit { border-color: inherit; }
 .b--decathlon { border-color: var( --decathlon ); }
 .b--decathlon-light { border-color: var( --decathlon-light ); }
+.b--decathlon-lightest { border-color: var( --decathlon-lightest ); }
+.b--decathlon-dark { border-color: var( --decathlon-dark ); }
+.b--decathlon-darkest { border-color: var( --decathlon-darkest ); }
 .b--yellowgram { border-color: var( --yellowgram ); }
+.b--yellowgram-light { border-color: var( --yellowgram-light ); }
 /* Allows to reference a primary and secondary color */
 .b--primary { border-color: var( --primary ); }
 .b--primary-dark { border-color: var( --primary-dark ); }
@@ -442,7 +446,11 @@ img { max-width: 100%; }
 .hover-b--inherit:hover, .hover-b--inherit:focus { border-color: inherit; }
 .hover-b--decathlon:hover, .hover-b--decathlon:focus { border-color: var( --decathlon ); }
 .hover-b--decathlon-light:hover, .hover-b--decathlon-light:focus { border-color: var( --decathlon-light ); }
+.hover-b--decathlon-lightest:hover, .hover-b--decathlon-lightest:focus { border-color: var( --decathlon-lightest ); }
+.hover-b--decathlon-dark:hover, .hover-b--decathlon-dark:focus { border-color: var( --decathlon-dark ); }
+.hover-b--decathlon-darkest:hover, .hover-b--decathlon-darkest:focus { border-color: var( --decathlon-darkest ); }
 .hover-b--yellowgram:hover, .hover-b--yellowgram:focus { border-color: var( --yellowgram ); }
+.hover-b--yellowgram-light:hover, .hover-b--yellowgram-light:focus { border-color: var( --yellowgram-light ); }
 /* Allows to reference a primary and secondary color */
 .hover-b--primary:hover, .hover-b--primary:focus { border-color: var( --primary ); }
 .hover-b--primary-dark:hover, .hover-b--primary-dark:focus { border-color: var( --primary-dark ); }
@@ -1205,7 +1213,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .success-darkest { color: var( --success-darkest ); }
 .decathlon { color: var( --decathlon ); }
 .decathlon-light { color: var( --decathlon-light ); }
+.decathlon-lightest { color: var( --decathlon-lightest ); }
+.decathlon-dark { color: var( --decathlon-lightest ); }
+.decathlon-darkest { color: var( --decathlon-lightest ); }
 .yellowgram { color: var( --yellowgram ); }
+.yellowgram-light { color: var( --yellowgram-light ); }
 .primary-darkest { color: var( --primary-darkest ); }
 .primary-dark { color: var( --primary-dark ); }
 .primary { color: var( --primary ); }
@@ -1248,6 +1260,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-success-darkest { background-color: var( --success-darkest ); }
 .bg-decathlon { background-color: var( --decathlon ); }
 .bg-decathlon-light { background-color: var( --decathlon-light ); }
+.bg-decathlon-lightest { background-color: var( --decathlon-lightest ); }
+.bg-decathlon-dark { background-color: var( --decathlon-dark ); }
+.bg-decathlon-darkest { background-color: var( --decathlon-darkest ); }
 .bg-yellowgram { background-color: var( --yellowgram ); }
 .bg-primary { background-color: var( --primary ); }
 .bg-primary-dark { background-color: var( --primary-dark ); }
@@ -1272,7 +1287,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .fill-success-darkest { fill: var( --success-darkest ); }
 .fill-decathlon { fill: var( --decathlon ); }
 .fill-decathlon-light { fill: var( --decathlon-light ); }
+.fill-decathlon-lightest { fill: var( --decathlon-lightest ); }
+.fill-decathlon-dark { fill: var( --decathlon-dark ); }
+.fill-decathlon-darkest { fill: var( --decathlon-darkest ); }
 .fill-yellowgram { fill: var( --yellowgram ); }
+.fill-yellowgram-lightest { fill: var( --yellowgram-lightest ); }
 .fill-primary { fill: var( --primary ); }
 .fill-primary-dark { fill: var( --primary-dark ); }
 .fill-primary-darkest { fill: var( --primary-darkest ); }
@@ -1392,7 +1411,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-fill-one-drive:hover, .hover-fill-one-drive:focus { fill: var( --one-drive ); }
 .hover-fill-decathlon:hover, .hover-fill-decathlon:focus { fill: var( --decathlon ); }
 .hover-fill-decathlon-light:hover, .hover-fill-decathlon-light:focus { fill: var( --decathlon-light ); }
+.hover-fill-decathlon-lightest:hover, .hover-fill-decathlon-lightest:focus { fill: var( --decathlon-lightest ); }
+.hover-fill-decathlon-dark:hover, .hover-fill-decathlon-dark:focus { fill: var( --decathlon-dark ); }
+.hover-fill-decathlon-darkest:hover, .hover-fill-decathlon-darkest:focus { fill: var( --decathlon-darkest ); }
 .hover-fill-yellowgram:hover, .hover-fill-yellowgram:focus { fill: var( --yellowgram ); }
+.hover-fill-yellowgram-light:hover, .hover-fill-yellowgram-light:focus { fill: var( --yellowgram-light ); }
 .hover-fill-primary-darkest:hover, .hover-fill-primary-darkest:focus { fill: var( --primary-darkest ); }
 .hover-fill-primary-dark:hover, .hover-fill-primary-dark:focus { fill: var( --primary-dark ); }
 .hover-fill-primary:hover, .hover-fill-primary:focus { fill: var( --primary ); }

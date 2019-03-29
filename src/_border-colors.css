@@ -178,8 +178,24 @@
     border-color: var(--decathlon-light);
 }
 
+.b--decathlon-lightest {
+    border-color: var(--decathlon-lightest);
+}
+
+.b--decathlon-dark {
+    border-color: var(--decathlon-dark);
+}
+
+.b--decathlon-darkest {
+    border-color: var(--decathlon-darkest);
+}
+
 .b--yellowgram {
     border-color: var(--yellowgram);
+}
+
+.b--yellowgram-light {
+    border-color: var(--yellowgram-light);
 }
 
 /* Allows to reference a primary and secondary color */

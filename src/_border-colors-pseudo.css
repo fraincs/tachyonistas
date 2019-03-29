@@ -178,8 +178,24 @@
     border-color: var(--decathlon-light);
 }
 
+.hover-b--decathlon-lightest:hover, .hover-b--decathlon-lightest:focus {
+    border-color: var(--decathlon-lightest);
+}
+
+.hover-b--decathlon-dark:hover, .hover-b--decathlon-dark:focus {
+    border-color: var(--decathlon-dark);
+}
+
+.hover-b--decathlon-darkest:hover, .hover-b--decathlon-darkest:focus {
+    border-color: var(--decathlon-darkest);
+}
+
 .hover-b--yellowgram:hover, .hover-b--yellowgram:focus {
     border-color: var(--yellowgram);
+}
+
+.hover-b--yellowgram-light:hover, .hover-b--yellowgram-light:focus {
+    border-color: var(--yellowgram-light);
 }
 
 /* Allows to reference a primary and secondary color */

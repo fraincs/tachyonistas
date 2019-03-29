@@ -413,8 +413,24 @@
     fill: var(--decathlon-light);
 }
 
+.hover-fill-decathlon-lightest:hover, .hover-fill-decathlon-lightest:focus {
+    fill: var(--decathlon-lightest);
+}
+
+.hover-fill-decathlon-dark:hover, .hover-fill-decathlon-dark:focus {
+    fill: var(--decathlon-dark);
+}
+
+.hover-fill-decathlon-darkest:hover, .hover-fill-decathlon-darkest:focus {
+    fill: var(--decathlon-darkest);
+}
+
 .hover-fill-yellowgram:hover, .hover-fill-yellowgram:focus {
     fill: var(--yellowgram);
+}
+
+.hover-fill-yellowgram-light:hover, .hover-fill-yellowgram-light:focus {
+    fill: var(--yellowgram-light);
 }
 
 .hover-fill-primary-darkest:hover, .hover-fill-primary-darkest:focus {

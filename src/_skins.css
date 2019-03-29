@@ -147,8 +147,24 @@
     color: var(--decathlon-light);
 }
 
+.decathlon-lightest {
+    color: var(--decathlon-lightest);
+}
+
+.decathlon-dark {
+    color: var(--decathlon-lightest);
+}
+
+.decathlon-darkest {
+    color: var(--decathlon-lightest);
+}
+
 .yellowgram {
     color: var(--yellowgram);
+}
+
+.yellowgram-light {
+    color: var(--yellowgram-light);
 }
 
 .primary-darkest {
@@ -317,6 +333,18 @@
     background-color: var(--decathlon-light);
 }
 
+.bg-decathlon-lightest {
+    background-color: var(--decathlon-lightest);
+}
+
+.bg-decathlon-dark {
+    background-color: var(--decathlon-dark);
+}
+
+.bg-decathlon-darkest {
+    background-color: var(--decathlon-darkest);
+}
+
 .bg-yellowgram {
     background-color: var(--yellowgram);
 }
@@ -411,8 +439,24 @@
     fill: var(--decathlon-light);
 }
 
+.fill-decathlon-lightest {
+    fill: var(--decathlon-lightest);
+}
+
+.fill-decathlon-dark {
+    fill: var(--decathlon-dark);
+}
+
+.fill-decathlon-darkest {
+    fill: var(--decathlon-darkest);
+}
+
 .fill-yellowgram {
     fill: var(--yellowgram);
+}
+
+.fill-yellowgram-lightest {
+    fill: var(--yellowgram-lightest);
 }
 
 .fill-primary {
