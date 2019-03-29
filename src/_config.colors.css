@@ -34,6 +34,12 @@
     --decathlon: #0082c3;
     --decathlon-dark: #0A6FA6;
     --decathlon-darkest: #056093;
+     /* Cloud */
+    --cloud-lightest: #F5F7F8;
+    --cloud-light: #EDF0F2;
+    --cloud: #D4D6DB;
+    --cloud-dark: #A8AFBD;
+    --cloud-darkest: #828A9E;
     /* Jet */
     --jet: #302F2F;
     --jet-dark: #232323;
