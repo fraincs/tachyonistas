@@ -349,6 +349,10 @@
     background-color: var(--yellowgram);
 }
 
+.bg-yellowgram-light {
+    background-color: var(--yellowgram-light);
+}
+
 .bg-primary {
     background-color: var(--primary);
 }

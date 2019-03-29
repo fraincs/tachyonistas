@@ -1264,6 +1264,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-decathlon-dark { background-color: var( --decathlon-dark ); }
 .bg-decathlon-darkest { background-color: var( --decathlon-darkest ); }
 .bg-yellowgram { background-color: var( --yellowgram ); }
+.bg-yellowgram-light { background-color: var( --yellowgram-light ); }
 .bg-primary { background-color: var( --primary ); }
 .bg-primary-dark { background-color: var( --primary-dark ); }
 .bg-primary-darkest { background-color: var( --primary-darkest ); }
